@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Airtable | Adjabkhanian</title>
+    <link>http://localhost:1313/tags/airtable/</link>
+      <atom:link href="http://localhost:1313/tags/airtable/index.xml" rel="self" type="application/rss+xml" />
+    <description>Airtable</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Airtable</title>
+      <link>http://localhost:1313/tags/airtable/</link>
+    </image>
+    
+    <item>
+      <title>🚀 Telegram-бот для управления задачами с Airtable</title>
+      <link>http://localhost:1313/post/task_bot_case/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/task_bot_case/</guid>
+      <description>&lt;h1 id=&#34;-telegram-бот-для-задач-на-выезде&#34;&gt;📱 Telegram-бот для задач на выезде&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Проект:&lt;/strong&gt; умный бот в Telegram, который помогает командам на выезде эффективно выполнять задачи и отчитываться за них в пару кликов.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-зачем-нужен-этот-бот&#34;&gt;❓ Зачем нужен этот бот?&lt;/h2&gt;
+&lt;p&gt;Многие компании сталкиваются с проблемами:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🚫 Задачи теряются, сотрудники забывают отчитаться&lt;/li&gt;
+&lt;li&gt;📉 Руководителю сложно отслеживать статус выполнения&lt;/li&gt;
+&lt;li&gt;🕒 Фото-отчёты собираются вручную и долго&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Решение:&lt;/strong&gt; бот, который берёт это на себя. Простой, быстрый и понятный.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-как-это-работает&#34;&gt;⚙️ Как это работает?&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;👤 Сотрудник запускает &lt;code&gt;/start&lt;/code&gt;, выбирает свою &lt;strong&gt;роль&lt;/strong&gt; и вводит имя&lt;/li&gt;
+&lt;li&gt;🔘 Получает кнопку &lt;strong&gt;«Перейти к задачам»&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;🗺️ Выбирает &lt;strong&gt;область&lt;/strong&gt; (например, «Север» или «Центр»)&lt;/li&gt;
+&lt;li&gt;📋 Видит список задач:
+&lt;ul&gt;
+&lt;li&gt;🔧 Починить сеть&lt;/li&gt;
+&lt;li&gt;📶 Установить Wi-Fi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;📸 Нажимает «Выполнить задачу», отправляет &lt;strong&gt;фото-отчёт&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;🤖 Бот:
+&lt;ul&gt;
+&lt;li&gt;сохраняет фото и имя исполнителя&lt;/li&gt;
+&lt;li&gt;💾 &lt;strong&gt;обновляет Airtable&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;отправляет «✅ Задача выполнена»&lt;/li&gt;
+&lt;li&gt;автоматически возвращает к выбору области&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&amp;amp;fit=crop&amp;amp;w=800&amp;amp;q=80&#34; alt=&#34;Сервер и терминал&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-почему-это-удобно&#34;&gt;🌟 Почему это удобно?&lt;/h2&gt;
+&lt;h3 id=&#34;особенности&#34;&gt;Особенности:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;🧠 &lt;strong&gt;FSM:&lt;/strong&gt; бот &amp;ldquo;помнит&amp;rdquo;, на каком этапе пользователь&lt;/li&gt;
+&lt;li&gt;🖱️ &lt;strong&gt;Интуитивные кнопки:&lt;/strong&gt; «Назад», «Выбрать область», «Выполнить»&lt;/li&gt;
+&lt;li&gt;🎨 &lt;strong&gt;Эмодзи:&lt;/strong&gt; добавляют визуальную логику и делают общение приятным&lt;/li&gt;
+&lt;li&gt;📷 &lt;strong&gt;Фото обязательно:&lt;/strong&gt; без фото нельзя завершить задачу&lt;/li&gt;
+&lt;li&gt;☁️ &lt;strong&gt;Airtable-связь:&lt;/strong&gt; задачи живут в облаке и обновляются в реальном времени&lt;/li&gt;
+&lt;li&gt;🔄 &lt;strong&gt;Автопереход:&lt;/strong&gt; не надо возвращаться вручную — бот делает это сам&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&amp;amp;fit=crop&amp;amp;w=800&amp;amp;q=80&#34; alt=&#34;Команда работает&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-airtable-как-база-данных&#34;&gt;📊 Airtable как база данных&lt;/h2&gt;
+&lt;p&gt;Используется таблица Airtable, где:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗂️ Хранятся задачи по ролям и локациям&lt;/li&gt;
+&lt;li&gt;📸 Сохраняются фото и имя исполнителя&lt;/li&gt;
+&lt;li&gt;✔️ Обновляется статус после выполнения&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Интеграция через API — всё происходит автоматически.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&amp;amp;fit=crop&amp;amp;w=800&amp;amp;q=80&#34; alt=&#34;Airtable пример&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-где-это-полезно&#34;&gt;🚚 Где это полезно?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;📦 Курьерские службы&lt;/li&gt;
+&lt;li&gt;🛠️ Монтажные бригады&lt;/li&gt;
+&lt;li&gt;👷 Инженеры и сервисные команды&lt;/li&gt;
+&lt;li&gt;🏢 Управление задачами внутри компаний&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-плюсы-решения&#34;&gt;💡 Плюсы решения&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;🖱️ Минимум кликов — максимум результата&lt;/li&gt;
+&lt;li&gt;📲 Не нужно отдельное приложение — работает в Telegram&lt;/li&gt;
+&lt;li&gt;🌍 Масштабируемо и гибко&lt;/li&gt;
+&lt;li&gt;👥 Простое подключение новых сотрудников&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-размещение-247&#34;&gt;🖥️ Размещение 24/7&lt;/h2&gt;
+&lt;p&gt;Бот развёрнут на сервере:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;🌐 Аренда VPS (например, Timeweb Cloud)&lt;/li&gt;
+&lt;li&gt;🐍 Установка Python, Git, pip&lt;/li&gt;
+&lt;li&gt;📂 Клонирование репозитория с кодом&lt;/li&gt;
+&lt;li&gt;⚙️ Настройка &lt;code&gt;.env&lt;/code&gt; файла с ключами&lt;/li&gt;
+&lt;li&gt;▶️ Запуск: &lt;code&gt;python3 main.py&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;📟 Используется &lt;code&gt;tmux&lt;/code&gt; — бот работает даже при закрытом терминале&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-хочешь-такого-бота-себе&#34;&gt;📩 Хочешь такого бота себе?&lt;/h2&gt;
+&lt;p&gt;Напиши — и мы вместе автоматизируем задачи в твоей команде!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Контакты для связи:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Telegram: &lt;a href=&#34;https://t.me/adjabkhanyan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@adjabkhanian&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Email: &lt;a href=&#34;mailto:adjabkhanian@gmail.com&#34;&gt;adjabkhanian@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;⚡ Автоматизируй задачи. Освободи время. Расти быстрее.&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

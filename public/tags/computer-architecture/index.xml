@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Architecture | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/tags/computer-architecture/</link>
+      <atom:link href="http://localhost:1313/tags/computer-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <description>Computer Architecture</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Computer Architecture</title>
+      <link>http://localhost:1313/tags/computer-architecture/</link>
+    </image>
+    
+    <item>
+      <title>📘 Lab Work #3 — What is Markdown and Why Use It?</title>
+      <link>http://localhost:1313/post/labwork_%233/labwork/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/labwork_%233/labwork/</guid>
+      <description>&lt;h2 id=&#34;-what-is-markdown-and-why-use-it&#34;&gt;📘 What is Markdown and Why Use It?&lt;/h2&gt;
+&lt;p&gt;In the third lab on computer architecture, we got familiar with a lightweight and convenient markup language — &lt;strong&gt;Markdown&lt;/strong&gt;. Its goal is to simplify formatting reports and documentation without the complexity of Word or LaTeX.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-what-i-learned&#34;&gt;🛠 What I Learned&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Markdown allows you to:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create headings using &lt;code&gt;#&lt;/code&gt;, &lt;code&gt;##&lt;/code&gt;, &lt;code&gt;###&lt;/code&gt;, and so on&lt;/li&gt;
+&lt;li&gt;Format text: &lt;code&gt;**bold**&lt;/code&gt;, &lt;code&gt;*italic*&lt;/code&gt;, &lt;code&gt;***bold italic***&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Make lists:
+&lt;ul&gt;
+&lt;li&gt;Bulleted&lt;/li&gt;
+&lt;li&gt;And numbered:
+&lt;ol&gt;
+&lt;li&gt;First item&lt;/li&gt;
+&lt;li&gt;Second item&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Add &lt;strong&gt;links&lt;/strong&gt;:&lt;br&gt;
+&lt;code&gt;[link example](https://example.com)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Insert &lt;strong&gt;images&lt;/strong&gt;:
+&lt;code&gt;![caption](/path/to/image.jpg &amp;quot;tooltip&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Write &lt;strong&gt;formulas&lt;/strong&gt; (like in LaTeX):&lt;br&gt;
+&lt;code&gt;$\sin^2(x) + \cos^2(x) = 1$&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add &lt;strong&gt;code blocks&lt;/strong&gt;:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git pull
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-how-we-used-markdown-in-practice&#34;&gt;⚙️ How We Used Markdown in Practice&lt;/h2&gt;
+&lt;p&gt;During the lab, I:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Navigated to the target directory in the terminal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~/work/study/2023-2024/&lt;span class=&#34;s2&#34;&gt;&amp;#34;Computer Architecture&amp;#34;&lt;/span&gt;/labs/lab03/report
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pulled the latest changes from the remote repository:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git pull
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compiled the report template using &lt;code&gt;make&lt;/code&gt;, which generated &lt;code&gt;.pdf&lt;/code&gt; and &lt;code&gt;.docx&lt;/code&gt; files:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Filled out the report in Markdown format (&lt;code&gt;report.md&lt;/code&gt;) and recompiled it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make clean
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Uploaded the result to GitHub:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;feat: add lab3 report in Markdown&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-along-the-way&#34;&gt;📸 Along the Way&amp;hellip;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;I added &lt;strong&gt;screenshots&lt;/strong&gt; to the report&lt;/li&gt;
+&lt;li&gt;Included &lt;strong&gt;links&lt;/strong&gt; to documentation&lt;/li&gt;
+&lt;li&gt;Wrote &lt;strong&gt;formulas&lt;/strong&gt; and formatted them nicely&lt;/li&gt;
+&lt;li&gt;Used &lt;strong&gt;code blocks&lt;/strong&gt; to show commands&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Markdown makes all of this simple, readable, and clean.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-what-i-got-from-it&#34;&gt;🧠 What I Got From It&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;I learned how &lt;strong&gt;Markdown&lt;/strong&gt; makes documentation easier.&lt;/li&gt;
+&lt;li&gt;I found it works great with &lt;strong&gt;Git&lt;/strong&gt; and &lt;strong&gt;Pandoc&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;With &lt;strong&gt;Makefile&lt;/strong&gt;, I can automate report generation — saves tons of time.&lt;/li&gt;
+&lt;li&gt;I improved my skills with the &lt;strong&gt;terminal&lt;/strong&gt; and &lt;strong&gt;Git&lt;/strong&gt; — essential tools for any developer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-tip-for-students&#34;&gt;📚 Tip for Students&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Everyone writing reports, articles, or blogs should learn Markdown.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;It’s a fast, simple, and universal way to format text that works &lt;strong&gt;everywhere&lt;/strong&gt;:&lt;br&gt;
+from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;🧑‍💻 &lt;em&gt;Lab work completed by Hovik, first-year programming student&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

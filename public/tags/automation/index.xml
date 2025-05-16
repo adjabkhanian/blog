@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automation | Adjabkhanian</title>
+    <link>http://localhost:1313/tags/automation/</link>
+      <atom:link href="http://localhost:1313/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Automation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Automation</title>
+      <link>http://localhost:1313/tags/automation/</link>
+    </image>
+    
+    <item>
+      <title>Telegram-бот для управления задачами с Airtable</title>
+      <link>http://localhost:1313/post/telegram_bot_case/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/telegram_bot_case/</guid>
+      <description>&lt;h1 id=&#34;-telegram-бот-для-задач-с-airtable&#34;&gt;🤖 Telegram-бот для задач с Airtable&lt;/h1&gt;
+&lt;p&gt;Мы разработали Telegram-бота, который помогает выполнять и подтверждать задачи с фото прямо в Telegram. Удобно, просто и с полной автоматизацией.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/hovikdev/images/main/telegram-bot-preview.png&#34; alt=&#34;Превью интерфейса&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-задача&#34;&gt;💼 Задача&lt;/h2&gt;
+&lt;p&gt;Нужно было создать бота, чтобы:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Сотрудники (монтажники, курьеры, техники) получали задачи по ролям&lt;/li&gt;
+&lt;li&gt;Подтверждали выполнение задач через фото&lt;/li&gt;
+&lt;li&gt;Всё автоматически синхронизировалось с Airtable&lt;/li&gt;
+&lt;li&gt;Работало просто и понятно&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-особенности&#34;&gt;⚙️ Особенности&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;FSM&lt;/strong&gt;: пошаговое управление состояниями (роль → имя → выбор → выполнение)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Кнопки назад&lt;/strong&gt;: лёгкая навигация&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Эмодзи&lt;/strong&gt;: всё понятно с первого взгляда&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Фотоотчёт&lt;/strong&gt;: задача не засчитывается без фото&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Airtable&lt;/strong&gt;: все задачи и статусы подтягиваются и сохраняются туда&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Автопереход&lt;/strong&gt;: после выполнения задачи — сразу выбор новой области&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/hovikdev/images/main/fsm-flow.png&#34; alt=&#34;FSM схема&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-результат&#34;&gt;✅ Результат&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Готовый Telegram-бот&lt;/strong&gt;, который подходит для:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Выездных команд&lt;/li&gt;
+&lt;li&gt;Монтажников, курьеров, техников&lt;/li&gt;
+&lt;li&gt;Управляющих логистикой&lt;/li&gt;
+&lt;li&gt;Внутреннего использования компаний&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Плюсы:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Удобный интерфейс&lt;/li&gt;
+&lt;li&gt;Минимальные затраты&lt;/li&gt;
+&lt;li&gt;Автоматизация рутины&lt;/li&gt;
+&lt;li&gt;Гибкость и масштабируемость&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-как-запустить-бота-247&#34;&gt;☁️ Как запустить бота 24/7&lt;/h2&gt;
+&lt;p&gt;Бот можно держать онлайн с помощью VPS. Вот пошаговая инструкция:&lt;/p&gt;
+&lt;h3 id=&#34;1-заказать-vps&#34;&gt;1. Заказать VPS&lt;/h3&gt;
+&lt;p&gt;Например, &lt;a href=&#34;https://timeweb.cloud&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Timeweb Cloud&lt;/a&gt; или &lt;a href=&#34;https://www.reg.ru/vps/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reg.ru VPS&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2-установить-необходимые-инструменты&#34;&gt;2. Установить необходимые инструменты:&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt update
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install python3 python3-pip git tmux -y
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;3-клонировать-репозиторий&#34;&gt;3. Клонировать репозиторий:&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/yourusername/your-repo.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; your-repo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;4-настроить-env-файл&#34;&gt;4. Настроить &lt;code&gt;.env&lt;/code&gt; файл:&lt;/h3&gt;
+&lt;p&gt;Создай &lt;code&gt;.env&lt;/code&gt; и добавь:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;BOT_TOKEN=твой_токен
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;AIRTABLE_TOKEN=твой_токен
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;AIRTABLE_BASE_ID=xxx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;AIRTABLE_TABLE_NAME=Tasks
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;5-установить-зависимости&#34;&gt;5. Установить зависимости:&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install -r requirements.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;6-запустить-бота&#34;&gt;6. Запустить бота:&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tmux
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python3 main.py
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Теперь бот будет работать даже если закроешь терминал (используй &lt;code&gt;tmux&lt;/code&gt; или &lt;code&gt;screen&lt;/code&gt;).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-исходный-код&#34;&gt;🧠 Исходный код&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/yourusername/your-repo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Перейти в репозиторий на GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-хочешь-себе-такого-бота&#34;&gt;📩 Хочешь себе такого бота?&lt;/h2&gt;
+&lt;p&gt;Если ты хочешь автоматизировать задачи в своей команде — я помогу запустить всё под ключ.&lt;br&gt;
+Напиши мне:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Telegram: &lt;a href=&#34;https://t.me/yourusername&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@yourusername&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Email: &lt;a href=&#34;mailto:your@email.com&#34;&gt;your@email.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Спасибо за внимание!&lt;/strong&gt;&lt;br&gt;
+Если материал был полезен — можешь использовать шаблон под свои задачи.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

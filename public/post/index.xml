@@ -1,16 +1,524 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog | Hugo Academic CV Theme</title>
+    <title>Blog | Adjabkhanian</title>
     <link>http://localhost:1313/post/</link>
       <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Blog</title>
       <link>http://localhost:1313/post/</link>
     </image>
+    
+    <item>
+      <title>🚀 Telegram-бот для управления задачами с Airtable</title>
+      <link>http://localhost:1313/post/task_bot_case/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/task_bot_case/</guid>
+      <description>&lt;h1 id=&#34;-telegram-бот-для-задач-на-выезде&#34;&gt;📱 Telegram-бот для задач на выезде&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Проект:&lt;/strong&gt; умный бот в Telegram, который помогает командам на выезде эффективно выполнять задачи и отчитываться за них в пару кликов.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-зачем-нужен-этот-бот&#34;&gt;❓ Зачем нужен этот бот?&lt;/h2&gt;
+&lt;p&gt;Многие компании сталкиваются с проблемами:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🚫 Задачи теряются, сотрудники забывают отчитаться&lt;/li&gt;
+&lt;li&gt;📉 Руководителю сложно отслеживать статус выполнения&lt;/li&gt;
+&lt;li&gt;🕒 Фото-отчёты собираются вручную и долго&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Решение:&lt;/strong&gt; бот, который берёт это на себя. Простой, быстрый и понятный.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-как-это-работает&#34;&gt;⚙️ Как это работает?&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;👤 Сотрудник запускает &lt;code&gt;/start&lt;/code&gt;, выбирает свою &lt;strong&gt;роль&lt;/strong&gt; и вводит имя&lt;/li&gt;
+&lt;li&gt;🔘 Получает кнопку &lt;strong&gt;«Перейти к задачам»&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;🗺️ Выбирает &lt;strong&gt;область&lt;/strong&gt; (например, «Север» или «Центр»)&lt;/li&gt;
+&lt;li&gt;📋 Видит список задач:
+&lt;ul&gt;
+&lt;li&gt;🔧 Починить сеть&lt;/li&gt;
+&lt;li&gt;📶 Установить Wi-Fi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;📸 Нажимает «Выполнить задачу», отправляет &lt;strong&gt;фото-отчёт&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;🤖 Бот:
+&lt;ul&gt;
+&lt;li&gt;сохраняет фото и имя исполнителя&lt;/li&gt;
+&lt;li&gt;💾 &lt;strong&gt;обновляет Airtable&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;отправляет «✅ Задача выполнена»&lt;/li&gt;
+&lt;li&gt;автоматически возвращает к выбору области&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&amp;amp;fit=crop&amp;amp;w=800&amp;amp;q=80&#34; alt=&#34;Сервер и терминал&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-почему-это-удобно&#34;&gt;🌟 Почему это удобно?&lt;/h2&gt;
+&lt;h3 id=&#34;особенности&#34;&gt;Особенности:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;🧠 &lt;strong&gt;FSM:&lt;/strong&gt; бот &amp;ldquo;помнит&amp;rdquo;, на каком этапе пользователь&lt;/li&gt;
+&lt;li&gt;🖱️ &lt;strong&gt;Интуитивные кнопки:&lt;/strong&gt; «Назад», «Выбрать область», «Выполнить»&lt;/li&gt;
+&lt;li&gt;🎨 &lt;strong&gt;Эмодзи:&lt;/strong&gt; добавляют визуальную логику и делают общение приятным&lt;/li&gt;
+&lt;li&gt;📷 &lt;strong&gt;Фото обязательно:&lt;/strong&gt; без фото нельзя завершить задачу&lt;/li&gt;
+&lt;li&gt;☁️ &lt;strong&gt;Airtable-связь:&lt;/strong&gt; задачи живут в облаке и обновляются в реальном времени&lt;/li&gt;
+&lt;li&gt;🔄 &lt;strong&gt;Автопереход:&lt;/strong&gt; не надо возвращаться вручную — бот делает это сам&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&amp;amp;fit=crop&amp;amp;w=800&amp;amp;q=80&#34; alt=&#34;Команда работает&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-airtable-как-база-данных&#34;&gt;📊 Airtable как база данных&lt;/h2&gt;
+&lt;p&gt;Используется таблица Airtable, где:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗂️ Хранятся задачи по ролям и локациям&lt;/li&gt;
+&lt;li&gt;📸 Сохраняются фото и имя исполнителя&lt;/li&gt;
+&lt;li&gt;✔️ Обновляется статус после выполнения&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Интеграция через API — всё происходит автоматически.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&amp;amp;fit=crop&amp;amp;w=800&amp;amp;q=80&#34; alt=&#34;Airtable пример&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-где-это-полезно&#34;&gt;🚚 Где это полезно?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;📦 Курьерские службы&lt;/li&gt;
+&lt;li&gt;🛠️ Монтажные бригады&lt;/li&gt;
+&lt;li&gt;👷 Инженеры и сервисные команды&lt;/li&gt;
+&lt;li&gt;🏢 Управление задачами внутри компаний&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-плюсы-решения&#34;&gt;💡 Плюсы решения&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;🖱️ Минимум кликов — максимум результата&lt;/li&gt;
+&lt;li&gt;📲 Не нужно отдельное приложение — работает в Telegram&lt;/li&gt;
+&lt;li&gt;🌍 Масштабируемо и гибко&lt;/li&gt;
+&lt;li&gt;👥 Простое подключение новых сотрудников&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-размещение-247&#34;&gt;🖥️ Размещение 24/7&lt;/h2&gt;
+&lt;p&gt;Бот развёрнут на сервере:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;🌐 Аренда VPS (например, Timeweb Cloud)&lt;/li&gt;
+&lt;li&gt;🐍 Установка Python, Git, pip&lt;/li&gt;
+&lt;li&gt;📂 Клонирование репозитория с кодом&lt;/li&gt;
+&lt;li&gt;⚙️ Настройка &lt;code&gt;.env&lt;/code&gt; файла с ключами&lt;/li&gt;
+&lt;li&gt;▶️ Запуск: &lt;code&gt;python3 main.py&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;📟 Используется &lt;code&gt;tmux&lt;/code&gt; — бот работает даже при закрытом терминале&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-хочешь-такого-бота-себе&#34;&gt;📩 Хочешь такого бота себе?&lt;/h2&gt;
+&lt;p&gt;Напиши — и мы вместе автоматизируем задачи в твоей команде!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Контакты для связи:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Telegram: &lt;a href=&#34;https://t.me/adjabkhanyan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@adjabkhanian&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Email: &lt;a href=&#34;mailto:adjabkhanian@gmail.com&#34;&gt;adjabkhanian@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;⚡ Автоматизируй задачи. Освободи время. Расти быстрее.&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Week Summary: Studies, Work, and New Achievements</title>
+      <link>http://localhost:1313/post/lastweek02/lastweek/</link>
+      <pubDate>Tue, 01 Apr 2025 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/lastweek02/lastweek/</guid>
+      <description>&lt;h1 id=&#34;week-summary-&#34;&gt;Week Summary 🎯&lt;/h1&gt;
+&lt;p&gt;The past week was productive and eventful. I worked on several projects, made progress in my studies, and found time for personal development. 🔥&lt;/p&gt;
+&lt;h2 id=&#34;-studies&#34;&gt;📚 Studies&lt;/h2&gt;
+&lt;p&gt;This week, the main focus was on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mathematical Analysis&lt;/strong&gt; – studying series and their convergence, solving complex problems.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Programming&lt;/strong&gt; – writing code in Python, working with algorithms and data structures.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Databases&lt;/strong&gt; – studying SQL queries and query optimization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-work&#34;&gt;💼 Work&lt;/h2&gt;
+&lt;p&gt;Worked at Colizeum, carrying out standard duties:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Monitored the equipment and gaming systems.&lt;/li&gt;
+&lt;li&gt;Ensured order in the hall and maintained the PCs in good working condition.&lt;/li&gt;
+&lt;li&gt;Handled customer requests and managed booking systems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-personal-projects-and-development&#34;&gt;🚀 Personal Projects and Development&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved my profile on freelancing platforms and continued searching for orders.&lt;/li&gt;
+&lt;li&gt;Developed a strategy for attracting investors for the business.&lt;/li&gt;
+&lt;li&gt;Started developing a landing page for a new project, experimenting with animations in Tilda.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-life-hacks-of-the-week&#34;&gt;🔥 Life Hacks of the Week&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Clear Planning&lt;/strong&gt; – broke down tasks for the day, which helped avoid procrastination.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mastering New Tools&lt;/strong&gt; – explored advanced SQL features and working with Django.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Competitor Analysis&lt;/strong&gt; – studied how other freelancers work, what projects are popular, and the mistakes they make.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;-conclusion&#34;&gt;🎯 Conclusion&lt;/h2&gt;
+&lt;p&gt;The week was productive and diverse. New goals were set, promising projects were started, and self-development continues! 🚀&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.behance.net/adjabkhanian&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;My portfolio on Behance&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Format a Report: Best Practices and Tips</title>
+      <link>http://localhost:1313/post/report/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/report/</guid>
+      <description>&lt;h1 id=&#34;-how-to-format-a-report-best-practices-and-tips&#34;&gt;📑 How to Format a Report: Best Practices and Tips&lt;/h1&gt;
+&lt;p&gt;A report is not just a document; it is an important tool for transmitting information. Proper formatting helps make it clear, structured, and professional. Let&amp;rsquo;s go over the key principles for preparing a quality report. 📋&lt;/p&gt;
+&lt;h2 id=&#34;-key-principles-for-report-formatting&#34;&gt;📌 Key Principles for Report Formatting:&lt;/h2&gt;
+&lt;h3 id=&#34;1-clear-structure&#34;&gt;1. Clear Structure&lt;/h3&gt;
+&lt;p&gt;Divide the report into logical sections: introduction, main body, analysis, and conclusions.&lt;/p&gt;
+&lt;p&gt;Example structure:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# Project Report
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;## Introduction
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Objective of the work
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Main tasks
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;## Main Body
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### Data Analysis
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Process and method description
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Technologies used
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;## Conclusion
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Summary and recommendations
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### 2. Visual presentation
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Use &lt;span class=&#34;gs&#34;&gt;**bold text**&lt;/span&gt; and &lt;span class=&#34;ge&#34;&gt;*italics*&lt;/span&gt; to highlight important points.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Include &lt;span class=&#34;gs&#34;&gt;**tables**&lt;/span&gt; to present data easily.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Add &lt;span class=&#34;gs&#34;&gt;**graphs and charts**&lt;/span&gt; for clarity.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Table example:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;md
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Stage | Activities | Time |
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;|------|---------|-------|
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 1 | Data collection | 3 days |
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 2 | Data analysis | 2 days |
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 3 | Final conclusion | 1 day |
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### 3. Minimalism and readability
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Use short paragraphs.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Leave spaces between blocks.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Avoid complex wording and overloaded phrases.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### 4. Check for errors
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;Before sending the report:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✅ Double-check the text for grammatical errors.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✅ Make sure the data is logically structured.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✅ Use spell check tools (Grammarly, LanguageTool).
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### 5. Heading Design
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;Use headings of different levels to clearly navigate the report.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;md
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# Main Heading (H1)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;## Subsection (H2)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### Nested Subsection (H3)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;## 🔥 Additional Tips
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;✅ Add a table of contents at the beginning of long reports.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✅ Use readable fonts (Arial, Roboto, Open Sans).
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✅ Include links to additional materials and sources.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✅ If the report contains code, format it as blocks:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;md
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;print(&amp;#34;Sample code in the report&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;## 📌 Summary
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;Following these tips, you will be able to prepare a report that is clear, informative and professionally designed. A good report is the key to a successful presentation of your work! 📝
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Weekly Recap: March 17–23</title>
+      <link>http://localhost:1313/post/nedelya/</link>
+      <pubDate>Sun, 23 Mar 2025 13:16:48 +0300</pubDate>
+      <guid>http://localhost:1313/post/nedelya/</guid>
+      <description>&lt;h1 id=&#34;-weekly-recap-march-1723&#34;&gt;✨ Weekly Recap (March 17–23)&lt;/h1&gt;
+&lt;h2 id=&#34;-what-i-accomplished&#34;&gt;📅 What I accomplished:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ Finished a &lt;strong&gt;web design project&lt;/strong&gt; for a client — happy with the result, now waiting for feedback.&lt;/li&gt;
+&lt;li&gt;💻 Built a &lt;strong&gt;landing page&lt;/strong&gt; on &lt;em&gt;Tilda&lt;/em&gt; — fully responsive and followed the brand guidelines.&lt;/li&gt;
+&lt;li&gt;🎨 Designed several &lt;strong&gt;business cards&lt;/strong&gt; and &lt;strong&gt;product cards&lt;/strong&gt; — clients were satisfied.&lt;/li&gt;
+&lt;li&gt;📚 Successfully passed a &lt;strong&gt;discrete math test&lt;/strong&gt; — felt great to see the results!&lt;/li&gt;
+&lt;li&gt;🏋️‍♂️ Went to the &lt;strong&gt;gym twice&lt;/strong&gt; — progress is steady and motivating.&lt;/li&gt;
+&lt;li&gt;🎮 Worked the &lt;strong&gt;weekend shift at Colizeum&lt;/strong&gt; — busy, energetic, and fun!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-what-i-learned&#34;&gt;🧠 What I learned:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Mastered using &lt;strong&gt;grid layouts&lt;/strong&gt; in Tilda more efficiently.&lt;/li&gt;
+&lt;li&gt;Explored new ways to &lt;strong&gt;showcase a portfolio in Notion&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Improved my skills in &lt;strong&gt;typography and spacing&lt;/strong&gt; — designs feel more clean and professional now.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-goals-for-next-week&#34;&gt;🔥 Goals for next week:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Launch a &lt;strong&gt;mini promo campaign&lt;/strong&gt; for business card design services.&lt;/li&gt;
+&lt;li&gt;Update and improve &lt;strong&gt;2 older portfolio projects&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Stick to &lt;strong&gt;3+ workouts&lt;/strong&gt; during the week.&lt;/li&gt;
+&lt;li&gt;Develop the &lt;strong&gt;Colizeum franchise idea&lt;/strong&gt; — create a detailed mindmap.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;It was a productive and inspiring week.&lt;/strong&gt;&lt;br&gt;
+I&amp;rsquo;m slowly building the kind of system I want to live and work in.&lt;br&gt;
+Let’s keep the momentum going 🚀&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>📘 What is Markdown and Why Use It?</title>
+      <link>http://localhost:1313/post/markdown/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/markdown/</guid>
+      <description>&lt;p&gt;In the third lab on computer architecture, we got familiar with a lightweight and convenient markup language — &lt;strong&gt;Markdown&lt;/strong&gt;. Its goal is to simplify formatting reports and documentation without the complexity of Word or LaTeX.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-what-i-learned&#34;&gt;🛠 What I Learned&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Markdown allows you to:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create headings using &lt;code&gt;#&lt;/code&gt;, &lt;code&gt;##&lt;/code&gt;, &lt;code&gt;###&lt;/code&gt;, and so on&lt;/li&gt;
+&lt;li&gt;Format text: &lt;code&gt;**bold**&lt;/code&gt;, &lt;code&gt;*italic*&lt;/code&gt;, &lt;code&gt;***bold italic***&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Make lists:
+&lt;ul&gt;
+&lt;li&gt;Bulleted&lt;/li&gt;
+&lt;li&gt;And numbered:
+&lt;ol&gt;
+&lt;li&gt;First item&lt;/li&gt;
+&lt;li&gt;Second item&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Add &lt;strong&gt;links&lt;/strong&gt;:&lt;br&gt;
+&lt;code&gt;[link example](https://example.com)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Insert &lt;strong&gt;images&lt;/strong&gt;:
+&lt;code&gt;![caption](/path/to/image.jpg &amp;quot;tooltip&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Write &lt;strong&gt;formulas&lt;/strong&gt; (like in LaTeX):&lt;br&gt;
+&lt;code&gt;$\sin^2(x) + \cos^2(x) = 1$&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add &lt;strong&gt;code blocks&lt;/strong&gt;:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git pull
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-how-we-used-markdown-in-practice&#34;&gt;⚙️ How We Used Markdown in Practice&lt;/h2&gt;
+&lt;p&gt;During the lab, I:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Navigated to the target directory in the terminal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~/work/study/2023-2024/&lt;span class=&#34;s2&#34;&gt;&amp;#34;Computer Architecture&amp;#34;&lt;/span&gt;/labs/lab03/report
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pulled the latest changes from the remote repository:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git pull
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compiled the report template using &lt;code&gt;make&lt;/code&gt;, which generated &lt;code&gt;.pdf&lt;/code&gt; and &lt;code&gt;.docx&lt;/code&gt; files:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Filled out the report in Markdown format (&lt;code&gt;report.md&lt;/code&gt;) and recompiled it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make clean
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Uploaded the result to GitHub:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;feat: add lab3 report in Markdown&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-along-the-way&#34;&gt;📸 Along the Way&amp;hellip;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;I added &lt;strong&gt;screenshots&lt;/strong&gt; to the report&lt;/li&gt;
+&lt;li&gt;Included &lt;strong&gt;links&lt;/strong&gt; to documentation&lt;/li&gt;
+&lt;li&gt;Wrote &lt;strong&gt;formulas&lt;/strong&gt; and formatted them nicely&lt;/li&gt;
+&lt;li&gt;Used &lt;strong&gt;code blocks&lt;/strong&gt; to show commands&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Markdown makes all of this simple, readable, and clean.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-what-i-got-from-it&#34;&gt;🧠 What I Got From It&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;I learned how &lt;strong&gt;Markdown&lt;/strong&gt; makes documentation easier.&lt;/li&gt;
+&lt;li&gt;I found it works great with &lt;strong&gt;Git&lt;/strong&gt; and &lt;strong&gt;Pandoc&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;With &lt;strong&gt;Makefile&lt;/strong&gt;, I can automate report generation — saves tons of time.&lt;/li&gt;
+&lt;li&gt;I improved my skills with the &lt;strong&gt;terminal&lt;/strong&gt; and &lt;strong&gt;Git&lt;/strong&gt; — essential tools for any developer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-tip-for-students&#34;&gt;📚 Tip for Students&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Everyone writing reports, articles, or blogs should learn Markdown.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;It’s a fast, simple, and universal way to format text that works &lt;strong&gt;everywhere&lt;/strong&gt;:&lt;br&gt;
+from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;🧑‍💻 &lt;em&gt;Lab work completed by Hovik, first-year programming student&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Weekly Report: Version Control (Git)</title>
+      <link>http://localhost:1313/post/lastweek/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/lastweek/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This week, I actively studied &lt;strong&gt;Git version control system&lt;/strong&gt;. In this post, I will discuss Git setup, working with repositories, and essential commands, along with presenting my lab report.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-git-basics&#34;&gt;📌 Git Basics&lt;/h2&gt;
+&lt;p&gt;Git is a &lt;strong&gt;distributed version control system&lt;/strong&gt; (VCS) that allows tracking file changes, managing different project versions, and collaborating on software development.&lt;/p&gt;
+&lt;p&gt;🔹 &lt;strong&gt;Key Terms:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Repository&lt;/strong&gt; — a project storage with a change history.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Commit&lt;/strong&gt; — a saved state of files with a description of changes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Branch&lt;/strong&gt; — an isolated code version for working on new functionality.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Merge&lt;/strong&gt; — integrating changes from different branches.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Remote Repository&lt;/strong&gt; — a repository on a server (e.g., &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-git-setup&#34;&gt;⚙️ Git Setup&lt;/h2&gt;
+&lt;h3 id=&#34;-generating-ssh-key&#34;&gt;🔑 Generating SSH Key&lt;/h3&gt;
+&lt;p&gt;To work with remote repositories without entering a password, create an &lt;strong&gt;SSH key&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh-keygen -t rsa -b &lt;span class=&#34;m&#34;&gt;4096&lt;/span&gt; -C &lt;span class=&#34;s2&#34;&gt;&amp;#34;your_email@example.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Add the key to the SSH agent:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;eval&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;ssh-agent -s&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh-add ~/.ssh/id_rsa
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Copy the key and add it to GitHub:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat ~/.ssh/id_rsa.pub
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;📌 &lt;strong&gt;Add key to GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/settings/keys&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Go to SSH key settings&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-basic-git-configuration&#34;&gt;🛠️ Basic Git Configuration&lt;/h3&gt;
+&lt;p&gt;Set up name and email:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.name &lt;span class=&#34;s2&#34;&gt;&amp;#34;Hovik Adjabkhanyan&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global user.email &lt;span class=&#34;s2&#34;&gt;&amp;#34;your_email@example.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Enable convenient encoding for Russian language support:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global core.quotepath &lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;-working-with-repositories&#34;&gt;📂 Working with Repositories&lt;/h2&gt;
+&lt;h3 id=&#34;-creating-a-new-repository&#34;&gt;🏗️ Creating a New Repository&lt;/h3&gt;
+&lt;p&gt;Create a local repository and link it to GitHub:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir my_project &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; my_project
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git remote add origin git@github.com:username/my_project.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Add files and make the first commit:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;# My Project&amp;#34;&lt;/span&gt; &amp;gt; README.md
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Initial commit&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push -u origin main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;📌 &lt;strong&gt;GitHub Repository:&lt;/strong&gt; &lt;a href=&#34;https://github.com/username/my_project&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Project&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-cloning-an-existing-repository&#34;&gt;🔄 Cloning an Existing Repository&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone git@github.com:username/my_project.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h3 id=&#34;-working-with-branches&#34;&gt;🌿 Working with Branches&lt;/h3&gt;
+&lt;p&gt;Create a new branch:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout -b feature-branch
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Merge a branch:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout main
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git merge feature-branch
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Delete a branch:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git branch -d feature-branch
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;-lab-report&#34;&gt;📜 Lab Report&lt;/h2&gt;
+&lt;h3 id=&#34;-course-directory-setup&#34;&gt;🔹 Course Directory Setup&lt;/h3&gt;
+&lt;p&gt;📸 &lt;strong&gt;Creating Project Structure:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir -p ~/work/study/2023-2024/Computer_Architecture
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~/work/study/2023-2024/Computer_Architecture
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone --recursive git@github.com:username/study_2023-2024_arch-pc.git archpc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🖼️ &lt;strong&gt;Created Structure:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;images/workspace.png&#34; alt=&#34;Workspace Setup&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;-independent-work-assignment&#34;&gt;🔹 Independent Work Assignment&lt;/h3&gt;
+&lt;p&gt;Add files to the repository:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;feat: added lab report&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push origin main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;📌 &lt;strong&gt;View Repository:&lt;/strong&gt; &lt;a href=&#34;https://github.com/username/study_2023-2024_arch-pc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-conclusion&#34;&gt;🎯 Conclusion&lt;/h2&gt;
+&lt;p&gt;During the lab work, I:
+✅ Set up Git and GitHub
+✅ Created an SSH key for secure connection
+✅ Organized the repository and learned essential commands&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-useful-links&#34;&gt;🔗 Useful Links&lt;/h2&gt;
+&lt;p&gt;📖 &lt;a href=&#34;https://git-scm.com/doc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official Git Documentation&lt;/a&gt;
+📚 &lt;a href=&#34;https://docs.github.com/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Docs&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
@@ -225,7 +733,7 @@
 
 
 
-&lt;div id=&#34;chart-532168947&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-215347689&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -243,7 +751,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-532168947&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-215347689&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -526,81 +1034,6 @@ data.head()
   &lt;span class=&#34;inline-block  pr-1&#34;&gt;
     &lt;svg style=&#34;height: 1em; transform: translateY(0.1em);&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; height=&#34;1em&#34; viewBox=&#34;0 0 448 512&#34; fill=&#34;currentColor&#34;&gt;&lt;path d=&#34;M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z&#34;/&gt;&lt;/svg&gt;
   &lt;/span&gt; Python&lt;/p&gt;
-&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>✅ Manage your projects</title>
-      <link>http://localhost:1313/post/project-management/</link>
-      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/project-management/</guid>
-      <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
-&lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
-&lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
-&lt;p&gt;Simply insert a Markdown code block labelled as &lt;code&gt;markmap&lt;/code&gt; and optionally set the height of the mindmap as shown in the example below.&lt;/p&gt;
-&lt;p&gt;Mindmaps can be created by simply writing the items as a Markdown list within the &lt;code&gt;markmap&lt;/code&gt; code block, indenting each item to create as many sub-levels as you need:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;
-&lt;code&gt;
-```markmap {height=&#34;200px&#34;}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;markmap&#34; style=&#34;height: 200px;&#34;&gt;
-
-&lt;pre&gt;- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h2&gt;
-&lt;p&gt;Hugo Blox supports the &lt;em&gt;Mermaid&lt;/em&gt; Markdown extension for diagrams.&lt;/p&gt;
-&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34;&gt;gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-&lt;/div&gt;
-&lt;h2 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h2&gt;
-&lt;p&gt;You can even write your todo lists in Markdown too:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write math example
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write diagram example
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [ ]&lt;/span&gt; Do something else
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
 </description>
     </item>

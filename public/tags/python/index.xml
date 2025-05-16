@@ -1,16 +1,137 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python | Hugo Academic CV Theme</title>
+    <title>Python | Adjabkhanian</title>
     <link>http://localhost:1313/tags/python/</link>
       <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Python</title>
       <link>http://localhost:1313/tags/python/</link>
     </image>
+    
+    <item>
+      <title>Telegram-бот для управления задачами с фотоотчётами и Airtable</title>
+      <link>http://localhost:1313/post/telegram_task_bot_case/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/telegram_task_bot_case/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://i.imgur.com/JfM0Dpq.png&#34; alt=&#34;Telegram bot demo&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;что-делает-этот-бот&#34;&gt;Что делает этот бот?&lt;/h2&gt;
+&lt;p&gt;Этот Telegram-бот создан для автоматизации управления задачами в команде.&lt;br&gt;
+Каждый пользователь выбирает &lt;strong&gt;роль&lt;/strong&gt;, вводит &lt;strong&gt;имя&lt;/strong&gt;, затем выбирает &lt;strong&gt;область&lt;/strong&gt;, в которой доступны задачи, и подтверждает их выполнение &lt;strong&gt;фотоотчётом&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;пример-сценария-работы&#34;&gt;Пример сценария работы:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Пользователь запускает бота через &lt;code&gt;/start&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Выбирает свою роль (например, &lt;code&gt;монтажник&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Вводит имя&lt;/li&gt;
+&lt;li&gt;Получает список доступных задач по областям&lt;/li&gt;
+&lt;li&gt;Выполняет задачу и прикрепляет фото&lt;/li&gt;
+&lt;li&gt;Задача автоматически отмечается выполненной и открывается список областей&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://i.imgur.com/ulzYpKk.png&#34; alt=&#34;Сценарий работы бота&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;особенности&#34;&gt;Особенности&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ &lt;strong&gt;FSM&lt;/strong&gt;: управление состояниями (роль, имя, выбор, выполнение)&lt;/li&gt;
+&lt;li&gt;🔙 &lt;strong&gt;Кнопки назад&lt;/strong&gt;: удобная навигация&lt;/li&gt;
+&lt;li&gt;💬 &lt;strong&gt;Эмодзи&lt;/strong&gt;: визуально приятно и понятно&lt;/li&gt;
+&lt;li&gt;📸 &lt;strong&gt;Фотоотчёт&lt;/strong&gt;: без фото задача не считается выполненной&lt;/li&gt;
+&lt;li&gt;🔄 &lt;strong&gt;Интеграция с Airtable&lt;/strong&gt;: все задачи и статусы синхронизированы&lt;/li&gt;
+&lt;li&gt;⚡ &lt;strong&gt;Автопереход&lt;/strong&gt;: после выполнения задачи бот сам возвращает пользователя к выбору области&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;результат&#34;&gt;Результат&lt;/h2&gt;
+&lt;p&gt;Готовый Telegram-бот, который подходит для:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Выездных команд&lt;/li&gt;
+&lt;li&gt;Монтажников, курьеров, техников&lt;/li&gt;
+&lt;li&gt;Управляющих логистикой&lt;/li&gt;
+&lt;li&gt;Внутреннего использования в компании&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;преимущества&#34;&gt;Преимущества&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Удобный и понятный интерфейс&lt;/li&gt;
+&lt;li&gt;Минимальные затраты&lt;/li&gt;
+&lt;li&gt;Автоматизация рутины&lt;/li&gt;
+&lt;li&gt;Гибкость и масштабируемость&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;как-развернуть-бота-247&#34;&gt;Как развернуть бота 24/7&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Простой способ: через VPS&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Заказать VPS&lt;/strong&gt; — например, &lt;a href=&#34;https://timeweb.cloud/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Timeweb Cloud&lt;/a&gt; или &lt;a href=&#34;https://www.reg.ru/vps/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reg.ru VPS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Установить необходимые инструменты&lt;/strong&gt;:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt update
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install python3 python3-pip git tmux -y
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Клонировать репозиторий&lt;/strong&gt;:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/your-username/your-bot-repo.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; your-bot-repo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Настроить .env файл&lt;/strong&gt;:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-env&#34; data-lang=&#34;env&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;BOT_TOKEN&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;your_token
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;AIRTABLE_API_KEY&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;your_airtable_key
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;AIRTABLE_BASE_ID&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;your_base_id
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;AIRTABLE_TABLE_NAME&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;your_table
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Установить зависимости&lt;/strong&gt;:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install -r requirements.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Запустить бота в tmux&lt;/strong&gt;:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tmux
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python3 main.py
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;Чтобы выйти, нажми &lt;code&gt;Ctrl+B&lt;/code&gt;, затем &lt;code&gt;D&lt;/code&gt; — бот продолжит работать в фоне.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;исходный-код&#34;&gt;Исходный код&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/adjabkhanian/taskbot.git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Перейти в репозиторий GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;хочешь-себе-такого-бота&#34;&gt;Хочешь себе такого бота?&lt;/h2&gt;
+&lt;p&gt;Если ты хочешь автоматизировать задачи в своей команде — &lt;strong&gt;напиши&lt;/strong&gt;, и я помогу запустить всё под ключ.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Сделаю под твою задачу и структуру команды.&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Learn Python</title>
