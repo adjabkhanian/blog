@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Productivity | Adjabkhanian</title>
-    <link>http://localhost:1313/tags/productivity/</link>
-      <atom:link href="http://localhost:1313/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/tags/productivity/</link>
+      <atom:link href="https://example.com/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     <description>Productivity</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 23 Mar 2025 13:16:48 +0300</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://example.com/media/icon_hu_645fa481986063ef.png</url>
       <title>Productivity</title>
-      <link>http://localhost:1313/tags/productivity/</link>
+      <link>https://example.com/tags/productivity/</link>
     </image>
     
     <item>
       <title>Weekly Recap: March 17–23</title>
-      <link>http://localhost:1313/post/nedelya/</link>
+      <link>https://example.com/post/nedelya/</link>
       <pubDate>Sun, 23 Mar 2025 13:16:48 +0300</pubDate>
-      <guid>http://localhost:1313/post/nedelya/</guid>
+      <guid>https://example.com/post/nedelya/</guid>
       <description>&lt;h1 id=&#34;-weekly-recap-march-1723&#34;&gt;✨ Weekly Recap (March 17–23)&lt;/h1&gt;
 &lt;h2 id=&#34;-what-i-accomplished&#34;&gt;📅 What I accomplished:&lt;/h2&gt;
 &lt;ul&gt;

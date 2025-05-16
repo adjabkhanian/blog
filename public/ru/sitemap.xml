@@ -2,46 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/ru/authors/</loc>
+    <loc>https://example.com/ru/authors/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ru/</loc>
+    <loc>https://example.com/ru/</loc>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/"
+                href="https://example.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/ru/"
+                href="https://example.com/ru/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ru/publication_types/</loc>
+    <loc>https://example.com/ru/publication_types/</loc>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/publication_types/"
+                href="https://example.com/publication_types/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/ru/publication_types/"
+                href="https://example.com/ru/publication_types/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ru/tags/</loc>
+    <loc>https://example.com/ru/tags/</loc>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tags/"
+                href="https://example.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/ru/tags/"
+                href="https://example.com/ru/tags/"
                 />
   </url>
 </urlset>

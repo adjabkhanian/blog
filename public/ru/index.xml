@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chinese website title...</title>
-    <link>http://localhost:1313/ru/</link>
-      <atom:link href="http://localhost:1313/ru/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/ru/</link>
+      <atom:link href="https://example.com/ru/index.xml" rel="self" type="application/rss+xml" />
     <description>Chinese website title...</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://example.com/media/icon_hu_645fa481986063ef.png</url>
       <title>Chinese website title...</title>
-      <link>http://localhost:1313/ru/</link>
+      <link>https://example.com/ru/</link>
     </image>
     
   </channel>

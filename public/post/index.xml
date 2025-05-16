@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog | Adjabkhanian</title>
-    <link>http://localhost:1313/post/</link>
-      <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/post/</link>
+      <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://example.com/media/icon_hu_645fa481986063ef.png</url>
       <title>Blog</title>
-      <link>http://localhost:1313/post/</link>
+      <link>https://example.com/post/</link>
     </image>
     
     <item>
       <title>🚀 Telegram-бот для управления задачами с Airtable</title>
-      <link>http://localhost:1313/post/task_bot_case/</link>
+      <link>https://example.com/post/task_bot_case/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/task_bot_case/</guid>
+      <guid>https://example.com/post/task_bot_case/</guid>
       <description>&lt;h1 id=&#34;-telegram-бот-для-задач-на-выезде&#34;&gt;📱 Telegram-бот для задач на выезде&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Проект:&lt;/strong&gt; умный бот в Telegram, который помогает командам на выезде эффективно выполнять задачи и отчитываться за них в пару кликов.&lt;/p&gt;
 &lt;hr&gt;
@@ -176,9 +176,9 @@
     
     <item>
       <title>Week Summary: Studies, Work, and New Achievements</title>
-      <link>http://localhost:1313/post/lastweek02/lastweek/</link>
+      <link>https://example.com/post/lastweek02/lastweek/</link>
       <pubDate>Tue, 01 Apr 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/lastweek02/lastweek/</guid>
+      <guid>https://example.com/post/lastweek02/lastweek/</guid>
       <description>&lt;h1 id=&#34;week-summary-&#34;&gt;Week Summary 🎯&lt;/h1&gt;
 &lt;p&gt;The past week was productive and eventful. I worked on several projects, made progress in my studies, and found time for personal development. 🔥&lt;/p&gt;
 &lt;h2 id=&#34;-studies&#34;&gt;📚 Studies&lt;/h2&gt;
@@ -216,9 +216,9 @@
     
     <item>
       <title>How to Format a Report: Best Practices and Tips</title>
-      <link>http://localhost:1313/post/report/</link>
+      <link>https://example.com/post/report/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/report/</guid>
+      <guid>https://example.com/post/report/</guid>
       <description>&lt;h1 id=&#34;-how-to-format-a-report-best-practices-and-tips&#34;&gt;📑 How to Format a Report: Best Practices and Tips&lt;/h1&gt;
 &lt;p&gt;A report is not just a document; it is an important tool for transmitting information. Proper formatting helps make it clear, structured, and professional. Let&amp;rsquo;s go over the key principles for preparing a quality report. 📋&lt;/p&gt;
 &lt;h2 id=&#34;-key-principles-for-report-formatting&#34;&gt;📌 Key Principles for Report Formatting:&lt;/h2&gt;
@@ -285,9 +285,9 @@
     
     <item>
       <title>Weekly Recap: March 17–23</title>
-      <link>http://localhost:1313/post/nedelya/</link>
+      <link>https://example.com/post/nedelya/</link>
       <pubDate>Sun, 23 Mar 2025 13:16:48 +0300</pubDate>
-      <guid>http://localhost:1313/post/nedelya/</guid>
+      <guid>https://example.com/post/nedelya/</guid>
       <description>&lt;h1 id=&#34;-weekly-recap-march-1723&#34;&gt;✨ Weekly Recap (March 17–23)&lt;/h1&gt;
 &lt;h2 id=&#34;-what-i-accomplished&#34;&gt;📅 What I accomplished:&lt;/h2&gt;
 &lt;ul&gt;
@@ -323,9 +323,9 @@ Let’s keep the momentum going 🚀&lt;/p&gt;&lt;/blockquote&gt;
     
     <item>
       <title>📘 What is Markdown and Why Use It?</title>
-      <link>http://localhost:1313/post/markdown/</link>
+      <link>https://example.com/post/markdown/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/markdown/</guid>
+      <guid>https://example.com/post/markdown/</guid>
       <description>&lt;p&gt;In the third lab on computer architecture, we got familiar with a lightweight and convenient markup language — &lt;strong&gt;Markdown&lt;/strong&gt;. Its goal is to simplify formatting reports and documentation without the complexity of Word or LaTeX.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-what-i-learned&#34;&gt;🛠 What I Learned&lt;/h2&gt;
@@ -413,9 +413,9 @@ from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
     
     <item>
       <title>Weekly Report: Version Control (Git)</title>
-      <link>http://localhost:1313/post/lastweek/</link>
+      <link>https://example.com/post/lastweek/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/lastweek/</guid>
+      <guid>https://example.com/post/lastweek/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This week, I actively studied &lt;strong&gt;Git version control system&lt;/strong&gt;. In this post, I will discuss Git setup, working with repositories, and essential commands, along with presenting my lab report.&lt;/p&gt;
 &lt;hr&gt;
@@ -522,9 +522,9 @@ from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>http://localhost:1313/post/get-started/</link>
+      <link>https://example.com/post/get-started/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/get-started/</guid>
+      <guid>https://example.com/post/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 
@@ -608,9 +608,9 @@ from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
     
     <item>
       <title>🧠 Sharpen your thinking with a second brain</title>
-      <link>http://localhost:1313/post/second-brain/</link>
+      <link>https://example.com/post/second-brain/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/second-brain/</guid>
+      <guid>https://example.com/post/second-brain/</guid>
       <description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
 &lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
 &lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
@@ -720,9 +720,9 @@ from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
     
     <item>
       <title>📈 Communicate your results effectively with the best data visualizations</title>
-      <link>http://localhost:1313/post/data-visualization/</link>
+      <link>https://example.com/post/data-visualization/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/data-visualization/</guid>
+      <guid>https://example.com/post/data-visualization/</guid>
       <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
@@ -733,7 +733,7 @@ from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
 
 
 
-&lt;div id=&#34;chart-215347689&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-472865139&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -751,7 +751,7 @@ from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-215347689&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-472865139&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -930,9 +930,9 @@ Crash --&gt; [*]
     
     <item>
       <title>👩🏼‍🏫 Teach academic courses</title>
-      <link>http://localhost:1313/post/teach-courses/</link>
+      <link>https://example.com/post/teach-courses/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/teach-courses/</guid>
+      <guid>https://example.com/post/teach-courses/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -981,7 +981,7 @@ Crash --&gt; [*]
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:1313/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;https://example.com/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;

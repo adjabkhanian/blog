@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pandoc | Adjabkhanian</title>
-    <link>http://localhost:1313/tags/pandoc/</link>
-      <atom:link href="http://localhost:1313/tags/pandoc/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/tags/pandoc/</link>
+      <atom:link href="https://example.com/tags/pandoc/index.xml" rel="self" type="application/rss+xml" />
     <description>Pandoc</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://example.com/media/icon_hu_645fa481986063ef.png</url>
       <title>Pandoc</title>
-      <link>http://localhost:1313/tags/pandoc/</link>
+      <link>https://example.com/tags/pandoc/</link>
     </image>
     
     <item>
       <title>📘 What is Markdown and Why Use It?</title>
-      <link>http://localhost:1313/post/markdown/</link>
+      <link>https://example.com/post/markdown/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/markdown/</guid>
+      <guid>https://example.com/post/markdown/</guid>
       <description>&lt;p&gt;In the third lab on computer architecture, we got familiar with a lightweight and convenient markup language — &lt;strong&gt;Markdown&lt;/strong&gt;. Its goal is to simplify formatting reports and documentation without the complexity of Word or LaTeX.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-what-i-learned&#34;&gt;🛠 What I Learned&lt;/h2&gt;
