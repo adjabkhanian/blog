@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Landing Page | Adjabkhanian</title>
-    <link>https://example.com/tags/landing-page/</link>
-      <atom:link href="https://example.com/tags/landing-page/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/landing-page/</link>
+      <atom:link href="http://localhost:1313/tags/landing-page/index.xml" rel="self" type="application/rss+xml" />
     <description>Landing Page</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Landing Page</title>
-      <link>https://example.com/tags/landing-page/</link>
+      <link>http://localhost:1313/tags/landing-page/</link>
     </image>
     
     <item>
       <title>Website for Selling and Delivering Bulk Construction Materials</title>
-      <link>https://example.com/project/firstprojecttilda/</link>
+      <link>http://localhost:1313/project/firstprojecttilda/</link>
       <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/firstprojecttilda/</guid>
+      <guid>http://localhost:1313/project/firstprojecttilda/</guid>
       <description>&lt;hr&gt;
 &lt;p&gt;A clean, mobile-friendly landing page for a construction supplier offering fast delivery of bulk materials like sand, gravel, and more.&lt;/p&gt;
 &lt;hr&gt;</description>

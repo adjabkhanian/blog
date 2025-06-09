@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Format | Adjabkhanian</title>
-    <link>https://example.com/tags/format/</link>
-      <atom:link href="https://example.com/tags/format/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/format/</link>
+      <atom:link href="http://localhost:1313/tags/format/index.xml" rel="self" type="application/rss+xml" />
     <description>Format</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Format</title>
-      <link>https://example.com/tags/format/</link>
+      <link>http://localhost:1313/tags/format/</link>
     </image>
     
     <item>
       <title>How to Format a Report: Best Practices and Tips</title>
-      <link>https://example.com/post/report/</link>
+      <link>http://localhost:1313/post/report/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/report/</guid>
+      <guid>http://localhost:1313/post/report/</guid>
       <description>&lt;h1 id=&#34;-how-to-format-a-report-best-practices-and-tips&#34;&gt;📑 How to Format a Report: Best Practices and Tips&lt;/h1&gt;
 &lt;p&gt;A report is not just a document; it is an important tool for transmitting information. Proper formatting helps make it clear, structured, and professional. Let&amp;rsquo;s go over the key principles for preparing a quality report. 📋&lt;/p&gt;
 &lt;h2 id=&#34;-key-principles-for-report-formatting&#34;&gt;📌 Key Principles for Report Formatting:&lt;/h2&gt;

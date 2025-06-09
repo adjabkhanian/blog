@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FSM | Adjabkhanian</title>
-    <link>https://example.com/tags/fsm/</link>
-      <atom:link href="https://example.com/tags/fsm/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/fsm/</link>
+      <atom:link href="http://localhost:1313/tags/fsm/index.xml" rel="self" type="application/rss+xml" />
     <description>FSM</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>FSM</title>
-      <link>https://example.com/tags/fsm/</link>
+      <link>http://localhost:1313/tags/fsm/</link>
     </image>
     
     <item>
       <title>🚀 Telegram-бот для управления задачами с Airtable</title>
-      <link>https://example.com/post/task_bot_case/</link>
+      <link>http://localhost:1313/project/tgbot/task_bot_case-07.03.03/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/task_bot_case/</guid>
+      <guid>http://localhost:1313/project/tgbot/task_bot_case-07.03.03/</guid>
       <description>&lt;h1 id=&#34;-telegram-бот-для-задач-на-выезде&#34;&gt;📱 Telegram-бот для задач на выезде&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Проект:&lt;/strong&gt; умный бот в Telegram, который помогает командам на выезде эффективно выполнять задачи и отчитываться за них в пару кликов.&lt;/p&gt;
 &lt;hr&gt;

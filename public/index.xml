@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adjabkhanian</title>
-    <link>https://example.com/</link>
-      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>Adjabkhanian</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Adjabkhanian</title>
-      <link>https://example.com/</link>
+      <link>http://localhost:1313/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>https://example.com/event/example/</link>
+      <link>http://localhost:1313/event/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://example.com/event/example/</guid>
+      <guid>http://localhost:1313/event/example/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -34,10 +34,134 @@
     </item>
     
     <item>
+      <title>ZarplataBot — Telegram-бот для учёта смен, бара и отчётов</title>
+      <link>http://localhost:1313/project/zarplatabot/zarplatabot/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/zarplatabot/zarplatabot/</guid>
+      <description>&lt;h2 id=&#34;-о-проекте&#34;&gt;🔍 О проекте&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ZarplataBot&lt;/strong&gt; — это Telegram-бот, созданный для автоматизации финансового учёта в небольших командах, таких как баристы, сотрудники смен, обслуживающий персонал и администраторы. Он заменяет ручной ввод в таблицы и помогает отслеживать:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;💼 Рабочие смены (дневные и ночные)&lt;/li&gt;
+&lt;li&gt;🍷 Доходы с бара с динамичным процентом&lt;/li&gt;
+&lt;li&gt;💸 Расходы с комментарием&lt;/li&gt;
+&lt;li&gt;🚫 Штрафы и удержания&lt;/li&gt;
+&lt;li&gt;📊 Месячные отчёты с фильтрацией&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Проект разрабатывался как личное решение для внутренней автоматизации, но может масштабироваться под любую команду.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-зачем-я-это-сделал&#34;&gt;💡 Зачем я это сделал?&lt;/h2&gt;
+&lt;p&gt;Работая в коллективе, где часто ведётся учёт &amp;ldquo;вручную&amp;rdquo;, я заметил, что:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Записи о сменах забываются&lt;/li&gt;
+&lt;li&gt;Расходы теряются&lt;/li&gt;
+&lt;li&gt;Доходы считаются &amp;ldquo;на глаз&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Отчёты приходится собирать по частям&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Чтобы убрать рутину и ошибки, я решил автоматизировать процесс через Telegram, которым все уже пользуются каждый день.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-функционал&#34;&gt;🔧 Функционал&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;🕑 Добавление смен: дневная или ночная (по фиксированной ставке)&lt;/li&gt;
+&lt;li&gt;🍷 Учёт бара: процент дохода зависит от суммы (динамически)
+&lt;ul&gt;
+&lt;li&gt;до 3500 — 5%&lt;/li&gt;
+&lt;li&gt;от 3500 до 4000 — 6%&lt;/li&gt;
+&lt;li&gt;от 4000 до 4500 — 7%&lt;/li&gt;
+&lt;li&gt;…&lt;/li&gt;
+&lt;li&gt;от 10 000 — 15%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;💸 Ввод расходов и комментариев (например: &amp;ldquo;300 еда&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;🚫 Штрафы с пояснением (&amp;ldquo;500 опоздание&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;📊 Отчёты по месяцам — за текущий, предыдущий и выбранные вручную&lt;/li&gt;
+&lt;li&gt;🗃 Хранение всех данных в Airtable — удобно редактировать вручную&lt;/li&gt;
+&lt;li&gt;⏱ Мгновенная реакция — через Telegram-бот, без необходимости заходить в таблицы&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-интеграции&#34;&gt;🔌 Интеграции&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Telegram Bot API&lt;/strong&gt; — для общения с пользователем&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Airtable API&lt;/strong&gt; — как база данных, которую можно редактировать и вручную&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SQLite&lt;/strong&gt; — локальное хранилище на случай оффлайна&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Railway&lt;/strong&gt; — деплой и круглосуточная работа бота&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; — для хранения и обновлений проекта&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-развёртывание&#34;&gt;🚀 Развёртывание&lt;/h2&gt;
+&lt;p&gt;Бот развёрнут на платформе &lt;a href=&#34;https://railway.app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Railway&lt;/a&gt;, что позволяет ему работать 24/7 без зависимостей от локального компьютера. Обновление кода происходит через &lt;code&gt;git push&lt;/code&gt; на GitHub, а Railway автоматически пересобирает контейнер и перезапускает бота.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-интерфейс&#34;&gt;🖼 Интерфейс&lt;/h2&gt;
+&lt;p&gt;Пользователь взаимодействует с ботом через кнопки:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;▶️ Старт&lt;/li&gt;
+&lt;li&gt;🕑 Дневная / 🌙 Ночная&lt;/li&gt;
+&lt;li&gt;🍷 Бар&lt;/li&gt;
+&lt;li&gt;💸 Расход&lt;/li&gt;
+&lt;li&gt;🚫 Штраф&lt;/li&gt;
+&lt;li&gt;📊 Отчёт&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Каждое действие сопровождается подтверждением и интерактивными сообщениями. Интерфейс адаптирован под Telegram UX.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-использованные-технологии&#34;&gt;🛠 Использованные технологии&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Область&lt;/th&gt;
+          &lt;th&gt;Технологии&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Язык разработки&lt;/td&gt;
+          &lt;td&gt;Python 3.11&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Фреймворк&lt;/td&gt;
+          &lt;td&gt;Aiogram 3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;API&lt;/td&gt;
+          &lt;td&gt;Telegram Bot API, Airtable REST&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Хостинг&lt;/td&gt;
+          &lt;td&gt;Railway&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Хранилище&lt;/td&gt;
+          &lt;td&gt;SQLite + Airtable&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;CI/CD&lt;/td&gt;
+          &lt;td&gt;GitHub + Railway Integration&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-репозиторий-проекта&#34;&gt;📦 Репозиторий проекта&lt;/h2&gt;
+&lt;p&gt;Код доступен на GitHub:&lt;/p&gt;
+&lt;p&gt;👉 &lt;a href=&#34;https://github.com/adjabkhanian/zarplata-bot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github.com/adjabkhanian/zarplata-bot&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-планы-на-будущее&#34;&gt;📈 Планы на будущее&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Авторизация по пользователям&lt;/li&gt;
+&lt;li&gt;Интеграция с Google Sheets&lt;/li&gt;
+&lt;li&gt;Отчёты в PDF&lt;/li&gt;
+&lt;li&gt;Аналитика с графиками&lt;/li&gt;
+&lt;li&gt;Панель администратора через веб-интерфейс&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-вывод&#34;&gt;💬 Вывод&lt;/h2&gt;
+&lt;p&gt;ZarplataBot — это не просто бот, а рабочий инструмент для учёта и прозрачности. Он убирает хаос и делает рутину приятной.&lt;/p&gt;
+&lt;p&gt;Если ты хочешь адаптировать этого бота под свою команду — напиши мне 😉&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>🚀 Telegram-бот для управления задачами с Airtable</title>
-      <link>https://example.com/post/task_bot_case/</link>
+      <link>http://localhost:1313/project/tgbot/task_bot_case-07.03.03/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/task_bot_case/</guid>
+      <guid>http://localhost:1313/project/tgbot/task_bot_case-07.03.03/</guid>
       <description>&lt;h1 id=&#34;-telegram-бот-для-задач-на-выезде&#34;&gt;📱 Telegram-бот для задач на выезде&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Проект:&lt;/strong&gt; умный бот в Telegram, который помогает командам на выезде эффективно выполнять задачи и отчитываться за них в пару кликов.&lt;/p&gt;
 &lt;hr&gt;
@@ -197,9 +321,9 @@
     
     <item>
       <title>Website for Selling and Delivering Bulk Construction Materials</title>
-      <link>https://example.com/project/firstprojecttilda/</link>
+      <link>http://localhost:1313/project/firstprojecttilda/</link>
       <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/firstprojecttilda/</guid>
+      <guid>http://localhost:1313/project/firstprojecttilda/</guid>
       <description>&lt;hr&gt;
 &lt;p&gt;A clean, mobile-friendly landing page for a construction supplier offering fast delivery of bulk materials like sand, gravel, and more.&lt;/p&gt;
 &lt;hr&gt;</description>
@@ -207,9 +331,9 @@
     
     <item>
       <title>Week Summary: Studies, Work, and New Achievements</title>
-      <link>https://example.com/post/lastweek02/lastweek/</link>
+      <link>http://localhost:1313/post/lastweek02/lastweek/</link>
       <pubDate>Tue, 01 Apr 2025 12:00:00 +0000</pubDate>
-      <guid>https://example.com/post/lastweek02/lastweek/</guid>
+      <guid>http://localhost:1313/post/lastweek02/lastweek/</guid>
       <description>&lt;h1 id=&#34;week-summary-&#34;&gt;Week Summary 🎯&lt;/h1&gt;
 &lt;p&gt;The past week was productive and eventful. I worked on several projects, made progress in my studies, and found time for personal development. 🔥&lt;/p&gt;
 &lt;h2 id=&#34;-studies&#34;&gt;📚 Studies&lt;/h2&gt;
@@ -247,9 +371,9 @@
     
     <item>
       <title>How to Format a Report: Best Practices and Tips</title>
-      <link>https://example.com/post/report/</link>
+      <link>http://localhost:1313/post/report/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/report/</guid>
+      <guid>http://localhost:1313/post/report/</guid>
       <description>&lt;h1 id=&#34;-how-to-format-a-report-best-practices-and-tips&#34;&gt;📑 How to Format a Report: Best Practices and Tips&lt;/h1&gt;
 &lt;p&gt;A report is not just a document; it is an important tool for transmitting information. Proper formatting helps make it clear, structured, and professional. Let&amp;rsquo;s go over the key principles for preparing a quality report. 📋&lt;/p&gt;
 &lt;h2 id=&#34;-key-principles-for-report-formatting&#34;&gt;📌 Key Principles for Report Formatting:&lt;/h2&gt;
@@ -316,9 +440,9 @@
     
     <item>
       <title>Weekly Recap: March 17–23</title>
-      <link>https://example.com/post/nedelya/</link>
+      <link>http://localhost:1313/post/nedelya/</link>
       <pubDate>Sun, 23 Mar 2025 13:16:48 +0300</pubDate>
-      <guid>https://example.com/post/nedelya/</guid>
+      <guid>http://localhost:1313/post/nedelya/</guid>
       <description>&lt;h1 id=&#34;-weekly-recap-march-1723&#34;&gt;✨ Weekly Recap (March 17–23)&lt;/h1&gt;
 &lt;h2 id=&#34;-what-i-accomplished&#34;&gt;📅 What I accomplished:&lt;/h2&gt;
 &lt;ul&gt;
@@ -354,9 +478,9 @@ Let’s keep the momentum going 🚀&lt;/p&gt;&lt;/blockquote&gt;
     
     <item>
       <title>📘 What is Markdown and Why Use It?</title>
-      <link>https://example.com/post/markdown/</link>
+      <link>http://localhost:1313/post/markdown/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/markdown/</guid>
+      <guid>http://localhost:1313/post/markdown/</guid>
       <description>&lt;p&gt;In the third lab on computer architecture, we got familiar with a lightweight and convenient markup language — &lt;strong&gt;Markdown&lt;/strong&gt;. Its goal is to simplify formatting reports and documentation without the complexity of Word or LaTeX.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-what-i-learned&#34;&gt;🛠 What I Learned&lt;/h2&gt;
@@ -444,9 +568,9 @@ from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
     
     <item>
       <title>Weekly Report: Version Control (Git)</title>
-      <link>https://example.com/post/lastweek/</link>
+      <link>http://localhost:1313/post/lastweek/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/lastweek/</guid>
+      <guid>http://localhost:1313/post/lastweek/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This week, I actively studied &lt;strong&gt;Git version control system&lt;/strong&gt;. In this post, I will discuss Git setup, working with repositories, and essential commands, along with presenting my lab report.&lt;/p&gt;
 &lt;hr&gt;
@@ -553,17 +677,17 @@ from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
     
     <item>
       <title>Projects</title>
-      <link>https://example.com/projects/</link>
+      <link>http://localhost:1313/projects/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/</guid>
+      <guid>http://localhost:1313/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>https://example.com/post/get-started/</link>
+      <link>http://localhost:1313/post/get-started/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/get-started/</guid>
+      <guid>http://localhost:1313/post/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 
@@ -647,25 +771,25 @@ from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
     
     <item>
       <title>Pandas</title>
-      <link>https://example.com/project/pandas/</link>
+      <link>http://localhost:1313/project/pandas/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/pandas/</guid>
+      <guid>http://localhost:1313/project/pandas/</guid>
       <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>PyTorch</title>
-      <link>https://example.com/project/pytorch/</link>
+      <link>http://localhost:1313/project/pytorch/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/pytorch/</guid>
+      <guid>http://localhost:1313/project/pytorch/</guid>
       <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>🧠 Sharpen your thinking with a second brain</title>
-      <link>https://example.com/post/second-brain/</link>
+      <link>http://localhost:1313/post/second-brain/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/second-brain/</guid>
+      <guid>http://localhost:1313/post/second-brain/</guid>
       <description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
 &lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
 &lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
@@ -775,9 +899,9 @@ from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
     
     <item>
       <title>📈 Communicate your results effectively with the best data visualizations</title>
-      <link>https://example.com/post/data-visualization/</link>
+      <link>http://localhost:1313/post/data-visualization/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/data-visualization/</guid>
+      <guid>http://localhost:1313/post/data-visualization/</guid>
       <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
@@ -788,7 +912,7 @@ from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
 
 
 
-&lt;div id=&#34;chart-472865139&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-753461829&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -806,7 +930,7 @@ from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-472865139&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-753461829&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -985,9 +1109,9 @@ Crash --&gt; [*]
     
     <item>
       <title>👩🏼‍🏫 Teach academic courses</title>
-      <link>https://example.com/post/teach-courses/</link>
+      <link>http://localhost:1313/post/teach-courses/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/teach-courses/</guid>
+      <guid>http://localhost:1313/post/teach-courses/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -1036,7 +1160,7 @@ Crash --&gt; [*]
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://example.com/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -1095,17 +1219,17 @@ data.head()
     
     <item>
       <title>Experience</title>
-      <link>https://example.com/experience/</link>
+      <link>http://localhost:1313/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/experience/</guid>
+      <guid>http://localhost:1313/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learn JavaScript</title>
-      <link>https://example.com/teaching/js/</link>
+      <link>http://localhost:1313/teaching/js/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/teaching/js/</guid>
+      <guid>http://localhost:1313/teaching/js/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -1148,7 +1272,7 @@ data.head()
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://example.com/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -1225,9 +1349,9 @@ data.head()
     
     <item>
       <title>Learn Python</title>
-      <link>https://example.com/teaching/python/</link>
+      <link>http://localhost:1313/teaching/python/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/teaching/python/</guid>
+      <guid>http://localhost:1313/teaching/python/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -1270,7 +1394,7 @@ data.head()
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://example.com/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -1347,10 +1471,10 @@ data.head()
     
     <item>
       <title>An example preprint / working paper</title>
-      <link>https://example.com/publication/preprint/</link>
+      <link>http://localhost:1313/publication/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/preprint/</guid>
-      <description>&lt;p&gt;This work is driven by the results in my &lt;a href=&#34;https://example.com/publication/conference-paper/&#34;&gt;previous paper&lt;/a&gt; on LLMs.&lt;/p&gt;
+      <guid>http://localhost:1313/publication/preprint/</guid>
+      <description>&lt;p&gt;This work is driven by the results in my &lt;a href=&#34;http://localhost:1313/publication/conference-paper/&#34;&gt;previous paper&lt;/a&gt; on LLMs.&lt;/p&gt;
 &lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -1363,9 +1487,9 @@ data.head()
     
     <item>
       <title>An example journal article</title>
-      <link>https://example.com/publication/journal-article/</link>
+      <link>http://localhost:1313/publication/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/journal-article/</guid>
+      <guid>http://localhost:1313/publication/journal-article/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -1384,9 +1508,9 @@ data.head()
     
     <item>
       <title>An example conference paper</title>
-      <link>https://example.com/publication/conference-paper/</link>
+      <link>http://localhost:1313/publication/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/conference-paper/</guid>
+      <guid>http://localhost:1313/publication/conference-paper/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git | Adjabkhanian</title>
-    <link>https://example.com/tags/git/</link>
-      <atom:link href="https://example.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/git/</link>
+      <atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <description>Git</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Git</title>
-      <link>https://example.com/tags/git/</link>
+      <link>http://localhost:1313/tags/git/</link>
     </image>
     
     <item>
       <title>Weekly Report: Version Control (Git)</title>
-      <link>https://example.com/post/lastweek/</link>
+      <link>http://localhost:1313/post/lastweek/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/lastweek/</guid>
+      <guid>http://localhost:1313/post/lastweek/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This week, I actively studied &lt;strong&gt;Git version control system&lt;/strong&gt;. In this post, I will discuss Git setup, working with repositories, and essential commands, along with presenting my lab report.&lt;/p&gt;
 &lt;hr&gt;

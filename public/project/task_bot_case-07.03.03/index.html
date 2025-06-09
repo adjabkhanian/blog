@@ -1,0 +1,1162 @@
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: June 9, 2025 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="system">
+  
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="Hugo Blox Builder 0.3.1" />
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Adjabkhanian" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="📱 Telegram-бот для задач на выезде Проект: умный бот в Telegram, который помогает командам на выезде эффективно выполнять задачи и отчитываться за них в пару кликов.
+❓ Зачем нужен этот бот? Многие компании сталкиваются с проблемами:
+" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/project/task_bot_case-07.03.03/" />
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/themes/emerald.min.css" />
+  
+
+  
+  
+    
+    <link href="/dist/wc.min.css" rel="stylesheet" />
+  
+
+  
+  
+  
+
+  
+
+  <script>
+     
+    window.hbb = {
+       defaultTheme: document.documentElement.dataset.wcThemeDefault,
+       setDarkTheme: () => {
+        document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark";
+      },
+       setLightTheme: () => {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.style.colorScheme = "light";
+      }
+    }
+
+    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
+
+    if ("wc-color-theme" in localStorage) {
+      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+    } else {
+      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      if (window.hbb.defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      }
+    }
+  </script>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
+      checkboxes.forEach(e => {
+        e.parentElement.parentElement.classList.add('task-list');
+      });
+
+      
+      const liNodes = document.querySelectorAll('.task-list li');
+      liNodes.forEach(nodes => {
+        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
+        if (textNodes.length > 0) {
+          const span = document.createElement('label');
+          textNodes[0].after(span);  
+          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
+          span.appendChild(textNodes[0]);
+        }
+      });
+    });
+  </script>
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+  <link rel="icon" type="image/png" href="/media/icon_hu_5cac115d14ed3d49.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_e7f327b39c12e7ca.png" />
+
+  <link rel="canonical" href="http://localhost:1313/project/task_bot_case-07.03.03/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@GetResearchDev" />
+    <meta property="twitter:creator" content="@GetResearchDev" />
+  
+  <meta property="og:site_name" content="Adjabkhanian" />
+  <meta property="og:url" content="http://localhost:1313/project/task_bot_case-07.03.03/" />
+  <meta property="og:title" content="🚀 Telegram-бот для управления задачами с Airtable | Adjabkhanian" />
+  <meta property="og:description" content="📱 Telegram-бот для задач на выезде
+Проект: умный бот в Telegram, который помогает командам на выезде эффективно выполнять задачи и отчитываться за них в пару кликов.
+
+❓ Зачем нужен этот бот?
+Многие компании сталкиваются с проблемами:" /><meta property="og:image" content="http://localhost:1313/media/icon_hu_645fa481986063ef.png" />
+    <meta property="twitter:image" content="http://localhost:1313/media/icon_hu_645fa481986063ef.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2025-05-16T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2025-05-16T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/project/task_bot_case-07.03.03/"
+  },
+  "headline": "🚀 Telegram-бот для управления задачами с Airtable",
+  
+  "datePublished": "2025-05-16T00:00:00Z",
+  "dateModified": "2025-05-16T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Adjabkhanian"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Adjabkhanian",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/media/icon_hu_1df060215326dd50.png"
+    }
+  },
+  "description": "\u003ch1 id=\"-telegram-бот-для-задач-на-выезде\"\u003e📱 Telegram-бот для задач на выезде\u003c/h1\u003e\n\u003cp\u003e\u003cstrong\u003eПроект:\u003c/strong\u003e умный бот в Telegram, который помогает командам на выезде эффективно выполнять задачи и отчитываться за них в пару кликов.\u003c/p\u003e\n\u003chr\u003e\n\u003ch2 id=\"-зачем-нужен-этот-бот\"\u003e❓ Зачем нужен этот бот?\u003c/h2\u003e\n\u003cp\u003eМногие компании сталкиваются с проблемами:\u003c/p\u003e"
+}
+</script>
+
+  
+
+  
+
+
+  <title>🚀 Telegram-бот для управления задачами с Airtable | Adjabkhanian</title>
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/dist/font/Inter.var.woff2) format(woff2);
+    }
+  </style>
+
+  
+
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/dist/pagefind/pagefind-ui.be766eb419317a14ec769d216e9779bfe8f3737c80e780f4ba0dafb57a41a482.css" integrity="sha256-vnZutBkxehTsdp0hbpd5v&#43;jzc3yA54D0ug2vtXpBpII=" />
+
+
+<script src="/dist/pagefind/pagefind-ui.87693d7c6f2b3b347ce359d0ede762c033419f0a32b22ce508c335a81d841f1b.js" integrity="sha256-h2k9fG8rOzR841nQ7ediwDNBnwoysizlCMM1qB2EHxs="></script>
+
+
+<script>window.hbb.pagefind = {"baseUrl":"/"};</script>
+
+<style>
+  html.dark {
+    --pagefind-ui-primary: #eeeeee;
+    --pagefind-ui-text: #eeeeee;
+    --pagefind-ui-background: #152028;
+    --pagefind-ui-border: #152028;
+    --pagefind-ui-tag: #152028;
+  }
+</style>
+
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      baseUrl: window.hbb.pagefind.baseUrl,
+      bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
+    });
+  });
+  document.addEventListener('DOMContentLoaded', () => {
+    let element = document.getElementById('search');
+    let trigger = document.getElementById('search_toggle');
+
+    if (trigger) {
+      trigger.addEventListener('click', () => {
+        element.classList.toggle('hidden');
+        element.querySelector("input").value = ""
+        element.querySelector("input").focus()
+
+        if (!element.classList.contains('hidden')) {
+          let clear_trigger = document.querySelector('.pagefind-ui__search-clear');
+
+          if (clear_trigger && !clear_trigger.hasAttribute('listenerOnClick')) {
+            clear_trigger.setAttribute('listenerOnClick', 'true');
+
+            clear_trigger.addEventListener('click', () => {
+              element.classList.toggle('hidden');
+            });
+          }
+        }
+
+      });
+    }
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <script
+    defer
+    src="/js/hugo-blox-en.min.js"
+    integrity=""
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+      
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+      
+    
+  
+
+
+
+
+</head>
+
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header sticky top-0 z-30">
+      
+      
+      
+        
+        
+        
+          <header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-left">
+    <div class="order-0 h-100">
+      
+      <a class="navbar-brand" href="/" title="Adjabkhanian">
+        Your Name
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    
+
+    
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      ">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/"
+        >Bio</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#papers"
+        >Papers</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#talks"
+        >Talks</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#news"
+        >News</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/experience/"
+        >Experience</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/projects/"
+        >Projects</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/teaching/"
+        >Teaching</a
+        >
+      </li>
+      
+      
+      
+    </ul>
+
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+
+      
+      
+      
+      <button
+        aria-label="search"
+        class="text-black hover:text-primary  inline-block px-3 text-xl dark:text-white"
+        id="search_toggle">
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+      </button>
+      
+
+      
+      
+      <div class="px-3 text-black hover:text-primary-700 dark:text-white dark:hover:text-primary-300
+            [&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white">
+        <button class="theme-toggle mt-1" accesskey="t" title="appearance">
+          <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class="dark:hidden">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </div>
+      
+
+      
+      
+
+      
+      
+    </div>
+  </nav>
+</header>
+
+
+<div id="search" class="hidden p-3"></div>
+
+
+        
+      
+    </div>
+    <div class="page-body  my-10">
+      
+  <article>
+    <h1>🚀 Telegram-бот для управления задачами с Airtable</h1>
+    <div>
+      <h1 id="-telegram-бот-для-задач-на-выезде">📱 Telegram-бот для задач на выезде</h1>
+<p><strong>Проект:</strong> умный бот в Telegram, который помогает командам на выезде эффективно выполнять задачи и отчитываться за них в пару кликов.</p>
+<hr>
+<h2 id="-зачем-нужен-этот-бот">❓ Зачем нужен этот бот?</h2>
+<p>Многие компании сталкиваются с проблемами:</p>
+<ul>
+<li>🚫 Задачи теряются, сотрудники забывают отчитаться</li>
+<li>📉 Руководителю сложно отслеживать статус выполнения</li>
+<li>🕒 Фото-отчёты собираются вручную и долго</li>
+</ul>
+<p><strong>Решение:</strong> бот, который берёт это на себя. Простой, быстрый и понятный.</p>
+<hr>
+<h2 id="-как-это-работает">⚙️ Как это работает?</h2>
+<ol>
+<li>👤 Сотрудник запускает <code>/start</code>, выбирает свою <strong>роль</strong> и вводит имя</li>
+<li>🔘 Получает кнопку <strong>«Перейти к задачам»</strong></li>
+<li>🗺️ Выбирает <strong>область</strong> (например, «Север» или «Центр»)</li>
+<li>📋 Видит список задач:
+<ul>
+<li>🔧 Починить сеть</li>
+<li>📶 Установить Wi-Fi</li>
+</ul>
+</li>
+<li>📸 Нажимает «Выполнить задачу», отправляет <strong>фото-отчёт</strong></li>
+<li>🤖 Бот:
+<ul>
+<li>сохраняет фото и имя исполнителя</li>
+<li>💾 <strong>обновляет Airtable</strong></li>
+<li>отправляет «✅ Задача выполнена»</li>
+<li>автоматически возвращает к выбору области</li>
+</ul>
+</li>
+</ol>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="flex justify-center	">
+    <div class="w-100" ><img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Сервер и терминал" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<hr>
+<h2 id="-почему-это-удобно">🌟 Почему это удобно?</h2>
+<h3 id="особенности">Особенности:</h3>
+<ul>
+<li>🧠 <strong>FSM:</strong> бот &ldquo;помнит&rdquo;, на каком этапе пользователь</li>
+<li>🖱️ <strong>Интуитивные кнопки:</strong> «Назад», «Выбрать область», «Выполнить»</li>
+<li>🎨 <strong>Эмодзи:</strong> добавляют визуальную логику и делают общение приятным</li>
+<li>📷 <strong>Фото обязательно:</strong> без фото нельзя завершить задачу</li>
+<li>☁️ <strong>Airtable-связь:</strong> задачи живут в облаке и обновляются в реальном времени</li>
+<li>🔄 <strong>Автопереход:</strong> не надо возвращаться вручную — бот делает это сам</li>
+</ul>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="flex justify-center	">
+    <div class="w-100" ><img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Команда работает" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<hr>
+<h2 id="-airtable-как-база-данных">📊 Airtable как база данных</h2>
+<p>Используется таблица Airtable, где:</p>
+<ul>
+<li>🗂️ Хранятся задачи по ролям и локациям</li>
+<li>📸 Сохраняются фото и имя исполнителя</li>
+<li>✔️ Обновляется статус после выполнения</li>
+</ul>
+<p>Интеграция через API — всё происходит автоматически.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="flex justify-center	">
+    <div class="w-100" ><img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Airtable пример" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<hr>
+<h2 id="-где-это-полезно">🚚 Где это полезно?</h2>
+<ul>
+<li>📦 Курьерские службы</li>
+<li>🛠️ Монтажные бригады</li>
+<li>👷 Инженеры и сервисные команды</li>
+<li>🏢 Управление задачами внутри компаний</li>
+</ul>
+<hr>
+<h2 id="-плюсы-решения">💡 Плюсы решения</h2>
+<ul>
+<li>🖱️ Минимум кликов — максимум результата</li>
+<li>📲 Не нужно отдельное приложение — работает в Telegram</li>
+<li>🌍 Масштабируемо и гибко</li>
+<li>👥 Простое подключение новых сотрудников</li>
+</ul>
+<hr>
+<h2 id="-размещение-247">🖥️ Размещение 24/7</h2>
+<p>Бот развёрнут на сервере:</p>
+<ol>
+<li>🌐 Аренда VPS (например, Timeweb Cloud)</li>
+<li>🐍 Установка Python, Git, pip</li>
+<li>📂 Клонирование репозитория с кодом</li>
+<li>⚙️ Настройка <code>.env</code> файла с ключами</li>
+<li>▶️ Запуск: <code>python3 main.py</code></li>
+<li>📟 Используется <code>tmux</code> — бот работает даже при закрытом терминале</li>
+</ol>
+<hr>
+<h2 id="-хочешь-такого-бота-себе">📩 Хочешь такого бота себе?</h2>
+<p>Напиши — и мы вместе автоматизируем задачи в твоей команде!</p>
+<p><strong>Контакты для связи:</strong></p>
+<ul>
+<li>Telegram: <a href="https://t.me/adjabkhanyan" target="_blank" rel="noopener">@adjabkhanian</a></li>
+<li>Email: <a href="mailto:adjabkhanian@gmail.com">adjabkhanian@gmail.com</a></li>
+</ul>
+<hr>
+<blockquote>
+<p>⚡ Автоматизируй задачи. Освободи время. Расти быстрее.</p></blockquote>
+
+    </div>
+  </article>
+
+    </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by text-center">
+    © 2025 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by text-center">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+
+</footer>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
