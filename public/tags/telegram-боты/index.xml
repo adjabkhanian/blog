@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Telegram-Боты | Adjabkhanian</title>
+    <link>http://localhost:1313/tags/telegram-%D0%B1%D0%BE%D1%82%D1%8B/</link>
+      <atom:link href="http://localhost:1313/tags/telegram-%D0%B1%D0%BE%D1%82%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+    <description>Telegram-Боты</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Telegram-Боты</title>
+      <link>http://localhost:1313/tags/telegram-%D0%B1%D0%BE%D1%82%D1%8B/</link>
+    </image>
+    
+    <item>
+      <title>UBORKA Bot — Автоматизация управления уборкой</title>
+      <link>http://localhost:1313/project/tgbotuborka/uborka-bot/</link>
+      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/tgbotuborka/uborka-bot/</guid>
+      <description>&lt;h2 id=&#34;о-проекте&#34;&gt;О проекте&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;UBORKA Bot&lt;/strong&gt; — это проект, направленный на автоматизацию распределения задач по уборке в коллективе. С помощью Telegram-бота пользователи получают напоминания, указывают выполнение задач и следят за порядком в группе.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-особенности&#34;&gt;📋 &lt;strong&gt;Особенности&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Автоматизация задач:&lt;/strong&gt; Распределение уборки между группами в строго заданное время.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Интерактивность:&lt;/strong&gt; Пользователи подтверждают выполнение уборки через Telegram.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Гибкость:&lt;/strong&gt; Смены групп настраиваются автоматически.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Планировщик задач:&lt;/strong&gt; Используется библиотека &lt;code&gt;APScheduler&lt;/code&gt; для регулярных напоминаний.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-технологии&#34;&gt;📦 &lt;strong&gt;Технологии&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Язык программирования:&lt;/strong&gt; Python&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Telegram API:&lt;/strong&gt; Работа с ботами через библиотеку &lt;code&gt;aiogram&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Планировщик:&lt;/strong&gt; &lt;code&gt;APScheduler&lt;/code&gt; для запуска задач&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Хостинг:&lt;/strong&gt; Railway&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-ключевые-функции&#34;&gt;🛠️ &lt;strong&gt;Ключевые функции&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4 id=&#34;1-рассылка-напоминаний&#34;&gt;1. &lt;strong&gt;Рассылка напоминаний&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Каждый день бот отправляет уведомления с указанием группы, которая должна убрать компьютеры.&lt;/p&gt;
+&lt;h4 id=&#34;2-интерактивная-обратная-связь&#34;&gt;2. &lt;strong&gt;Интерактивная обратная связь&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;После выполнения уборки участники могут нажать кнопку &amp;ldquo;✅ Убрано&amp;rdquo;, чтобы зафиксировать результат.&lt;/p&gt;
+&lt;h4 id=&#34;3-отчётность&#34;&gt;3. &lt;strong&gt;Отчётность&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Бот сохраняет информацию о том, кто выполнил задание, добавляя имя пользователя в сообщение.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-результаты&#34;&gt;🎯 &lt;strong&gt;Результаты&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Повышение дисциплины:&lt;/strong&gt; Чёткое распределение обязанностей.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Экономия времени:&lt;/strong&gt; Нет необходимости вручную напоминать о задачах.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Простота использования:&lt;/strong&gt; Пользователи взаимодействуют через удобный интерфейс Telegram.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-этапы-разработки&#34;&gt;📅 &lt;strong&gt;Этапы разработки&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Создание логики задач&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Разработка бота с использованием &lt;code&gt;aiogram&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Интеграция планировщика задач&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Деплой на Railway&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Тестирование и запуск&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-скриншоты-проекта&#34;&gt;📸 &lt;strong&gt;Скриншоты проекта&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;images/projects/uborka-bot2.jpg&#34; alt=&#34;Уведомление об уборке&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;em&gt;Уведомление об уборке с возможностью отметить выполнение задачи.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;images/uborka-bot2.png&#34; alt=&#34;Telegram бот&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;em&gt;Интерфейс Telegram-бота для подтверждения уборки.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-ссылки&#34;&gt;🌐 &lt;strong&gt;Ссылки&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/your-username/uborka-bot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub репозиторий проекта&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://t.me/uborka_bot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Тестовый бот в Telegram&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-заключение&#34;&gt;💡 &lt;strong&gt;Заключение&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Проект &lt;strong&gt;UBORKA Bot&lt;/strong&gt; показал, как можно эффективно автоматизировать простые задачи. Это решение может быть адаптировано для других целей, таких как управление мероприятиями, задачами по дежурству и т.д.&lt;/p&gt;
+&lt;p&gt;Если у вас есть идеи, которые требуют автоматизации, я готов реализовать их в виде удобного Telegram-бота!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-связаться-со-мной&#34;&gt;📩 &lt;strong&gt;Связаться со мной&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Email: &lt;a href=&#34;mailto:adjabkhanian@gmail.com&#34;&gt;adjabkhanian@gmail.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Telegram: &lt;a href=&#34;https://t.me/adjabkhanyan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@adjabkhanyan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;📂 Для интеграции этот файл сохраните как &lt;code&gt;uborka-bot.md&lt;/code&gt; в папку вашего Hugo-сайта, например, &lt;code&gt;content/projects/&lt;/code&gt;. Также добавьте изображения в папку &lt;code&gt;/images/projects/&lt;/code&gt;. Если нужны примеры оформления для Hugo, скажите!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
