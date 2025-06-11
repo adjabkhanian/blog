@@ -76,7 +76,6 @@ image:
 ### 🌐 **Ссылки**
 
 - [GitHub репозиторий проекта](https://github.com/your-username/uborka-bot)
-- [Тестовый бот в Telegram](https://t.me/uborka_bot)
 
 ---
 
