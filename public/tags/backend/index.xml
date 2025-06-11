@@ -14,9 +14,9 @@
     
     <item>
       <title>ZarplataBot — Telegram-бот для учёта смен, бара и отчётов</title>
-      <link>http://localhost:1313/project/zarplatabot/zarplatabot/</link>
+      <link>http://localhost:1313/project/zarplatabot/</link>
       <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/zarplatabot/zarplatabot/</guid>
+      <guid>http://localhost:1313/project/zarplatabot/</guid>
       <description>&lt;h2 id=&#34;-о-проекте&#34;&gt;🔍 О проекте&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;ZarplataBot&lt;/strong&gt; — это Telegram-бот, созданный для автоматизации финансового учёта в небольших командах, таких как баристы, сотрудники смен, обслуживающий персонал и администраторы. Он заменяет ручной ввод в таблицы и помогает отслеживать:&lt;/p&gt;
 &lt;ul&gt;

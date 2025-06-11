@@ -14,9 +14,9 @@
     
     <item>
       <title>UBORKA Bot — Автоматизация управления уборкой</title>
-      <link>http://localhost:1313/project/tgbotuborka/uborka-bot/</link>
+      <link>http://localhost:1313/project/uborkabot/</link>
       <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/tgbotuborka/uborka-bot/</guid>
+      <guid>http://localhost:1313/project/uborkabot/</guid>
       <description>&lt;h2 id=&#34;о-проекте&#34;&gt;О проекте&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;UBORKA Bot&lt;/strong&gt; — это проект, направленный на автоматизацию распределения задач по уборке в коллективе. С помощью Telegram-бота пользователи получают напоминания, указывают выполнение задач и следят за порядком в группе.&lt;/p&gt;
 &lt;hr&gt;
@@ -79,7 +79,14 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;images/projects/uborka-bot2.jpg&#34; alt=&#34;Уведомление об уборке&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Уведомление об уборке&#34; srcset=&#34;
+               /project/uborkabot/uborka1_hu_f651a4bfb9c309c7.webp 400w,
+               /project/uborkabot/uborka1_hu_f0ad1c3b6be6b013.webp 760w,
+               /project/uborkabot/uborka1_hu_41d9eca9e422dad4.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/uborkabot/uborka1_hu_f651a4bfb9c309c7.webp&#34;
+               width=&#34;622&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 &lt;em&gt;Уведомление об уборке с возможностью отметить выполнение задачи.&lt;/em&gt;&lt;/p&gt;
@@ -101,7 +108,14 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;images/uborka-bot2.png&#34; alt=&#34;Telegram бот&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Telegram бот&#34; srcset=&#34;
+               /project/uborkabot/uborka2_hu_bf39764bd705d304.webp 400w,
+               /project/uborkabot/uborka2_hu_5786b0a2ef9a20e3.webp 760w,
+               /project/uborkabot/uborka2_hu_1655b2a1c70083.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/uborkabot/uborka2_hu_bf39764bd705d304.webp&#34;
+               width=&#34;744&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 &lt;em&gt;Интерфейс Telegram-бота для подтверждения уборки.&lt;/em&gt;&lt;/p&gt;
@@ -127,9 +141,9 @@
     
     <item>
       <title>ZarplataBot — Telegram-бот для учёта смен, бара и отчётов</title>
-      <link>http://localhost:1313/project/zarplatabot/zarplatabot/</link>
+      <link>http://localhost:1313/project/zarplatabot/</link>
       <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/zarplatabot/zarplatabot/</guid>
+      <guid>http://localhost:1313/project/zarplatabot/</guid>
       <description>&lt;h2 id=&#34;-о-проекте&#34;&gt;🔍 О проекте&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;ZarplataBot&lt;/strong&gt; — это Telegram-бот, созданный для автоматизации финансового учёта в небольших командах, таких как баристы, сотрудники смен, обслуживающий персонал и администраторы. Он заменяет ручной ввод в таблицы и помогает отслеживать:&lt;/p&gt;
 &lt;ul&gt;
@@ -251,9 +265,9 @@
     
     <item>
       <title>🚀 Telegram-бот для управления задачами с Airtable</title>
-      <link>http://localhost:1313/project/tgbot/task_bot_case-07.03.03/</link>
+      <link>http://localhost:1313/project/tgbot/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/tgbot/task_bot_case-07.03.03/</guid>
+      <guid>http://localhost:1313/project/tgbot/</guid>
       <description>&lt;h1 id=&#34;-telegram-бот-для-задач-на-выезде&#34;&gt;📱 Telegram-бот для задач на выезде&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Проект:&lt;/strong&gt; умный бот в Telegram, который помогает командам на выезде эффективно выполнять задачи и отчитываться за них в пару кликов.&lt;/p&gt;
 &lt;hr&gt;

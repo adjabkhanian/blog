@@ -14,9 +14,9 @@
     
     <item>
       <title>UBORKA Bot — Автоматизация управления уборкой</title>
-      <link>http://localhost:1313/project/tgbotuborka/uborka-bot/</link>
+      <link>http://localhost:1313/project/uborkabot/</link>
       <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/tgbotuborka/uborka-bot/</guid>
+      <guid>http://localhost:1313/project/uborkabot/</guid>
       <description>&lt;h2 id=&#34;о-проекте&#34;&gt;О проекте&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;UBORKA Bot&lt;/strong&gt; — это проект, направленный на автоматизацию распределения задач по уборке в коллективе. С помощью Telegram-бота пользователи получают напоминания, указывают выполнение задач и следят за порядком в группе.&lt;/p&gt;
 &lt;hr&gt;
@@ -79,7 +79,14 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;images/projects/uborka-bot2.jpg&#34; alt=&#34;Уведомление об уборке&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Уведомление об уборке&#34; srcset=&#34;
+               /project/uborkabot/uborka1_hu_f651a4bfb9c309c7.webp 400w,
+               /project/uborkabot/uborka1_hu_f0ad1c3b6be6b013.webp 760w,
+               /project/uborkabot/uborka1_hu_41d9eca9e422dad4.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/uborkabot/uborka1_hu_f651a4bfb9c309c7.webp&#34;
+               width=&#34;622&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 &lt;em&gt;Уведомление об уборке с возможностью отметить выполнение задачи.&lt;/em&gt;&lt;/p&gt;
@@ -101,7 +108,14 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;images/uborka-bot2.png&#34; alt=&#34;Telegram бот&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Telegram бот&#34; srcset=&#34;
+               /project/uborkabot/uborka2_hu_bf39764bd705d304.webp 400w,
+               /project/uborkabot/uborka2_hu_5786b0a2ef9a20e3.webp 760w,
+               /project/uborkabot/uborka2_hu_1655b2a1c70083.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/uborkabot/uborka2_hu_bf39764bd705d304.webp&#34;
+               width=&#34;744&#34;
+               height=&#34;406&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
 &lt;em&gt;Интерфейс Telegram-бота для подтверждения уборки.&lt;/em&gt;&lt;/p&gt;
@@ -122,7 +136,6 @@
 &lt;li&gt;Telegram: &lt;a href=&#34;https://t.me/adjabkhanyan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@adjabkhanyan&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;p&gt;📂 Для интеграции этот файл сохраните как &lt;code&gt;uborka-bot.md&lt;/code&gt; в папку вашего Hugo-сайта, например, &lt;code&gt;content/projects/&lt;/code&gt;. Также добавьте изображения в папку &lt;code&gt;/images/projects/&lt;/code&gt;. Если нужны примеры оформления для Hugo, скажите!&lt;/p&gt;
 </description>
     </item>
     
