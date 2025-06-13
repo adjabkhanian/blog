@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Второй Мозг | Russian</title>
+    <link>http://localhost:1313/ru/tags/%D0%B2%D1%82%D0%BE%D1%80%D0%BE%D0%B8-%D0%BC%D0%BE%D0%B7%D0%B3/</link>
+      <atom:link href="http://localhost:1313/ru/tags/%D0%B2%D1%82%D0%BE%D1%80%D0%BE%D0%B8-%D0%BC%D0%BE%D0%B7%D0%B3/index.xml" rel="self" type="application/rss+xml" />
+    <description>Второй Мозг</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ru-ru</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Второй Мозг</title>
+      <link>http://localhost:1313/ru/tags/%D0%B2%D1%82%D0%BE%D1%80%D0%BE%D0%B8-%D0%BC%D0%BE%D0%B7%D0%B3/</link>
+    </image>
+    
+    <item>
+      <title>🧠 Отточите мышление с помощью второго мозга</title>
+      <link>http://localhost:1313/ru/post/second-brain/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ru/post/second-brain/</guid>
+      <description>&lt;p&gt;Создайте личную базу знаний и делитесь своими знаниями с коллегами.&lt;/p&gt;
+&lt;p&gt;Веб-фреймворк Hugo Blox предоставляет одну из самых гибких возможностей для ведения заметок.&lt;/p&gt;
+&lt;p&gt;Создайте мощную базу знаний, работающую на основе локальной папки с простыми Markdown-файлами.&lt;/p&gt;
+&lt;p&gt;Используйте её как второй мозг — публикуйте знания на сайте для всех или храните в приватном репозитории на GitHub с защищённым паролем сайтом только для себя.&lt;/p&gt;
+&lt;h2 id=&#34;ментальные-карты-mindmaps&#34;&gt;Ментальные карты (Mindmaps)&lt;/h2&gt;
+&lt;p&gt;Hugo Blox поддерживает расширение Markdown для ментальных карт.&lt;/p&gt;
+&lt;p&gt;Этот открытый формат позволяет редактировать карты в других популярных инструментах, например, Obsidian.&lt;/p&gt;
+&lt;p&gt;Просто вставьте блок кода Markdown с меткой &lt;code&gt;markmap&lt;/code&gt; и при необходимости задайте высоту карты, как в примере ниже.&lt;/p&gt;
+&lt;p&gt;Ментальные карты создаются простым списком в Markdown внутри блока &lt;code&gt;markmap&lt;/code&gt;, с отступами для создания вложенных уровней:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;
+&lt;code&gt;
+```markmap {height=&#34;200px&#34;}
+- Hugo Modules
+  - Hugo Blox
+  - blox-plugins-netlify
+  - blox-plugins-netlify-cms
+  - blox-plugins-reveal
+```
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;отобразится как&lt;/p&gt;
+&lt;div class=&#34;markmap&#34; style=&#34;height: 200px;&#34;&gt;
+
+&lt;pre&gt;- Hugo Modules
+  - Hugo Blox
+  - blox-plugins-netlify
+  - blox-plugins-netlify-cms
+  - blox-plugins-reveal&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;А вот более продвинутая карта с форматированием, блоками кода и математикой:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;
+&lt;code&gt;
+```markmap
+- Mindmaps
+  - Ссылки
+    - [Документация Hugo Blox](https://docs.hugoblox.com/)
+    - [Сообщество Discord](https://discord.gg/z8wNYzb)
+    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
+  - Особенности
+    - Форматирование Markdown
+    - **жирный** ~~зачёркнутый~~ *курсив*
+    - многострочный
+      текст
+    - `встроенный код`
+    -
+      ```js
+      console.log(&#39;привет&#39;);
+      console.log(&#39;блок кода&#39;);
+      ```
+    - Математика: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+```
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;отобразится как&lt;/p&gt;
+&lt;div class=&#34;markmap&#34; style=&#34;height: 500px;&#34;&gt;
+
+&lt;pre&gt;- Mindmaps
+  - Ссылки
+    - [Документация Hugo Blox](https://docs.hugoblox.com/)
+    - [Сообщество Discord](https://discord.gg/z8wNYzb)
+    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
+  - Особенности
+    - Форматирование Markdown
+    - **жирный** ~~зачёркнутый~~ *курсив*
+    - многострочный
+      текст
+    - `встроенный код`
+    -
+      ```js
+      console.log(&#39;привет&#39;);
+      console.log(&#39;блок кода&#39;);
+      ```
+    - Математика: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;выделение-текста&#34;&gt;Выделение текста&lt;/h2&gt;
+&lt;p&gt;&lt;mark&gt;Выделяйте&lt;/mark&gt; важный текст с помощью тега &lt;code&gt;mark&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;mark&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Выделенный текст&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;mark&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;вызовы-внимания-callouts&#34;&gt;Вызовы внимания (Callouts)&lt;/h2&gt;
+&lt;p&gt;Используйте &lt;a href=&#34;https://docs.hugoblox.com/reference/markdown/#callouts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;callouts&lt;/a&gt; (также известные как &lt;em&gt;врезки&lt;/em&gt;, &lt;em&gt;подсказки&lt;/em&gt; или &lt;em&gt;предупреждения&lt;/em&gt;), чтобы привлечь внимание к заметкам, советам и предупреждениям.&lt;/p&gt;
+&lt;p&gt;Если обернуть абзац в &lt;code&gt;{{% callout note %}} ... {{% /callout %}}&lt;/code&gt;, он отобразится как врезка:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% callout note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Markdown-врезка полезна для отображения заметок, подсказок или определений для ваших читателей.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% /callout %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;отобразится как&lt;/p&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Markdown-врезка полезна для отображения заметок, подсказок или определений для ваших читателей.&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;Или используйте тип &lt;code&gt;warning&lt;/code&gt;, чтобы читатели не пропустили важные детали:&lt;/p&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-yellow-100 dark:bg-yellow-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-red-400&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0zM12 15.75h.007v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Markdown-врезка полезна для отображения заметок, подсказок или определений для ваших читателей.&lt;/span&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;вам-понравилась-эта-страница-поделитесь-ею-&#34;&gt;Вам понравилась эта страница? Поделитесь ею 🙌&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

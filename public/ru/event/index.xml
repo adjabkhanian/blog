@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Недавние и предстоящие доклады | Russian</title>
+    <link>http://localhost:1313/ru/event/</link>
+      <atom:link href="http://localhost:1313/ru/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Недавние и предстоящие доклады</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ru-ru</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Недавние и предстоящие доклады</title>
+      <link>http://localhost:1313/ru/event/</link>
+    </image>
+    
+    <item>
+      <title>Пример доклада</title>
+      <link>http://localhost:1313/ru/event/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ru/event/example/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Нажмите кнопку &lt;strong&gt;Slides&lt;/strong&gt; выше, чтобы посмотреть встроенную функцию слайдов.&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;Слайды можно добавить несколькими способами:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Создать&lt;/strong&gt; слайды с помощью функции &lt;a href=&#34;https://docs.hugoblox.com/reference/content-types/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; Hugo Blox Builder и связать через параметр &lt;code&gt;slides&lt;/code&gt; в front matter файла доклада&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Загрузить&lt;/strong&gt; готовую презентацию в папку &lt;code&gt;static/&lt;/code&gt; и связать через параметр &lt;code&gt;url_slides&lt;/code&gt; в front matter файла доклада&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Встроить&lt;/strong&gt; слайды (например, Google Slides) или видео с презентацией на этой странице с помощью &lt;a href=&#34;https://docs.hugoblox.com/reference/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;шорткодов&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Дополнительные детали мероприятия, включая &lt;a href=&#34;https://docs.hugoblox.com/reference/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;элементы страницы&lt;/a&gt;, такие как галереи изображений, можно добавить в тело этой страницы.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

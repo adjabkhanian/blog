@@ -13,13 +13,13 @@
   translation: На верх
 
 - id: home
-  translation: Home
+  translation: Главная
 
 - id: close
-  translation: Close
+  translation: Закрыть
 
 - id: languages
-  translation: Languages
+  translation: Языки
 
 # General
 
@@ -39,7 +39,7 @@
   translation: 'Схема № %d:'
 
 - id: edit_page
-  translation: Edit this page
+  translation: Редактировать страницу
 
 # Themes
 
@@ -47,10 +47,10 @@
   translation: Display preferences
 
 - id: theme_light
-  translation: Light
+  translation: Светлая тема
 
 - id: theme_dark
-  translation: Dark
+  translation: Темная тема
 
 - id: theme_auto
   translation: Automatic
@@ -91,7 +91,7 @@
   translation: Копия
 
 - id: btn_copied
-  translation: Copied
+  translation: Скопирован
 
 - id: btn_download
   translation: Скачать
@@ -100,6 +100,9 @@
 
 - id: interests
   translation: Интересы
+
+- id: experience
+  translation: Опыт
 
 - id: education
   translation: Образование
@@ -218,10 +221,10 @@
   translation: Проекты
 
 - id: slides
-  translation: Slides
+  translation: Слайды
 
 - id: authors
-  translation: Authors
+  translation: Авторы
 
 # Search
 
@@ -263,3 +266,15 @@
 
 - id: published_with
   translation: Published with {hugoblox} — the free, {repo_link}open source{/repo_link} website builder that empowers creators.
+
+- id: Awards
+  translation: достижения
+
+- id: accomplishments
+  translation: Достижения
+
+- id: languages
+  translation: Язык
+
+- id: featured_publications
+  translation: публикации

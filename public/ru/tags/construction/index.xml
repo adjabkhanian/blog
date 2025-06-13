@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Construction | Russian</title>
+    <link>http://localhost:1313/ru/tags/construction/</link>
+      <atom:link href="http://localhost:1313/ru/tags/construction/index.xml" rel="self" type="application/rss+xml" />
+    <description>Construction</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ru-ru</language><lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Construction</title>
+      <link>http://localhost:1313/ru/tags/construction/</link>
+    </image>
+    
+    <item>
+      <title>Website for Selling and Delivering Bulk Construction Materials</title>
+      <link>http://localhost:1313/ru/project/firstprojecttilda/</link>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ru/project/firstprojecttilda/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;A clean, mobile-friendly landing page for a construction supplier offering fast delivery of bulk materials like sand, gravel, and more.&lt;/p&gt;
+&lt;hr&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
