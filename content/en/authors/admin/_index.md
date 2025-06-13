@@ -39,7 +39,7 @@ profiles:
     url: https://www.instagram.com/adjabkhanian/
   - icon: brands/github
     url: https://github.com/adjabkhanian
-  - icon: "custom/bhh.svg"
+  - icon: brands/behance
     url: https://www.behance.net/adjabkhanian
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=AzcnTz0AAAAJ&hl=ru
