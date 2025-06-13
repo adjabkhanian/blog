@@ -7,7 +7,7 @@
     <description>Hugo</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ru-ru</language><lastBuildDate>Sun, 23 Mar 2025 13:16:48 +0300</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:1313/media/icon_hu_21c1644a7b6669.png</url>
       <title>Hugo</title>
       <link>http://localhost:1313/ru/tags/hugo/</link>
     </image>
@@ -81,7 +81,7 @@ Let’s keep the momentum going 🚀&lt;/p&gt;&lt;/blockquote&gt;
 
 
 
-&lt;div id=&#34;chart-685127349&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-562184793&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -99,7 +99,7 @@ Let’s keep the momentum going 🚀&lt;/p&gt;&lt;/blockquote&gt;
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-685127349&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-562184793&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
