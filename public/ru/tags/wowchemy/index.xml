@@ -17,7 +17,7 @@
       <link>http://localhost:1313/ru/project/pandas/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ru/project/pandas/</guid>
-      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Гибкая и мощная библиотека для анализа и обработки данных на Python, предоставляющая структуры данных с метками.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@
       <link>http://localhost:1313/ru/project/pytorch/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ru/project/pytorch/</guid>
-      <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
+      <description>&lt;p&gt;PyTorch — это пакет для Python, который обеспечивает вычисления с тензорами (как NumPy) с мощным ускорением на GPU.&lt;/p&gt;</description>
     </item>
     
   </channel>

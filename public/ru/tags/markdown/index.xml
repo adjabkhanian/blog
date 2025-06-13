@@ -13,72 +13,65 @@
     </image>
     
     <item>
-      <title>How to Format a Report: Best Practices and Tips</title>
+      <title>Как оформить отчет: лучшие практики и советы</title>
       <link>http://localhost:1313/ru/post/report/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ru/post/report/</guid>
-      <description>&lt;h1 id=&#34;-how-to-format-a-report-best-practices-and-tips&#34;&gt;📑 How to Format a Report: Best Practices and Tips&lt;/h1&gt;
-&lt;p&gt;A report is not just a document; it is an important tool for transmitting information. Proper formatting helps make it clear, structured, and professional. Let&amp;rsquo;s go over the key principles for preparing a quality report. 📋&lt;/p&gt;
-&lt;h2 id=&#34;-key-principles-for-report-formatting&#34;&gt;📌 Key Principles for Report Formatting:&lt;/h2&gt;
-&lt;h3 id=&#34;1-clear-structure&#34;&gt;1. Clear Structure&lt;/h3&gt;
-&lt;p&gt;Divide the report into logical sections: introduction, main body, analysis, and conclusions.&lt;/p&gt;
-&lt;p&gt;Example structure:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# Project Report
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;## Introduction
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Objective of the work
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Main tasks
+      <description>&lt;h1 id=&#34;-как-оформить-отчет-лучшие-практики-и-советы&#34;&gt;📑 Как оформить отчет: лучшие практики и советы&lt;/h1&gt;
+&lt;p&gt;Отчет — это не просто документ, это важный инструмент передачи информации. Правильное оформление помогает сделать его понятным, структурированным и профессиональным. Давайте рассмотрим ключевые принципы подготовки качественного отчета. 📋&lt;/p&gt;
+&lt;h2 id=&#34;-ключевые-принципы-оформления-отчета&#34;&gt;📌 Ключевые принципы оформления отчета:&lt;/h2&gt;
+&lt;h3 id=&#34;1-четкая-структура&#34;&gt;1. Четкая структура&lt;/h3&gt;
+&lt;p&gt;Разделите отчет на логические части: введение, основная часть, анализ и выводы.&lt;/p&gt;
+&lt;p&gt;Пример структуры:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# Отчет по проекту
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;## Введение
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Цель работы
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Основные задачи
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;## Main Body
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### Data Analysis
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Process and method description
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Technologies used
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;## Основная часть
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### Анализ данных
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Описание процесса и методов
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Используемые технологии
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;## Conclusion
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Summary and recommendations
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### 2. Visual presentation
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Use &lt;span class=&#34;gs&#34;&gt;**bold text**&lt;/span&gt; and &lt;span class=&#34;ge&#34;&gt;*italics*&lt;/span&gt; to highlight important points.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Include &lt;span class=&#34;gs&#34;&gt;**tables**&lt;/span&gt; to present data easily.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Add &lt;span class=&#34;gs&#34;&gt;**graphs and charts**&lt;/span&gt; for clarity.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Table example:
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;md
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Stage | Activities | Time |
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;|------|---------|-------|
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 1 | Data collection | 3 days |
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 2 | Data analysis | 2 days |
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 3 | Final conclusion | 1 day |
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### 3. Minimalism and readability
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Use short paragraphs.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Leave spaces between blocks.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Avoid complex wording and overloaded phrases.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### 4. Check for errors
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;Before sending the report:
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✅ Double-check the text for grammatical errors.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✅ Make sure the data is logically structured.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✅ Use spell check tools (Grammarly, LanguageTool).
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### 5. Heading Design
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;Use headings of different levels to clearly navigate the report.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;md
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# Main Heading (H1)
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;## Subsection (H2)
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### Nested Subsection (H3)
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;## 🔥 Additional Tips
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;✅ Add a table of contents at the beginning of long reports.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✅ Use readable fonts (Arial, Roboto, Open Sans).
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✅ Include links to additional materials and sources.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;✅ If the report contains code, format it as blocks:
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;md
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;print(&amp;#34;Sample code in the report&amp;#34;)
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;## 📌 Summary
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;Following these tips, you will be able to prepare a report that is clear, informative and professionally designed. A good report is the key to a successful presentation of your work! 📝
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;## Заключение
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Итоги и рекомендации
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;2-визуальное-оформление&#34;&gt;2. Визуальное оформление&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Используйте &lt;strong&gt;жирный текст&lt;/strong&gt; и &lt;em&gt;курсив&lt;/em&gt; для выделения важных моментов.&lt;/li&gt;
+&lt;li&gt;Включайте &lt;strong&gt;таблицы&lt;/strong&gt; для удобного представления данных.&lt;/li&gt;
+&lt;li&gt;Добавляйте &lt;strong&gt;графики и диаграммы&lt;/strong&gt; для наглядности.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Пример таблицы:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Этап | Действия       | Время  |
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;|------|----------------|--------|
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 1    | Сбор данных    | 3 дня  |
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 2    | Анализ данных  | 2 дня  |
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| 3    | Итоговое заключение | 1 день |
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;3-минимализм-и-читаемость&#34;&gt;3. Минимализм и читаемость&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Используйте короткие абзацы.&lt;/li&gt;
+&lt;li&gt;Оставляйте отступы между блоками.&lt;/li&gt;
+&lt;li&gt;Избегайте сложных и перегруженных выражений.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-проверка-ошибок&#34;&gt;4. Проверка ошибок&lt;/h3&gt;
+&lt;p&gt;Перед отправкой отчета:&lt;br&gt;
+✅ Проверьте текст на грамматические ошибки.&lt;br&gt;
+✅ Убедитесь, что данные логично структурированы.&lt;br&gt;
+✅ Используйте инструменты проверки правописания (Grammarly, LanguageTool).&lt;/p&gt;
+&lt;h3 id=&#34;5-оформление-заголовков&#34;&gt;5. Оформление заголовков&lt;/h3&gt;
+&lt;p&gt;Используйте заголовки разных уровней для удобной навигации по отчету.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# Главный заголовок (H1)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;## Подраздел (H2)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### Вложенный подраздел (H3)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;-дополнительные-советы&#34;&gt;🔥 Дополнительные советы&lt;/h2&gt;
+&lt;p&gt;✅ Добавляйте оглавление в начале длинных отчетов.&lt;br&gt;
+✅ Используйте читаемые шрифты (Arial, Roboto, Open Sans).&lt;br&gt;
+✅ Включайте ссылки на дополнительные материалы и источники.&lt;br&gt;
+✅ Если в отчете есть код, оформляйте его блоками:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Пример кода в отчете&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;-итог&#34;&gt;📌 Итог&lt;/h2&gt;
+&lt;p&gt;Следуя этим советам, вы сможете подготовить отчет, который будет ясным, информативным и профессионально оформленным. Хороший отчет — залог успешной презентации вашей работы! 📝&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -262,7 +255,7 @@ from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
       <link>http://localhost:1313/ru/project/pandas/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ru/project/pandas/</guid>
-      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Гибкая и мощная библиотека для анализа и обработки данных на Python, предоставляющая структуры данных с метками.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -270,23 +263,23 @@ from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
       <link>http://localhost:1313/ru/project/pytorch/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ru/project/pytorch/</guid>
-      <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
+      <description>&lt;p&gt;PyTorch — это пакет для Python, который обеспечивает вычисления с тензорами (как NumPy) с мощным ускорением на GPU.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>🧠 Sharpen your thinking with a second brain</title>
+      <title>🧠 Отточите мышление с помощью второго мозга</title>
       <link>http://localhost:1313/ru/post/second-brain/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ru/post/second-brain/</guid>
-      <description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
-&lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
-&lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
-&lt;p&gt;Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or via a private GitHub repository and password-protected site just for yourself.&lt;/p&gt;
-&lt;h2 id=&#34;mindmaps&#34;&gt;Mindmaps&lt;/h2&gt;
-&lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
-&lt;p&gt;With this open format, can even edit your mindmaps in other popular tools such as Obsidian.&lt;/p&gt;
-&lt;p&gt;Simply insert a Markdown code block labelled as &lt;code&gt;markmap&lt;/code&gt; and optionally set the height of the mindmap as shown in the example below.&lt;/p&gt;
-&lt;p&gt;Mindmaps can be created by simply writing the items as a Markdown list within the &lt;code&gt;markmap&lt;/code&gt; code block, indenting each item to create as many sub-levels as you need:&lt;/p&gt;
+      <description>&lt;p&gt;Создайте личную базу знаний и делитесь своими знаниями с коллегами.&lt;/p&gt;
+&lt;p&gt;Веб-фреймворк Hugo Blox предоставляет одну из самых гибких возможностей для ведения заметок.&lt;/p&gt;
+&lt;p&gt;Создайте мощную базу знаний, работающую на основе локальной папки с простыми Markdown-файлами.&lt;/p&gt;
+&lt;p&gt;Используйте её как второй мозг — публикуйте знания на сайте для всех или храните в приватном репозитории на GitHub с защищённым паролем сайтом только для себя.&lt;/p&gt;
+&lt;h2 id=&#34;ментальные-карты-mindmaps&#34;&gt;Ментальные карты (Mindmaps)&lt;/h2&gt;
+&lt;p&gt;Hugo Blox поддерживает расширение Markdown для ментальных карт.&lt;/p&gt;
+&lt;p&gt;Этот открытый формат позволяет редактировать карты в других популярных инструментах, например, Obsidian.&lt;/p&gt;
+&lt;p&gt;Просто вставьте блок кода Markdown с меткой &lt;code&gt;markmap&lt;/code&gt; и при необходимости задайте высоту карты, как в примере ниже.&lt;/p&gt;
+&lt;p&gt;Ментальные карты создаются простым списком в Markdown внутри блока &lt;code&gt;markmap&lt;/code&gt;, с отступами для создания вложенных уровней:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;
 &lt;code&gt;
@@ -300,7 +293,7 @@ from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
 &lt;/code&gt;
 &lt;/pre&gt;
 &lt;/div&gt;
-&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;отобразится как&lt;/p&gt;
 &lt;div class=&#34;markmap&#34; style=&#34;height: 200px;&#34;&gt;
 
 &lt;pre&gt;- Hugo Modules
@@ -310,78 +303,78 @@ from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
   - blox-plugins-reveal&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Anh here&amp;rsquo;s a more advanced mindmap with formatting, code blocks, and math:&lt;/p&gt;
+&lt;p&gt;А вот более продвинутая карта с форматированием, блоками кода и математикой:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;
 &lt;code&gt;
 ```markmap
 - Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
+  - Ссылки
+    - [Документация Hugo Blox](https://docs.hugoblox.com/)
+    - [Сообщество Discord](https://discord.gg/z8wNYzb)
     - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
+  - Особенности
+    - Форматирование Markdown
+    - **жирный** ~~зачёркнутый~~ *курсив*
+    - многострочный
+      текст
+    - `встроенный код`
     -
       ```js
-      console.log(&#39;hello&#39;);
-      console.log(&#39;code block&#39;);
+      console.log(&#39;привет&#39;);
+      console.log(&#39;блок кода&#39;);
       ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+    - Математика: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
 ```
 &lt;/code&gt;
 &lt;/pre&gt;
 &lt;/div&gt;
-&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;отобразится как&lt;/p&gt;
 &lt;div class=&#34;markmap&#34; style=&#34;height: 500px;&#34;&gt;
 
 &lt;pre&gt;- Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
+  - Ссылки
+    - [Документация Hugo Blox](https://docs.hugoblox.com/)
+    - [Сообщество Discord](https://discord.gg/z8wNYzb)
     - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
+  - Особенности
+    - Форматирование Markdown
+    - **жирный** ~~зачёркнутый~~ *курсив*
+    - многострочный
+      текст
+    - `встроенный код`
     -
       ```js
-      console.log(&#39;hello&#39;);
-      console.log(&#39;code block&#39;);
+      console.log(&#39;привет&#39;);
+      console.log(&#39;блок кода&#39;);
       ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$&lt;/pre&gt;
+    - Математика: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&#34;highlighting&#34;&gt;Highlighting&lt;/h2&gt;
-&lt;p&gt;&lt;mark&gt;Highlight&lt;/mark&gt; important text with &lt;code&gt;mark&lt;/code&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;mark&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Highlighted text&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;mark&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;callouts&#34;&gt;Callouts&lt;/h2&gt;
-&lt;p&gt;Use &lt;a href=&#34;https://docs.hugoblox.com/reference/markdown/#callouts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;callouts&lt;/a&gt; (aka &lt;em&gt;asides&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;) to draw attention to notes, tips, and warnings.&lt;/p&gt;
-&lt;p&gt;By wrapping a paragraph in &lt;code&gt;{{% callout note %}} ... {{% /callout %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
+&lt;h2 id=&#34;выделение-текста&#34;&gt;Выделение текста&lt;/h2&gt;
+&lt;p&gt;&lt;mark&gt;Выделяйте&lt;/mark&gt; важный текст с помощью тега &lt;code&gt;mark&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;mark&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Выделенный текст&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;mark&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;вызовы-внимания-callouts&#34;&gt;Вызовы внимания (Callouts)&lt;/h2&gt;
+&lt;p&gt;Используйте &lt;a href=&#34;https://docs.hugoblox.com/reference/markdown/#callouts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;callouts&lt;/a&gt; (также известные как &lt;em&gt;врезки&lt;/em&gt;, &lt;em&gt;подсказки&lt;/em&gt; или &lt;em&gt;предупреждения&lt;/em&gt;), чтобы привлечь внимание к заметкам, советам и предупреждениям.&lt;/p&gt;
+&lt;p&gt;Если обернуть абзац в &lt;code&gt;{{% callout note %}} ... {{% /callout %}}&lt;/code&gt;, он отобразится как врезка:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% callout note %}}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Markdown-врезка полезна для отображения заметок, подсказок или определений для ваших читателей.
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% /callout %}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;отобразится как&lt;/p&gt;
 &lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
 &lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Markdown-врезка полезна для отображения заметок, подсказок или определений для ваших читателей.&lt;/span&gt;
 &lt;/div&gt;
-&lt;p&gt;Or use the &lt;code&gt;warning&lt;/code&gt; callout type so your readers don&amp;rsquo;t miss critical details:&lt;/p&gt;
+&lt;p&gt;Или используйте тип &lt;code&gt;warning&lt;/code&gt;, чтобы читатели не пропустили важные детали:&lt;/p&gt;
 &lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-yellow-100 dark:bg-yellow-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-red-400&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0zM12 15.75h.007v.008H12z&#34;/&gt;&lt;/svg&gt;
 &lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Markdown-врезка полезна для отображения заметок, подсказок или определений для ваших читателей.&lt;/span&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
+&lt;h2 id=&#34;вам-понравилась-эта-страница-поделитесь-ею-&#34;&gt;Вам понравилась эта страница? Поделитесь ею 🙌&lt;/h2&gt;
 </description>
     </item>
     
@@ -400,7 +393,7 @@ from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
 
 
 
-&lt;div id=&#34;chart-214568739&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-685127349&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -418,7 +411,7 @@ from GitHub and Notion to Tilda and Hugo.&lt;/p&gt;
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-214568739&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-685127349&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

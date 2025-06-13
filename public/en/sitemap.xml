@@ -243,44 +243,14 @@
     <loc>http://localhost:1313/tags/construction/</loc>
     <lastmod>2025-04-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru/tags/construction/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tags/construction/"
-                />
   </url><url>
     <loc>http://localhost:1313/tags/landing-page/</loc>
     <lastmod>2025-04-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru/tags/landing-page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tags/landing-page/"
-                />
   </url><url>
     <loc>http://localhost:1313/tags/sales/</loc>
     <lastmod>2025-04-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru/tags/sales/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tags/sales/"
-                />
   </url><url>
     <loc>http://localhost:1313/tags/tilda/</loc>
     <lastmod>2025-04-08T00:00:00+00:00</lastmod>
@@ -299,16 +269,6 @@
     <loc>http://localhost:1313/tags/web-design/</loc>
     <lastmod>2025-04-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru/tags/web-design/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tags/web-design/"
-                />
   </url><url>
     <loc>http://localhost:1313/project/firstprojecttilda/</loc>
     <lastmod>2025-04-08T00:00:00+00:00</lastmod>
@@ -355,16 +315,6 @@
     <loc>http://localhost:1313/tags/format/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru/tags/format/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tags/format/"
-                />
   </url><url>
     <loc>http://localhost:1313/post/report/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
@@ -621,16 +571,6 @@
     <loc>http://localhost:1313/tags/second-brain/</loc>
     <lastmod>2023-10-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru/tags/second-brain/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tags/second-brain/"
-                />
   </url><url>
     <loc>http://localhost:1313/tags/wowchemy/</loc>
     <lastmod>2023-10-26T00:00:00+00:00</lastmod>
@@ -817,16 +757,6 @@
     <loc>http://localhost:1313/tags/large-language-models/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru/tags/large-language-models/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tags/large-language-models/"
-                />
   </url><url>
     <loc>http://localhost:1313/publication_types/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
@@ -887,16 +817,6 @@
     <loc>http://localhost:1313/tags/source-themes/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru/tags/source-themes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tags/source-themes/"
-                />
   </url><url>
     <loc>http://localhost:1313/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
