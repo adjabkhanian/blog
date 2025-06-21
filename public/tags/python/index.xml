@@ -5,12 +5,173 @@
     <link>http://localhost:1313/tags/python/</link>
       <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 21 Jun 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_21c1644a7b6669.png</url>
       <title>Python</title>
       <link>http://localhost:1313/tags/python/</link>
     </image>
+    
+    <item>
+      <title>Telegram Subscription Management Bot</title>
+      <link>http://localhost:1313/project/telegram-subscription-bot/</link>
+      <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/telegram-subscription-bot/</guid>
+      <description>&lt;h3 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h3&gt;
+&lt;p&gt;This Telegram bot was created for my client — an educational club aiming to simplify the subscription and management process.&lt;/p&gt;
+&lt;p&gt;The bot allows users to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Choose subscription periods (1, 3, 6, or 12 months)&lt;/li&gt;
+&lt;li&gt;Submit payment confirmation (screenshot)&lt;/li&gt;
+&lt;li&gt;Receive a link to a private group after payment approval&lt;/li&gt;
+&lt;li&gt;Access personal cabinet with subscription details&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Administrators have handy tools for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Approving or denying payments&lt;/li&gt;
+&lt;li&gt;Viewing subscriber lists and subscription statuses&lt;/li&gt;
+&lt;li&gt;Cancelling subscriptions&lt;/li&gt;
+&lt;li&gt;Broadcasting messages to all subscribers&lt;/li&gt;
+&lt;li&gt;Searching users by username&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;target-audience&#34;&gt;Target Audience&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Educational clubs and courses looking to automate subscription processes&lt;/li&gt;
+&lt;li&gt;Small businesses working with paid access via Telegram&lt;/li&gt;
+&lt;li&gt;Admins on a budget who want a simple and reliable bot&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;technologies-used&#34;&gt;Technologies Used&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Python 3.11+&lt;/strong&gt; — primary programming language&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aiogram&lt;/strong&gt; — asynchronous framework for Telegram bots&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SQLite&lt;/strong&gt; — lightweight built-in database for subscriber storage&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Asynchronous programming&lt;/strong&gt; — efficient request handling without blocking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;key-features&#34;&gt;Key Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;User interaction via friendly keyboards and finite state machine (FSM)&lt;/li&gt;
+&lt;li&gt;Admin panel protected by a list of admins (supports multiple admins)&lt;/li&gt;
+&lt;li&gt;Automatic reminders 2 days before subscription expiration&lt;/li&gt;
+&lt;li&gt;Access control to private group: the bot bans/unbans Telegram users accordingly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;bot-screenshots&#34;&gt;Bot Screenshots&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Main Menu&#34; srcset=&#34;
+               /project/telegram-subscription-bot/bot_menu_hu_2b2079ed8769f832.webp 400w,
+               /project/telegram-subscription-bot/bot_menu_hu_b23b5ef52a6a7619.webp 760w,
+               /project/telegram-subscription-bot/bot_menu_hu_238d1fd1b6cfc556.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/telegram-subscription-bot/bot_menu_hu_2b2079ed8769f832.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;456&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;em&gt;Main menu with action choices&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Subscription&#34; srcset=&#34;
+               /project/telegram-subscription-bot/bot_subscribe_hu_8b869877e4b8fd59.webp 400w,
+               /project/telegram-subscription-bot/bot_subscribe_hu_4bd71d1228ed062a.webp 760w,
+               /project/telegram-subscription-bot/bot_subscribe_hu_2fde66695fbc9a0c.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/telegram-subscription-bot/bot_subscribe_hu_8b869877e4b8fd59.webp&#34;
+               width=&#34;447&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;em&gt;Subscription flow and period selection&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Admin Panel&#34; srcset=&#34;
+               /project/telegram-subscription-bot/bot_admin_hu_d86b64f63ead57bf.webp 400w,
+               /project/telegram-subscription-bot/bot_admin_hu_985dc1650c664b52.webp 760w,
+               /project/telegram-subscription-bot/bot_admin_hu_6ad82636bbf04ca1.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/telegram-subscription-bot/bot_admin_hu_d86b64f63ead57bf.webp&#34;
+               width=&#34;393&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;em&gt;Admin menu for subscription management&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;how-to-run&#34;&gt;How to Run&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Requires Python 3.11+ installed&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Install dependencies from &lt;code&gt;requirements.txt&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Set the &lt;code&gt;TOKEN&lt;/code&gt; environment variable with your Telegram bot token&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Run the bot using:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For continuous operation, deploy the bot on a server or cloud (Heroku, VPS, etc.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;repository&#34;&gt;Repository&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/yourusername/telegram-subscription-bot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;If interested or want to customize it further — feel free to contact me!&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>UBORKA Bot — Автоматизация управления уборкой</title>

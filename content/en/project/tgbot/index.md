@@ -1,115 +1,115 @@
 ---
-title: "🚀 Telegram-бот для управления задачами с Airtable"
+title: "🚀 Telegram Bot for Task Management with Airtable"
 date: 2025-05-16
 author: "Hovik"
-description: "Как мы создали удобного Telegram-бота для полевого персонала с интеграцией в Airtable"
+description: "How we created a user-friendly Telegram bot for field staff with Airtable integration"
 tags: ["Telegram Bot", "Airtable", "Automation", "Python", "FSM"]
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-# 📱 Telegram-бот для задач на выезде
+# 📱 Telegram Bot for Field Tasks
 
-**Проект:** умный бот в Telegram, который помогает командам на выезде эффективно выполнять задачи и отчитываться за них в пару кликов.
-
----
-
-## ❓ Зачем нужен этот бот?
-
-Многие компании сталкиваются с проблемами:
-- 🚫 Задачи теряются, сотрудники забывают отчитаться  
-- 📉 Руководителю сложно отслеживать статус выполнения  
-- 🕒 Фото-отчёты собираются вручную и долго  
-
-**Решение:** бот, который берёт это на себя. Простой, быстрый и понятный.
+**Project:** a smart Telegram bot that helps field teams efficiently complete tasks and report on them in just a few clicks.
 
 ---
 
-## ⚙️ Как это работает?
+## ❓ Why do you need this bot?
 
-1. 👤 Сотрудник запускает `/start`, выбирает свою **роль** и вводит имя  
-2. 🔘 Получает кнопку **«Перейти к задачам»**  
-3. 🗺️ Выбирает **область** (например, «Север» или «Центр»)  
-4. 📋 Видит список задач:  
-   - 🔧 Починить сеть  
-   - 📶 Установить Wi-Fi  
-5. 📸 Нажимает «Выполнить задачу», отправляет **фото-отчёт**  
-6. 🤖 Бот:  
-   - сохраняет фото и имя исполнителя  
-   - 💾 **обновляет Airtable**  
-   - отправляет «✅ Задача выполнена»  
-   - автоматически возвращает к выбору области  
-   
-![Сервер и терминал](https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80)
+Many companies face problems like:  
+- 🚫 Tasks get lost, employees forget to report  
+- 📉 Managers find it hard to track task status  
+- 🕒 Photo reports are collected manually and slowly  
+
+**Solution:** a bot that handles it all. Simple, fast, and clear.
 
 ---
 
-## 🌟 Почему это удобно?
+## ⚙️ How does it work?
 
-### Особенности:
-- 🧠 **FSM:** бот "помнит", на каком этапе пользователь  
-- 🖱️ **Интуитивные кнопки:** «Назад», «Выбрать область», «Выполнить»  
-- 🎨 **Эмодзи:** добавляют визуальную логику и делают общение приятным  
-- 📷 **Фото обязательно:** без фото нельзя завершить задачу  
-- ☁️ **Airtable-связь:** задачи живут в облаке и обновляются в реальном времени  
-- 🔄 **Автопереход:** не надо возвращаться вручную — бот делает это сам  
+1. 👤 Employee starts `/start`, selects their **role** and enters their name  
+2. 🔘 Gets a **“Go to tasks”** button  
+3. 🗺️ Selects a **region** (e.g., “North” or “Center”)  
+4. 📋 Sees a task list:  
+   - 🔧 Fix the network  
+   - 📶 Install Wi-Fi  
+5. 📸 Clicks “Complete task” and sends a **photo report**  
+6. 🤖 Bot:  
+   - saves the photo and executor’s name  
+   - 💾 **updates Airtable**  
+   - sends “✅ Task completed”  
+   - automatically returns to region selection  
 
-![Команда работает](https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80)
-
----
-
-## 📊 Airtable как база данных
-
-Используется таблица Airtable, где:  
-- 🗂️ Хранятся задачи по ролям и локациям  
-- 📸 Сохраняются фото и имя исполнителя  
-- ✔️ Обновляется статус после выполнения  
-
-Интеграция через API — всё происходит автоматически.
-
-![Airtable пример](https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=800&q=80)
+![Server and terminal](https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80)
 
 ---
 
-## 🚚 Где это полезно?
+## 🌟 Why is this convenient?
 
-- 📦 Курьерские службы  
-- 🛠️ Монтажные бригады  
-- 👷 Инженеры и сервисные команды  
-- 🏢 Управление задачами внутри компаний  
+### Features:  
+- 🧠 **FSM:** bot “remembers” user’s current step  
+- 🖱️ **Intuitive buttons:** “Back,” “Select region,” “Complete”  
+- 🎨 **Emojis:** add visual logic and make interaction pleasant  
+- 📷 **Photo required:** task cannot be completed without a photo  
+- ☁️ **Airtable link:** tasks live in the cloud and update in real time  
+- 🔄 **Auto navigation:** no manual return needed — bot does it automatically  
 
----
-
-## 💡 Плюсы решения
-
-- 🖱️ Минимум кликов — максимум результата  
-- 📲 Не нужно отдельное приложение — работает в Telegram  
-- 🌍 Масштабируемо и гибко  
-- 👥 Простое подключение новых сотрудников  
+![Team working](https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80)
 
 ---
 
-## 🖥️ Размещение 24/7
+## 📊 Airtable as a database
 
-Бот развёрнут на сервере:
+Uses an Airtable base where:  
+- 🗂️ Tasks are stored by roles and locations  
+- 📸 Photos and executor names are saved  
+- ✔️ Status updates after task completion  
 
-1. 🌐 Аренда VPS (например, Timeweb Cloud)  
-2. 🐍 Установка Python, Git, pip  
-3. 📂 Клонирование репозитория с кодом  
-4. ⚙️ Настройка `.env` файла с ключами  
-5. ▶️ Запуск: `python3 main.py`  
-6. 📟 Используется `tmux` — бот работает даже при закрытом терминале  
+Integration via API — everything happens automatically.
+
+![Airtable example](https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=800&q=80)
 
 ---
 
-## 📩 Хочешь такого бота себе?
+## 🚚 Where is it useful?
 
-Напиши — и мы вместе автоматизируем задачи в твоей команде!
+- 📦 Courier services  
+- 🛠️ Installation teams  
+- 👷 Engineers and service teams  
+- 🏢 Internal company task management  
 
-**Контакты для связи:**  
+---
+
+## 💡 Advantages of the solution
+
+- 🖱️ Minimal clicks — maximum results  
+- 📲 No separate app needed — works in Telegram  
+- 🌍 Scalable and flexible  
+- 👥 Easy to add new employees  
+
+---
+
+## 🖥️ 24/7 Deployment
+
+Bot hosted on a server:  
+
+1. 🌐 VPS rental (e.g., Timeweb Cloud)  
+2. 🐍 Installing Python, Git, pip  
+3. 📂 Cloning the code repository  
+4. ⚙️ Setting up `.env` file with keys  
+5. ▶️ Running: `python3 main.py`  
+6. 📟 Using `tmux` — bot works even when terminal is closed  
+
+---
+
+## 📩 Want a bot like this?
+
+Write to us — and we’ll automate your team’s tasks together!
+
+**Contact:**  
 - Telegram: [@adjabkhanian](https://t.me/adjabkhanyan)  
 - Email: adjabkhanian@gmail.com
 
 ---
 
-> ⚡ Автоматизируй задачи. Освободи время. Расти быстрее.
+> ⚡ Automate tasks. Free up time. Grow faster.

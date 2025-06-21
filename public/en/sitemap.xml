@@ -30,8 +30,16 @@
                 href="http://localhost:1313/event/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tags/aiogram/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/bot/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:1313/project/</loc>
-    <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -45,7 +53,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/tags/python/</loc>
-    <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -58,8 +66,12 @@
                 href="http://localhost:1313/tags/python/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tags/subscription/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-06-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -70,6 +82,24 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="http://localhost:1313/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/telegram/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/project/telegram-subscription-bot/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://localhost:1313/ru/project/telegram-subscription-bot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/project/telegram-subscription-bot/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/telegram-bot/</loc>
@@ -196,6 +226,90 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="http://localhost:1313/project/zarplatabot/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/figma/</loc>
+    <lastmod>2025-05-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://localhost:1313/ru/tags/figma/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tags/figma/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/%D0%B2%D0%B5%D0%B1-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B8%D0%BD/</loc>
+    <lastmod>2025-05-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://localhost:1313/ru/tags/%D0%B2%D0%B5%D0%B1-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B8%D0%BD/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tags/%D0%B2%D0%B5%D0%B1-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B8%D0%BD/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/%D0%B8%D0%BD%D1%84%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0/</loc>
+    <lastmod>2025-05-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://localhost:1313/ru/tags/%D0%B8%D0%BD%D1%84%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tags/%D0%B8%D0%BD%D1%84%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/project/infografika/</loc>
+    <lastmod>2025-05-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://localhost:1313/ru/project/infografika/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/project/infografika/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B8/</loc>
+    <lastmod>2025-05-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://localhost:1313/ru/tags/%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B8/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tags/%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B8/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C/</loc>
+    <lastmod>2025-05-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://localhost:1313/ru/tags/%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tags/%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C/"
                 />
   </url><url>
     <loc>http://localhost:1313/project/tgbot/</loc>

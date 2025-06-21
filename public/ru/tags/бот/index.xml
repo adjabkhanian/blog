@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Бот | Russian</title>
+    <link>http://localhost:1313/ru/tags/%D0%B1%D0%BE%D1%82/</link>
+      <atom:link href="http://localhost:1313/ru/tags/%D0%B1%D0%BE%D1%82/index.xml" rel="self" type="application/rss+xml" />
+    <description>Бот</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ru-ru</language><lastBuildDate>Sat, 21 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_21c1644a7b6669.png</url>
+      <title>Бот</title>
+      <link>http://localhost:1313/ru/tags/%D0%B1%D0%BE%D1%82/</link>
+    </image>
+    
+    <item>
+      <title>Телеграм-бот для управления подписками</title>
+      <link>http://localhost:1313/ru/project/telegram-subscription-bot/</link>
+      <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ru/project/telegram-subscription-bot/</guid>
+      <description>&lt;h3 id=&#34;обзор-проекта&#34;&gt;Обзор проекта&lt;/h3&gt;
+&lt;p&gt;Этот Telegram-бот создан специально для моего заказчика — образовательного клуба, который хочет упростить процесс оформления подписок и управления ими.&lt;/p&gt;
+&lt;p&gt;Бот позволяет пользователям:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Выбирать период подписки (1, 3, 6 или 12 месяцев)&lt;/li&gt;
+&lt;li&gt;Отправлять подтверждение оплаты (скриншот)&lt;/li&gt;
+&lt;li&gt;Получать ссылку на закрытую группу после подтверждения оплаты&lt;/li&gt;
+&lt;li&gt;Просматривать личный кабинет с актуальной информацией о подписке&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Администраторы получают удобные инструменты для:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Подтверждения или отклонения платежей&lt;/li&gt;
+&lt;li&gt;Просмотра списка подписчиков и их подписок&lt;/li&gt;
+&lt;li&gt;Аннулирования подписок&lt;/li&gt;
+&lt;li&gt;Рассылки сообщений всем подписчикам&lt;/li&gt;
+&lt;li&gt;Поиска пользователей по username&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;для-кого-этот-проект&#34;&gt;Для кого этот проект?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Образовательные клубы и курсы, желающие автоматизировать процесс подписки&lt;/li&gt;
+&lt;li&gt;Малый бизнес, работающий с платным доступом через Telegram&lt;/li&gt;
+&lt;li&gt;Администраторы со скромным бюджетом, которым нужен простой и надёжный бот&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;технологии&#34;&gt;Технологии&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Python 3.11+&lt;/strong&gt; — основной язык программирования&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aiogram&lt;/strong&gt; — асинхронный фреймворк для Telegram-ботов&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SQLite&lt;/strong&gt; — лёгкая и встроенная база данных для хранения подписчиков&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Асинхронность&lt;/strong&gt; — эффективное управление запросами без блокировок&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;особенности-реализации&#34;&gt;Особенности реализации&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Взаимодействие с пользователями происходит через удобные клавиатуры и состояния (FSM)&lt;/li&gt;
+&lt;li&gt;Админ-панель защищена списком администраторов (можно добавить несколько)&lt;/li&gt;
+&lt;li&gt;Автоматические напоминания за 2 дня до окончания подписки&lt;/li&gt;
+&lt;li&gt;Контроль доступа к закрытой группе: бот банит/разбанивает пользователей в Telegram&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;скриншоты-работы-бота&#34;&gt;Скриншоты работы бота&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;images/bot_menu.png&#34; alt=&#34;Главное меню&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;em&gt;Главное меню с выбором действий&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Подписка&#34; srcset=&#34;
+               /ru/project/telegram-subscription-bot/bot_subscribe_hu_8b869877e4b8fd59.webp 400w,
+               /ru/project/telegram-subscription-bot/bot_subscribe_hu_4bd71d1228ed062a.webp 760w,
+               /ru/project/telegram-subscription-bot/bot_subscribe_hu_2fde66695fbc9a0c.webp 1200w&#34;
+               src=&#34;http://localhost:1313/ru/project/telegram-subscription-bot/bot_subscribe_hu_8b869877e4b8fd59.webp&#34;
+               width=&#34;447&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;em&gt;Оформление подписки и выбор периода&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Админ-панель&#34; srcset=&#34;
+               /ru/project/telegram-subscription-bot/bot_admin_hu_d86b64f63ead57bf.webp 400w,
+               /ru/project/telegram-subscription-bot/bot_admin_hu_985dc1650c664b52.webp 760w,
+               /ru/project/telegram-subscription-bot/bot_admin_hu_6ad82636bbf04ca1.webp 1200w&#34;
+               src=&#34;http://localhost:1313/ru/project/telegram-subscription-bot/bot_admin_hu_d86b64f63ead57bf.webp&#34;
+               width=&#34;393&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+&lt;em&gt;Админ-меню для управления подписками&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;как-запустить-проект&#34;&gt;Как запустить проект&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Необходимо иметь установленный Python 3.11+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Установить зависимости из &lt;code&gt;requirements.txt&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Заполнить переменную окружения &lt;code&gt;TOKEN&lt;/code&gt; — токен Telegram-бота&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Запустить бота командой:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Для постоянной работы рекомендуется разместить бота на сервере или в облаке (Heroku, VPS и др.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;репозиторий&#34;&gt;Репозиторий&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/yourusername/telegram-subscription-bot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Если заинтересовались или хотите доработать — пишите!&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
