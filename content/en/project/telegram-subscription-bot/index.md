@@ -81,7 +81,7 @@ Administrators have handy tools for:
 
 ### Repository
 
-[GitHub](https://github.com/yourusername/telegram-subscription-bot)
+[GitHub](https://github.com/adjabkhanian/telegram-subscription-bot)
 
 ---
 

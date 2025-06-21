@@ -82,7 +82,7 @@ image:
 
 ### Репозиторий
 
-[GitHub](https://github.com/yourusername/telegram-subscription-bot)
+[GitHub](https://github.com/adjabkhanian/telegram-subscription-bot)
 
 ---
 
