@@ -7,8 +7,6 @@
 appearance:
   mode: system
   color: emerald
-  custom_css:
-    - css/custom.css
 
 # SEO
 marketing:
