@@ -7,6 +7,8 @@
 appearance:
   mode: system
   color: emerald
+  custom_css:
+    - css/custom.css
 
 # SEO
 marketing:
@@ -58,6 +60,3 @@ features:
     enable: false
   privacy_pack:
     enable: false
-
-custom_css:
-  - css/custom.css

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Sheets | Adjabkhanian</title>
+    <link>http://localhost:1313/tags/google-sheets/</link>
+      <atom:link href="http://localhost:1313/tags/google-sheets/index.xml" rel="self" type="application/rss+xml" />
+    <description>Google Sheets</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu12469818602708068705.png</url>
+      <title>Google Sheets</title>
+      <link>http://localhost:1313/tags/google-sheets/</link>
+    </image>
+    
+    <item>
+      <title>RealtyHelpReBot — Telegram Bot for Real Estate Assistance</title>
+      <link>http://localhost:1313/project/realtyhelperbot/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/realtyhelperbot/</guid>
+      <description>&lt;h2 id=&#34;-about-the-project&#34;&gt;🏙 About the Project&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;RealtyHelpReBot&lt;/strong&gt; is a Telegram bot designed to automate real estate selection and handle client applications.&lt;br&gt;
+It allows users to choose a city, property type, receive up-to-date offers, and submit applications directly to the manager.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-project-idea&#34;&gt;💡 Project Idea&lt;/h2&gt;
+&lt;p&gt;Instead of long phone calls and manual forms, the bot simplifies the process:&lt;br&gt;
+clients select their preferences, and the bot automatically generates and sends the application to Google Sheets, where the manager can immediately view it.&lt;/p&gt;
+&lt;p&gt;The project was developed on a client request for a real estate agency to reduce routine work and speed up client interactions.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-core-features&#34;&gt;🔧 Core Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;🏘 Select city and property type&lt;/li&gt;
+&lt;li&gt;📩 Submit application to Google Sheets&lt;/li&gt;
+&lt;li&gt;🧠 Smart welcome message — admins can change text and photo via JSON&lt;/li&gt;
+&lt;li&gt;👨‍💼 Notify manager about new applications&lt;/li&gt;
+&lt;li&gt;⚙️ Flexible welcome message configuration without changing code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-technologies-used&#34;&gt;⚙️ Technologies Used&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Area&lt;/th&gt;
+          &lt;th&gt;Technologies&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Programming&lt;/td&gt;
+          &lt;td&gt;Python 3.9&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Framework&lt;/td&gt;
+          &lt;td&gt;Aiogram 3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Database/API&lt;/td&gt;
+          &lt;td&gt;Google Sheets API (via gspread)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Hosting&lt;/td&gt;
+          &lt;td&gt;Local server / Railway&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Configuration&lt;/td&gt;
+          &lt;td&gt;JSON + dotenv&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-project-structure&#34;&gt;📁 Project Structure&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;realtyhelprebot/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── main.py            # Main bot logic
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── config.py          # Settings and tokens
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── data/start_data.json  # Dynamic welcome message (text + photo)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── utils/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── google_api.py  # Google Sheets integration
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└── requirements.txt   # Dependencies
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;-bot-link&#34;&gt;🔗 Bot Link&lt;/h2&gt;
+&lt;p&gt;👉 &lt;a href=&#34;https://t.me/AN_MowKznRussia_bot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@AN_MowKznRussia_bot&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-code-preview&#34;&gt;🧩 Code Preview&lt;/h2&gt;
+&lt;p&gt;The main bot logic can be found here:&lt;br&gt;
+&lt;strong&gt;&lt;a href=&#34;main.py&#34;&gt;&lt;code&gt;main.py&lt;/code&gt;&lt;/a&gt;&lt;/strong&gt; — contains the implementation of all bot scenarios, including dynamic welcome messages, form processing, and Google Sheets integration.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-conclusion&#34;&gt;💬 Conclusion&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;RealtyHelpReBot&lt;/strong&gt; is a practical tool for real estate agencies.&lt;br&gt;
+It saves managers time and makes client communication smooth and modern.&lt;/p&gt;
+&lt;p&gt;The bot can be easily adapted for other niches — from rentals to consultations.&lt;br&gt;
+If you want a similar project for your business, just contact me 😉&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

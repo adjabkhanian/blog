@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Education | Adjabkhanian</title>
+    <link>http://localhost:1313/tags/education/</link>
+      <atom:link href="http://localhost:1313/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <description>Education</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu12469818602708068705.png</url>
+      <title>Education</title>
+      <link>http://localhost:1313/tags/education/</link>
+    </image>
+    
+    <item>
+      <title>Telegram Bot “Dialog of Truth”</title>
+      <link>http://localhost:1313/project/project-dialogistini/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/project-dialogistini/</guid>
+      <description>&lt;h3 id=&#34;-project-idea&#34;&gt;🧠 Project Idea&lt;/h3&gt;
+&lt;p&gt;This Telegram bot was developed for the spiritual and educational initiative “Dialog of Truth” to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automate contact collection from Instagram users&lt;/li&gt;
+&lt;li&gt;Understand participant motivation through a short survey&lt;/li&gt;
+&lt;li&gt;Enable admins to broadcast messages to the entire database&lt;/li&gt;
+&lt;li&gt;Seamlessly integrate with Airtable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-what-does-the-bot-do&#34;&gt;🔍 What Does the Bot Do?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;A user joins the bot via a link from Instagram&lt;/li&gt;
+&lt;li&gt;They are asked to provide:
+&lt;ul&gt;
+&lt;li&gt;📱 Phone number (via a button)&lt;/li&gt;
+&lt;li&gt;📧 Email address&lt;/li&gt;
+&lt;li&gt;👤 First and last name&lt;/li&gt;
+&lt;li&gt;❓ Answer to: “Do you want religious knowledge?”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The bot saves all the data to Airtable&lt;/li&gt;
+&lt;li&gt;Sends a link to the main Telegram channel&lt;/li&gt;
+&lt;li&gt;The admin can send a broadcast with the &lt;code&gt;/sendall&lt;/code&gt; command&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-survey-inside-the-bot&#34;&gt;📊 Survey Inside the Bot&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Do you want religious knowledge?&lt;/strong&gt;&lt;br&gt;
+• To receive and apply it for myself&lt;br&gt;
+• To receive, apply, and share it with others&lt;br&gt;
+• I just want to observe for now&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;All responses are also saved in Airtable.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-technologies-used&#34;&gt;🛠 Technologies Used&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Python 3.11&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aiogram 3.x&lt;/strong&gt; — asynchronous Telegram bot framework&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Airtable&lt;/strong&gt; — external database for storing structured user data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Railway&lt;/strong&gt; — deployment without exposing tokens (via ENV)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; — source code is private, available upon request&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-project-cover&#34;&gt;🖼 Project Cover&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/adjabkhanian/dialogistini2/main/dialogistini-preview.jpg&#34; alt=&#34;Project Cover&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-airtable-data-structure&#34;&gt;📂 Airtable Data Structure&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Telegram ID&lt;/li&gt;
+&lt;li&gt;Username&lt;/li&gt;
+&lt;li&gt;Phone&lt;/li&gt;
+&lt;li&gt;Email&lt;/li&gt;
+&lt;li&gt;First Name&lt;/li&gt;
+&lt;li&gt;Last Name&lt;/li&gt;
+&lt;li&gt;Survey Answer&lt;/li&gt;
+&lt;li&gt;Registration Date&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-admin-features&#34;&gt;📦 Admin Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ &lt;code&gt;/sendall Hello!&lt;/code&gt; — sends a message to all users&lt;/li&gt;
+&lt;li&gt;🔐 Only specified Telegram IDs can broadcast&lt;/li&gt;
+&lt;li&gt;🧑‍💻 All collected data is stored in Airtable and can be exported easily&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-who-is-this-for&#34;&gt;💡 Who Is This For?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Online schools and educational communities&lt;/li&gt;
+&lt;li&gt;Projects growing from Instagram or Telegram&lt;/li&gt;
+&lt;li&gt;Small teams without complex CRM systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-how-to-deploy&#34;&gt;📥 How to Deploy&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Create an Airtable base with the required fields&lt;/li&gt;
+&lt;li&gt;Add secret variables in Railway:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;BOT_TOKEN&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AIRTABLE_API_KEY&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AIRTABLE_BASE_ID&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AIRTABLE_TABLE_NAME&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Deploy the bot on Railway&lt;/li&gt;
+&lt;li&gt;Connect a domain and share the link in your Instagram bio&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-results&#34;&gt;🎯 Results&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A clean Telegram-based form that acts as a mini landing page&lt;/li&gt;
+&lt;li&gt;All user data in Airtable for future communication and analysis&lt;/li&gt;
+&lt;li&gt;Quick survey for audience segmentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-want-to-collaborate&#34;&gt;📎 Want to Collaborate?&lt;/h3&gt;
+&lt;p&gt;If you want to create a custom Telegram bot for your project —&lt;br&gt;
+&lt;a href=&#34;https://t.me/adjabkhanyan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contact me →&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-additional-resources&#34;&gt;🛠 Additional Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aiogram.dev/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aiogram Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://airtable.com/api&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Airtable API Reference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://railway.app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Railway Hosting&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

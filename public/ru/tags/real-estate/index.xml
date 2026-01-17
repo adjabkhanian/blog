@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Real Estate | Russian</title>
+    <link>http://localhost:1313/ru/tags/real-estate/</link>
+      <atom:link href="http://localhost:1313/ru/tags/real-estate/index.xml" rel="self" type="application/rss+xml" />
+    <description>Real Estate</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ru-ru</language><lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu12469818602708068705.png</url>
+      <title>Real Estate</title>
+      <link>http://localhost:1313/ru/tags/real-estate/</link>
+    </image>
+    
+    <item>
+      <title>RealtyHelpReBot — Telegram-бот для подбора недвижимости</title>
+      <link>http://localhost:1313/ru/project/realtyhelperbot/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ru/project/realtyhelperbot/</guid>
+      <description>&lt;h2 id=&#34;-о-проекте&#34;&gt;🏙 О проекте&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;RealtyHelpReBot&lt;/strong&gt; — это Telegram-бот, созданный для автоматизации подбора недвижимости и обработки заявок клиентов.&lt;br&gt;
+Он позволяет пользователям выбирать город, тип недвижимости, получать актуальные предложения и отправлять заявку напрямую менеджеру.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-идея-проекта&#34;&gt;💡 Идея проекта&lt;/h2&gt;
+&lt;p&gt;Вместо долгих звонков и ручных анкет бот делает процесс подбора простым и понятным:&lt;br&gt;
+клиент выбирает параметры, а бот сам формирует и отправляет заявку в Google Sheets, где её сразу видит менеджер.&lt;/p&gt;
+&lt;p&gt;Проект разработан по заказу клиента для агентства недвижимости, чтобы сократить рутину и ускорить работу с клиентами.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-основной-функционал&#34;&gt;🔧 Основной функционал&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;🏘 Выбор города и типа недвижимости&lt;/li&gt;
+&lt;li&gt;📩 Отправка заявки в Google Sheets&lt;/li&gt;
+&lt;li&gt;🧠 Умный старт — админ может менять приветственный текст и фото прямо через JSON&lt;/li&gt;
+&lt;li&gt;👨‍💼 Уведомление менеджера о новой заявке&lt;/li&gt;
+&lt;li&gt;⚙️ Гибкая настройка приветствия без изменения кода&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-используемые-технологии&#34;&gt;⚙️ Используемые технологии&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Область&lt;/th&gt;
+          &lt;th&gt;Технологии&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Язык разработки&lt;/td&gt;
+          &lt;td&gt;Python 3.9&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Фреймворк&lt;/td&gt;
+          &lt;td&gt;Aiogram 3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;База данных&lt;/td&gt;
+          &lt;td&gt;Google Sheets API (через gspread)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Хостинг&lt;/td&gt;
+          &lt;td&gt;Локальный сервер / Railway&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Конфигурация&lt;/td&gt;
+          &lt;td&gt;JSON + dotenv&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-структура-проекта&#34;&gt;📁 Структура проекта&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;realtyhelprebot/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── main.py            # Основная логика бота
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── config.py          # Настройки и токены
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── data/start_data.json  # Динамическое приветствие (текст и фото)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── utils/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── google_api.py  # Работа с Google Sheets
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└── requirements.txt   # Зависимости
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;-ссылка-на-бота&#34;&gt;🔗 Ссылка на бота&lt;/h2&gt;
+&lt;p&gt;👉 &lt;a href=&#34;https://t.me/AN_MowKznRussia_bot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@AN_MowKznRussia_bot&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-просмотр-кода&#34;&gt;🧩 Просмотр кода&lt;/h2&gt;
+&lt;p&gt;Файл с основной логикой можно посмотреть здесь:&lt;br&gt;
+&lt;strong&gt;&lt;a href=&#34;main.py&#34;&gt;&lt;code&gt;main.py&lt;/code&gt;&lt;/a&gt;&lt;/strong&gt; — содержит реализацию всех сценариев бота, включая динамическое приветствие, обработку анкет и интеграцию с Google Sheets.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-вывод&#34;&gt;💬 Вывод&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;RealtyHelpReBot&lt;/strong&gt; — это практичный инструмент для агентств недвижимости.&lt;br&gt;
+Он экономит время менеджеров, делает процесс общения с клиентами удобным и современным.&lt;/p&gt;
+&lt;p&gt;Бот можно легко адаптировать под другие ниши — от аренды до консультаций.&lt;br&gt;
+Если хочешь такой же проект под свою задачу — просто напиши мне 😉&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

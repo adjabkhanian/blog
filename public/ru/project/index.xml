@@ -5,12 +5,225 @@
     <link>http://localhost:1313/ru/project/</link>
       <atom:link href="http://localhost:1313/ru/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ru-ru</language><lastBuildDate>Sat, 21 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ru-ru</language><lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_21c1644a7b6669.png</url>
+      <url>http://localhost:1313/media/icon_hu12469818602708068705.png</url>
       <title>Projects</title>
       <link>http://localhost:1313/ru/project/</link>
     </image>
+    
+    <item>
+      <title>RealtyHelpReBot — Telegram-бот для подбора недвижимости</title>
+      <link>http://localhost:1313/ru/project/realtyhelperbot/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ru/project/realtyhelperbot/</guid>
+      <description>&lt;h2 id=&#34;-о-проекте&#34;&gt;🏙 О проекте&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;RealtyHelpReBot&lt;/strong&gt; — это Telegram-бот, созданный для автоматизации подбора недвижимости и обработки заявок клиентов.&lt;br&gt;
+Он позволяет пользователям выбирать город, тип недвижимости, получать актуальные предложения и отправлять заявку напрямую менеджеру.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-идея-проекта&#34;&gt;💡 Идея проекта&lt;/h2&gt;
+&lt;p&gt;Вместо долгих звонков и ручных анкет бот делает процесс подбора простым и понятным:&lt;br&gt;
+клиент выбирает параметры, а бот сам формирует и отправляет заявку в Google Sheets, где её сразу видит менеджер.&lt;/p&gt;
+&lt;p&gt;Проект разработан по заказу клиента для агентства недвижимости, чтобы сократить рутину и ускорить работу с клиентами.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-основной-функционал&#34;&gt;🔧 Основной функционал&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;🏘 Выбор города и типа недвижимости&lt;/li&gt;
+&lt;li&gt;📩 Отправка заявки в Google Sheets&lt;/li&gt;
+&lt;li&gt;🧠 Умный старт — админ может менять приветственный текст и фото прямо через JSON&lt;/li&gt;
+&lt;li&gt;👨‍💼 Уведомление менеджера о новой заявке&lt;/li&gt;
+&lt;li&gt;⚙️ Гибкая настройка приветствия без изменения кода&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-используемые-технологии&#34;&gt;⚙️ Используемые технологии&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Область&lt;/th&gt;
+          &lt;th&gt;Технологии&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Язык разработки&lt;/td&gt;
+          &lt;td&gt;Python 3.9&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Фреймворк&lt;/td&gt;
+          &lt;td&gt;Aiogram 3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;База данных&lt;/td&gt;
+          &lt;td&gt;Google Sheets API (через gspread)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Хостинг&lt;/td&gt;
+          &lt;td&gt;Локальный сервер / Railway&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Конфигурация&lt;/td&gt;
+          &lt;td&gt;JSON + dotenv&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-структура-проекта&#34;&gt;📁 Структура проекта&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;realtyhelprebot/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── main.py            # Основная логика бота
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── config.py          # Настройки и токены
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── data/start_data.json  # Динамическое приветствие (текст и фото)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── utils/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── google_api.py  # Работа с Google Sheets
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└── requirements.txt   # Зависимости
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;-ссылка-на-бота&#34;&gt;🔗 Ссылка на бота&lt;/h2&gt;
+&lt;p&gt;👉 &lt;a href=&#34;https://t.me/AN_MowKznRussia_bot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@AN_MowKznRussia_bot&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-просмотр-кода&#34;&gt;🧩 Просмотр кода&lt;/h2&gt;
+&lt;p&gt;Файл с основной логикой можно посмотреть здесь:&lt;br&gt;
+&lt;strong&gt;&lt;a href=&#34;main.py&#34;&gt;&lt;code&gt;main.py&lt;/code&gt;&lt;/a&gt;&lt;/strong&gt; — содержит реализацию всех сценариев бота, включая динамическое приветствие, обработку анкет и интеграцию с Google Sheets.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-вывод&#34;&gt;💬 Вывод&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;RealtyHelpReBot&lt;/strong&gt; — это практичный инструмент для агентств недвижимости.&lt;br&gt;
+Он экономит время менеджеров, делает процесс общения с клиентами удобным и современным.&lt;/p&gt;
+&lt;p&gt;Бот можно легко адаптировать под другие ниши — от аренды до консультаций.&lt;br&gt;
+Если хочешь такой же проект под свою задачу — просто напиши мне 😉&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Телеграм-бот «Диалог Истины»</title>
+      <link>http://localhost:1313/ru/project/project-dialogistini/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ru/project/project-dialogistini/</guid>
+      <description>&lt;h3 id=&#34;-идея-проекта&#34;&gt;🧠 Идея проекта&lt;/h3&gt;
+&lt;p&gt;Этот Telegram-бот был создан для духовно-образовательного проекта «Диалог Истины», чтобы:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Автоматизировать сбор контактов участников из Instagram&lt;/li&gt;
+&lt;li&gt;Узнать уровень мотивации людей (опрос)&lt;/li&gt;
+&lt;li&gt;Позволить администратору отправлять рассылки всей базе&lt;/li&gt;
+&lt;li&gt;Интегрировать всё с Airtable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-что-делает-бот&#34;&gt;🔍 Что делает бот?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Пользователь заходит в бота по ссылке из Instagram&lt;br&gt;
+👉 &lt;a href=&#34;https://t.me/diallogistini_bot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@diallogistini_bot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Оставляет:
+&lt;ul&gt;
+&lt;li&gt;📱 Номер телефона (через кнопку)&lt;/li&gt;
+&lt;li&gt;📧 Email&lt;/li&gt;
+&lt;li&gt;👤 Имя и фамилию&lt;/li&gt;
+&lt;li&gt;❓ Отвечает на вопрос: &amp;ldquo;Вы хотите религиозные знания?&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Бот сохраняет все данные в Airtable&lt;/li&gt;
+&lt;li&gt;Даёт ссылку на канал&lt;/li&gt;
+&lt;li&gt;Администратор может отправить рассылку через команду &lt;code&gt;/sendall&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-опрос-внутри-бота&#34;&gt;📊 Опрос внутри бота&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Вы хотите религиозные знания?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;• Получать для себя и внедрять их&lt;br&gt;
+• Получать, внедрять и передавать другим&lt;br&gt;
+• Хочу пока просто понаблюдать&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Эти данные тоже сохраняются в Airtable.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-технологии&#34;&gt;🛠 Технологии&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Python 3.11&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aiogram 3.x&lt;/strong&gt; — асинхронный Telegram-фреймворк&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Airtable&lt;/strong&gt; — внешняя база для хранения данных&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Railway&lt;/strong&gt; — деплой проекта без раскрытия токенов (через ENV)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; — исходный код приватный, по запросу&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-обложка-проекта&#34;&gt;🖼 Обложка проекта&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/adjabkhanian/dialogistini2/main/dialogistini-preview.jpg&#34; alt=&#34;Обложка проекта&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-структура-данных-в-airtable&#34;&gt;📂 Структура данных в Airtable&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Telegram ID&lt;/li&gt;
+&lt;li&gt;Username&lt;/li&gt;
+&lt;li&gt;Телефон&lt;/li&gt;
+&lt;li&gt;Email&lt;/li&gt;
+&lt;li&gt;Имя&lt;/li&gt;
+&lt;li&gt;Фамилия&lt;/li&gt;
+&lt;li&gt;Ответ на вопрос&lt;/li&gt;
+&lt;li&gt;Дата регистрации&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-возможности-админа&#34;&gt;📦 Возможности админа&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ Команда &lt;code&gt;/sendall Привет!&lt;/code&gt; отправляет сообщение всей базе&lt;/li&gt;
+&lt;li&gt;🔐 Только Telegram ID админов могут делать рассылки&lt;/li&gt;
+&lt;li&gt;🧑‍💻 Все данные легко выгружаются из Airtable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-для-кого-проект&#34;&gt;💡 Для кого проект?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Онлайн-школы и духовные клубы&lt;/li&gt;
+&lt;li&gt;Проекты, ведущие набор из Instagram или Telegram&lt;/li&gt;
+&lt;li&gt;Небольшие команды без ресурсов на сложную CRM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-как-развернуть&#34;&gt;📥 Как развернуть&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Создайте Airtable-базу с нужными полями&lt;/li&gt;
+&lt;li&gt;Добавьте секретные переменные в Railway:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;BOT_TOKEN&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AIRTABLE_API_KEY&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AIRTABLE_BASE_ID&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AIRTABLE_TABLE_NAME&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Запустите бота на Railway&lt;/li&gt;
+&lt;li&gt;Подключите домен и отправьте ссылку в Instagram Bio&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-результат&#34;&gt;🎯 Результат&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Простая форма, которая работает как мини-лендинг внутри Telegram&lt;/li&gt;
+&lt;li&gt;Вся база в Airtable для последующих рассылок или аналитики&lt;/li&gt;
+&lt;li&gt;Опрос помогает сегментировать пользователей&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-обсудить-сотрудничество&#34;&gt;📎 Обсудить сотрудничество&lt;/h3&gt;
+&lt;p&gt;Если вы тоже хотите создать Telegram-бота под ваш проект —&lt;br&gt;
+&lt;a href=&#34;https://t.me/adjabkhanyan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Напишите мне →&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-дополнительно&#34;&gt;🛠 Дополнительно&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aiogram.dev/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aiogram&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://airtable.com/api&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Airtable API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://railway.app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Railway&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Телеграм-бот для управления подписками</title>
@@ -78,10 +291,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Главное меню&#34; srcset=&#34;
-               /ru/project/telegram-subscription-bot/bot_menu_hu_2b2079ed8769f832.webp 400w,
-               /ru/project/telegram-subscription-bot/bot_menu_hu_b23b5ef52a6a7619.webp 760w,
-               /ru/project/telegram-subscription-bot/bot_menu_hu_238d1fd1b6cfc556.webp 1200w&#34;
-               src=&#34;http://localhost:1313/ru/project/telegram-subscription-bot/bot_menu_hu_2b2079ed8769f832.webp&#34;
+               /ru/project/telegram-subscription-bot/bot_menu_hu1565980816759939469.webp 400w,
+               /ru/project/telegram-subscription-bot/bot_menu_hu17344428743545226417.webp 760w,
+               /ru/project/telegram-subscription-bot/bot_menu_hu18190672785231923455.webp 1200w&#34;
+               src=&#34;http://localhost:1313/ru/project/telegram-subscription-bot/bot_menu_hu1565980816759939469.webp&#34;
                width=&#34;760&#34;
                height=&#34;456&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -107,10 +320,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Подписка&#34; srcset=&#34;
-               /ru/project/telegram-subscription-bot/bot_subscribe_hu_8b869877e4b8fd59.webp 400w,
-               /ru/project/telegram-subscription-bot/bot_subscribe_hu_4bd71d1228ed062a.webp 760w,
-               /ru/project/telegram-subscription-bot/bot_subscribe_hu_2fde66695fbc9a0c.webp 1200w&#34;
-               src=&#34;http://localhost:1313/ru/project/telegram-subscription-bot/bot_subscribe_hu_8b869877e4b8fd59.webp&#34;
+               /ru/project/telegram-subscription-bot/bot_subscribe_hu3967534468952789137.webp 400w,
+               /ru/project/telegram-subscription-bot/bot_subscribe_hu6489554667142230463.webp 760w,
+               /ru/project/telegram-subscription-bot/bot_subscribe_hu10046640171276976382.webp 1200w&#34;
+               src=&#34;http://localhost:1313/ru/project/telegram-subscription-bot/bot_subscribe_hu3967534468952789137.webp&#34;
                width=&#34;447&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -136,10 +349,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Админ-панель&#34; srcset=&#34;
-               /ru/project/telegram-subscription-bot/bot_admin_hu_d86b64f63ead57bf.webp 400w,
-               /ru/project/telegram-subscription-bot/bot_admin_hu_985dc1650c664b52.webp 760w,
-               /ru/project/telegram-subscription-bot/bot_admin_hu_6ad82636bbf04ca1.webp 1200w&#34;
-               src=&#34;http://localhost:1313/ru/project/telegram-subscription-bot/bot_admin_hu_d86b64f63ead57bf.webp&#34;
+               /ru/project/telegram-subscription-bot/bot_admin_hu6063106927336308587.webp 400w,
+               /ru/project/telegram-subscription-bot/bot_admin_hu4403152233562051843.webp 760w,
+               /ru/project/telegram-subscription-bot/bot_admin_hu14837610278579964209.webp 1200w&#34;
+               src=&#34;http://localhost:1313/ru/project/telegram-subscription-bot/bot_admin_hu6063106927336308587.webp&#34;
                width=&#34;393&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -167,7 +380,7 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;репозиторий&#34;&gt;Репозиторий&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/yourusername/telegram-subscription-bot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/adjabkhanian/telegram-subscription-bot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;em&gt;Если заинтересовались или хотите доработать — пишите!&lt;/em&gt;&lt;/p&gt;
 </description>
@@ -241,10 +454,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Уведомление об уборке&#34; srcset=&#34;
-               /ru/project/uborkabot/uborka1_hu_f651a4bfb9c309c7.webp 400w,
-               /ru/project/uborkabot/uborka1_hu_f0ad1c3b6be6b013.webp 760w,
-               /ru/project/uborkabot/uborka1_hu_41d9eca9e422dad4.webp 1200w&#34;
-               src=&#34;http://localhost:1313/ru/project/uborkabot/uborka1_hu_f651a4bfb9c309c7.webp&#34;
+               /ru/project/uborkabot/uborka1_hu12610783716533383535.webp 400w,
+               /ru/project/uborkabot/uborka1_hu17339511167361989809.webp 760w,
+               /ru/project/uborkabot/uborka1_hu555043320919157904.webp 1200w&#34;
+               src=&#34;http://localhost:1313/ru/project/uborkabot/uborka1_hu12610783716533383535.webp&#34;
                width=&#34;622&#34;
                height=&#34;396&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -270,10 +483,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Telegram бот&#34; srcset=&#34;
-               /ru/project/uborkabot/uborka2_hu_bf39764bd705d304.webp 400w,
-               /ru/project/uborkabot/uborka2_hu_5786b0a2ef9a20e3.webp 760w,
-               /ru/project/uborkabot/uborka2_hu_1655b2a1c70083.webp 1200w&#34;
-               src=&#34;http://localhost:1313/ru/project/uborkabot/uborka2_hu_bf39764bd705d304.webp&#34;
+               /ru/project/uborkabot/uborka2_hu203902249903636352.webp 400w,
+               /ru/project/uborkabot/uborka2_hu15299328120038972673.webp 760w,
+               /ru/project/uborkabot/uborka2_hu16278686870049513607.webp 1200w&#34;
+               src=&#34;http://localhost:1313/ru/project/uborkabot/uborka2_hu203902249903636352.webp&#34;
                width=&#34;744&#34;
                height=&#34;406&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -591,7 +804,8 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
-&lt;p&gt;⚡ Автоматизируй задачи. Освободи время. Расти быстрее.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;⚡ Автоматизируй задачи. Освободи время. Расти быстрее.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     

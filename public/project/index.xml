@@ -5,12 +5,224 @@
     <link>http://localhost:1313/project/</link>
       <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 21 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_21c1644a7b6669.png</url>
+      <url>http://localhost:1313/media/icon_hu12469818602708068705.png</url>
       <title>Projects</title>
       <link>http://localhost:1313/project/</link>
     </image>
+    
+    <item>
+      <title>RealtyHelpReBot — Telegram Bot for Real Estate Assistance</title>
+      <link>http://localhost:1313/project/realtyhelperbot/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/realtyhelperbot/</guid>
+      <description>&lt;h2 id=&#34;-about-the-project&#34;&gt;🏙 About the Project&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;RealtyHelpReBot&lt;/strong&gt; is a Telegram bot designed to automate real estate selection and handle client applications.&lt;br&gt;
+It allows users to choose a city, property type, receive up-to-date offers, and submit applications directly to the manager.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-project-idea&#34;&gt;💡 Project Idea&lt;/h2&gt;
+&lt;p&gt;Instead of long phone calls and manual forms, the bot simplifies the process:&lt;br&gt;
+clients select their preferences, and the bot automatically generates and sends the application to Google Sheets, where the manager can immediately view it.&lt;/p&gt;
+&lt;p&gt;The project was developed on a client request for a real estate agency to reduce routine work and speed up client interactions.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-core-features&#34;&gt;🔧 Core Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;🏘 Select city and property type&lt;/li&gt;
+&lt;li&gt;📩 Submit application to Google Sheets&lt;/li&gt;
+&lt;li&gt;🧠 Smart welcome message — admins can change text and photo via JSON&lt;/li&gt;
+&lt;li&gt;👨‍💼 Notify manager about new applications&lt;/li&gt;
+&lt;li&gt;⚙️ Flexible welcome message configuration without changing code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-technologies-used&#34;&gt;⚙️ Technologies Used&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Area&lt;/th&gt;
+          &lt;th&gt;Technologies&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Programming&lt;/td&gt;
+          &lt;td&gt;Python 3.9&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Framework&lt;/td&gt;
+          &lt;td&gt;Aiogram 3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Database/API&lt;/td&gt;
+          &lt;td&gt;Google Sheets API (via gspread)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Hosting&lt;/td&gt;
+          &lt;td&gt;Local server / Railway&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Configuration&lt;/td&gt;
+          &lt;td&gt;JSON + dotenv&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-project-structure&#34;&gt;📁 Project Structure&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;realtyhelprebot/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── main.py            # Main bot logic
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── config.py          # Settings and tokens
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── data/start_data.json  # Dynamic welcome message (text + photo)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── utils/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── google_api.py  # Google Sheets integration
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└── requirements.txt   # Dependencies
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;-bot-link&#34;&gt;🔗 Bot Link&lt;/h2&gt;
+&lt;p&gt;👉 &lt;a href=&#34;https://t.me/AN_MowKznRussia_bot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@AN_MowKznRussia_bot&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-code-preview&#34;&gt;🧩 Code Preview&lt;/h2&gt;
+&lt;p&gt;The main bot logic can be found here:&lt;br&gt;
+&lt;strong&gt;&lt;a href=&#34;main.py&#34;&gt;&lt;code&gt;main.py&lt;/code&gt;&lt;/a&gt;&lt;/strong&gt; — contains the implementation of all bot scenarios, including dynamic welcome messages, form processing, and Google Sheets integration.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-conclusion&#34;&gt;💬 Conclusion&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;RealtyHelpReBot&lt;/strong&gt; is a practical tool for real estate agencies.&lt;br&gt;
+It saves managers time and makes client communication smooth and modern.&lt;/p&gt;
+&lt;p&gt;The bot can be easily adapted for other niches — from rentals to consultations.&lt;br&gt;
+If you want a similar project for your business, just contact me 😉&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Telegram Bot “Dialog of Truth”</title>
+      <link>http://localhost:1313/project/project-dialogistini/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/project-dialogistini/</guid>
+      <description>&lt;h3 id=&#34;-project-idea&#34;&gt;🧠 Project Idea&lt;/h3&gt;
+&lt;p&gt;This Telegram bot was developed for the spiritual and educational initiative “Dialog of Truth” to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automate contact collection from Instagram users&lt;/li&gt;
+&lt;li&gt;Understand participant motivation through a short survey&lt;/li&gt;
+&lt;li&gt;Enable admins to broadcast messages to the entire database&lt;/li&gt;
+&lt;li&gt;Seamlessly integrate with Airtable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-what-does-the-bot-do&#34;&gt;🔍 What Does the Bot Do?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;A user joins the bot via a link from Instagram&lt;/li&gt;
+&lt;li&gt;They are asked to provide:
+&lt;ul&gt;
+&lt;li&gt;📱 Phone number (via a button)&lt;/li&gt;
+&lt;li&gt;📧 Email address&lt;/li&gt;
+&lt;li&gt;👤 First and last name&lt;/li&gt;
+&lt;li&gt;❓ Answer to: “Do you want religious knowledge?”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;The bot saves all the data to Airtable&lt;/li&gt;
+&lt;li&gt;Sends a link to the main Telegram channel&lt;/li&gt;
+&lt;li&gt;The admin can send a broadcast with the &lt;code&gt;/sendall&lt;/code&gt; command&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-survey-inside-the-bot&#34;&gt;📊 Survey Inside the Bot&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Do you want religious knowledge?&lt;/strong&gt;&lt;br&gt;
+• To receive and apply it for myself&lt;br&gt;
+• To receive, apply, and share it with others&lt;br&gt;
+• I just want to observe for now&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;All responses are also saved in Airtable.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-technologies-used&#34;&gt;🛠 Technologies Used&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Python 3.11&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aiogram 3.x&lt;/strong&gt; — asynchronous Telegram bot framework&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Airtable&lt;/strong&gt; — external database for storing structured user data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Railway&lt;/strong&gt; — deployment without exposing tokens (via ENV)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; — source code is private, available upon request&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-project-cover&#34;&gt;🖼 Project Cover&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/adjabkhanian/dialogistini2/main/dialogistini-preview.jpg&#34; alt=&#34;Project Cover&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-airtable-data-structure&#34;&gt;📂 Airtable Data Structure&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Telegram ID&lt;/li&gt;
+&lt;li&gt;Username&lt;/li&gt;
+&lt;li&gt;Phone&lt;/li&gt;
+&lt;li&gt;Email&lt;/li&gt;
+&lt;li&gt;First Name&lt;/li&gt;
+&lt;li&gt;Last Name&lt;/li&gt;
+&lt;li&gt;Survey Answer&lt;/li&gt;
+&lt;li&gt;Registration Date&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-admin-features&#34;&gt;📦 Admin Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ &lt;code&gt;/sendall Hello!&lt;/code&gt; — sends a message to all users&lt;/li&gt;
+&lt;li&gt;🔐 Only specified Telegram IDs can broadcast&lt;/li&gt;
+&lt;li&gt;🧑‍💻 All collected data is stored in Airtable and can be exported easily&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-who-is-this-for&#34;&gt;💡 Who Is This For?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Online schools and educational communities&lt;/li&gt;
+&lt;li&gt;Projects growing from Instagram or Telegram&lt;/li&gt;
+&lt;li&gt;Small teams without complex CRM systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-how-to-deploy&#34;&gt;📥 How to Deploy&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Create an Airtable base with the required fields&lt;/li&gt;
+&lt;li&gt;Add secret variables in Railway:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;BOT_TOKEN&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AIRTABLE_API_KEY&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AIRTABLE_BASE_ID&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AIRTABLE_TABLE_NAME&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Deploy the bot on Railway&lt;/li&gt;
+&lt;li&gt;Connect a domain and share the link in your Instagram bio&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-results&#34;&gt;🎯 Results&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A clean Telegram-based form that acts as a mini landing page&lt;/li&gt;
+&lt;li&gt;All user data in Airtable for future communication and analysis&lt;/li&gt;
+&lt;li&gt;Quick survey for audience segmentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-want-to-collaborate&#34;&gt;📎 Want to Collaborate?&lt;/h3&gt;
+&lt;p&gt;If you want to create a custom Telegram bot for your project —&lt;br&gt;
+&lt;a href=&#34;https://t.me/adjabkhanyan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contact me →&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-additional-resources&#34;&gt;🛠 Additional Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aiogram.dev/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aiogram Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://airtable.com/api&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Airtable API Reference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://railway.app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Railway Hosting&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Telegram Subscription Management Bot</title>
@@ -78,10 +290,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Main Menu&#34; srcset=&#34;
-               /project/telegram-subscription-bot/bot_menu_hu_2b2079ed8769f832.webp 400w,
-               /project/telegram-subscription-bot/bot_menu_hu_b23b5ef52a6a7619.webp 760w,
-               /project/telegram-subscription-bot/bot_menu_hu_238d1fd1b6cfc556.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/telegram-subscription-bot/bot_menu_hu_2b2079ed8769f832.webp&#34;
+               /project/telegram-subscription-bot/bot_menu_hu1565980816759939469.webp 400w,
+               /project/telegram-subscription-bot/bot_menu_hu17344428743545226417.webp 760w,
+               /project/telegram-subscription-bot/bot_menu_hu18190672785231923455.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/telegram-subscription-bot/bot_menu_hu1565980816759939469.webp&#34;
                width=&#34;760&#34;
                height=&#34;456&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -107,10 +319,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Subscription&#34; srcset=&#34;
-               /project/telegram-subscription-bot/bot_subscribe_hu_8b869877e4b8fd59.webp 400w,
-               /project/telegram-subscription-bot/bot_subscribe_hu_4bd71d1228ed062a.webp 760w,
-               /project/telegram-subscription-bot/bot_subscribe_hu_2fde66695fbc9a0c.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/telegram-subscription-bot/bot_subscribe_hu_8b869877e4b8fd59.webp&#34;
+               /project/telegram-subscription-bot/bot_subscribe_hu3967534468952789137.webp 400w,
+               /project/telegram-subscription-bot/bot_subscribe_hu6489554667142230463.webp 760w,
+               /project/telegram-subscription-bot/bot_subscribe_hu10046640171276976382.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/telegram-subscription-bot/bot_subscribe_hu3967534468952789137.webp&#34;
                width=&#34;447&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -136,10 +348,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Admin Panel&#34; srcset=&#34;
-               /project/telegram-subscription-bot/bot_admin_hu_d86b64f63ead57bf.webp 400w,
-               /project/telegram-subscription-bot/bot_admin_hu_985dc1650c664b52.webp 760w,
-               /project/telegram-subscription-bot/bot_admin_hu_6ad82636bbf04ca1.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/telegram-subscription-bot/bot_admin_hu_d86b64f63ead57bf.webp&#34;
+               /project/telegram-subscription-bot/bot_admin_hu6063106927336308587.webp 400w,
+               /project/telegram-subscription-bot/bot_admin_hu4403152233562051843.webp 760w,
+               /project/telegram-subscription-bot/bot_admin_hu14837610278579964209.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/telegram-subscription-bot/bot_admin_hu6063106927336308587.webp&#34;
                width=&#34;393&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -167,61 +379,61 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;repository&#34;&gt;Repository&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/yourusername/telegram-subscription-bot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/adjabkhanian/telegram-subscription-bot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;em&gt;If interested or want to customize it further — feel free to contact me!&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>UBORKA Bot — Автоматизация управления уборкой</title>
+      <title>UBORKA Bot — Cleaning Management Automation</title>
       <link>http://localhost:1313/project/uborkabot/</link>
       <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/uborkabot/</guid>
-      <description>&lt;h2 id=&#34;о-проекте&#34;&gt;О проекте&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;UBORKA Bot&lt;/strong&gt; — это проект, направленный на автоматизацию распределения задач по уборке в коллективе. С помощью Telegram-бота пользователи получают напоминания, указывают выполнение задач и следят за порядком в группе.&lt;/p&gt;
+      <description>&lt;h2 id=&#34;about-the-project&#34;&gt;About the Project&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;UBORKA Bot&lt;/strong&gt; is a project aimed at automating the distribution of cleaning tasks within a team. Using a Telegram bot, users receive reminders, mark task completion, and help maintain order in the group.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;-особенности&#34;&gt;📋 &lt;strong&gt;Особенности&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;-features&#34;&gt;📋 &lt;strong&gt;Features&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Автоматизация задач:&lt;/strong&gt; Распределение уборки между группами в строго заданное время.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Интерактивность:&lt;/strong&gt; Пользователи подтверждают выполнение уборки через Telegram.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Гибкость:&lt;/strong&gt; Смены групп настраиваются автоматически.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Планировщик задач:&lt;/strong&gt; Используется библиотека &lt;code&gt;APScheduler&lt;/code&gt; для регулярных напоминаний.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Task automation:&lt;/strong&gt; Assigning cleaning duties to groups at scheduled times.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interactivity:&lt;/strong&gt; Users confirm task completion via Telegram.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flexibility:&lt;/strong&gt; Group shifts are automatically managed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scheduler:&lt;/strong&gt; Uses &lt;code&gt;APScheduler&lt;/code&gt; library for regular reminders.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;-технологии&#34;&gt;📦 &lt;strong&gt;Технологии&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;-technologies&#34;&gt;📦 &lt;strong&gt;Technologies&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Язык программирования:&lt;/strong&gt; Python&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Telegram API:&lt;/strong&gt; Работа с ботами через библиотеку &lt;code&gt;aiogram&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Планировщик:&lt;/strong&gt; &lt;code&gt;APScheduler&lt;/code&gt; для запуска задач&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Хостинг:&lt;/strong&gt; Railway&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Programming language:&lt;/strong&gt; Python&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Telegram API:&lt;/strong&gt; Bot interaction via &lt;code&gt;aiogram&lt;/code&gt; library&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scheduler:&lt;/strong&gt; &lt;code&gt;APScheduler&lt;/code&gt; for task scheduling&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hosting:&lt;/strong&gt; Railway&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;-ключевые-функции&#34;&gt;🛠️ &lt;strong&gt;Ключевые функции&lt;/strong&gt;&lt;/h3&gt;
-&lt;h4 id=&#34;1-рассылка-напоминаний&#34;&gt;1. &lt;strong&gt;Рассылка напоминаний&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;Каждый день бот отправляет уведомления с указанием группы, которая должна убрать компьютеры.&lt;/p&gt;
-&lt;h4 id=&#34;2-интерактивная-обратная-связь&#34;&gt;2. &lt;strong&gt;Интерактивная обратная связь&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;После выполнения уборки участники могут нажать кнопку &amp;ldquo;✅ Убрано&amp;rdquo;, чтобы зафиксировать результат.&lt;/p&gt;
-&lt;h4 id=&#34;3-отчётность&#34;&gt;3. &lt;strong&gt;Отчётность&lt;/strong&gt;&lt;/h4&gt;
-&lt;p&gt;Бот сохраняет информацию о том, кто выполнил задание, добавляя имя пользователя в сообщение.&lt;/p&gt;
+&lt;h3 id=&#34;-key-functions&#34;&gt;🛠️ &lt;strong&gt;Key Functions&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4 id=&#34;1-reminder-broadcast&#34;&gt;1. &lt;strong&gt;Reminder Broadcast&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Daily notifications sent specifying which group should clean the computers.&lt;/p&gt;
+&lt;h4 id=&#34;2-interactive-feedback&#34;&gt;2. &lt;strong&gt;Interactive Feedback&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;After cleaning, participants press the &amp;ldquo;✅ Done&amp;rdquo; button to confirm completion.&lt;/p&gt;
+&lt;h4 id=&#34;3-reporting&#34;&gt;3. &lt;strong&gt;Reporting&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;The bot records who completed the task by adding the user&amp;rsquo;s name to the message.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;-результаты&#34;&gt;🎯 &lt;strong&gt;Результаты&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;-results&#34;&gt;🎯 &lt;strong&gt;Results&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Повышение дисциплины:&lt;/strong&gt; Чёткое распределение обязанностей.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Экономия времени:&lt;/strong&gt; Нет необходимости вручную напоминать о задачах.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Простота использования:&lt;/strong&gt; Пользователи взаимодействуют через удобный интерфейс Telegram.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improved discipline:&lt;/strong&gt; Clear task assignments.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time saving:&lt;/strong&gt; No manual reminders needed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ease of use:&lt;/strong&gt; Users interact via a convenient Telegram interface.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;-этапы-разработки&#34;&gt;📅 &lt;strong&gt;Этапы разработки&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;-development-stages&#34;&gt;📅 &lt;strong&gt;Development Stages&lt;/strong&gt;&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Создание логики задач&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Разработка бота с использованием &lt;code&gt;aiogram&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Интеграция планировщика задач&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Деплой на Railway&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Тестирование и запуск&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Creating task logic&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bot development using &lt;code&gt;aiogram&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scheduler integration&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deployment on Railway&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Testing and launch&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;-скриншоты-проекта&#34;&gt;📸 &lt;strong&gt;Скриншоты проекта&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;-project-screenshots&#34;&gt;📸 &lt;strong&gt;Project Screenshots&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;
 
 
@@ -240,17 +452,17 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Уведомление об уборке&#34; srcset=&#34;
-               /project/uborkabot/uborka1_hu_f651a4bfb9c309c7.webp 400w,
-               /project/uborkabot/uborka1_hu_f0ad1c3b6be6b013.webp 760w,
-               /project/uborkabot/uborka1_hu_41d9eca9e422dad4.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/uborkabot/uborka1_hu_f651a4bfb9c309c7.webp&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Cleaning Reminder&#34; srcset=&#34;
+               /project/uborkabot/uborka1_hu12610783716533383535.webp 400w,
+               /project/uborkabot/uborka1_hu17339511167361989809.webp 760w,
+               /project/uborkabot/uborka1_hu555043320919157904.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/uborkabot/uborka1_hu12610783716533383535.webp&#34;
                width=&#34;622&#34;
                height=&#34;396&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
-
-&lt;em&gt;Уведомление об уборке с возможностью отметить выполнение задачи.&lt;/em&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;em&gt;Cleaning reminder with task completion confirmation.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -269,28 +481,28 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Telegram бот&#34; srcset=&#34;
-               /project/uborkabot/uborka2_hu_bf39764bd705d304.webp 400w,
-               /project/uborkabot/uborka2_hu_5786b0a2ef9a20e3.webp 760w,
-               /project/uborkabot/uborka2_hu_1655b2a1c70083.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/uborkabot/uborka2_hu_bf39764bd705d304.webp&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Telegram Bot&#34; srcset=&#34;
+               /project/uborkabot/uborka2_hu203902249903636352.webp 400w,
+               /project/uborkabot/uborka2_hu15299328120038972673.webp 760w,
+               /project/uborkabot/uborka2_hu16278686870049513607.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/uborkabot/uborka2_hu203902249903636352.webp&#34;
                width=&#34;744&#34;
                height=&#34;406&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
-
-&lt;em&gt;Интерфейс Telegram-бота для подтверждения уборки.&lt;/em&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;em&gt;Telegram bot interface for confirming cleaning.&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;-ссылки&#34;&gt;🌐 &lt;strong&gt;Ссылки&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;-links&#34;&gt;🌐 &lt;strong&gt;Links&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/your-username/uborka-bot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub репозиторий проекта&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/your-username/uborka-bot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub repository&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;-заключение&#34;&gt;💡 &lt;strong&gt;Заключение&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;Проект &lt;strong&gt;UBORKA Bot&lt;/strong&gt; показал, как можно эффективно автоматизировать простые задачи. Это решение может быть адаптировано для других целей, таких как управление мероприятиями, задачами по дежурству и т.д.&lt;/p&gt;
-&lt;p&gt;Если у вас есть идеи, которые требуют автоматизации, я готов реализовать их в виде удобного Telegram-бота!&lt;/p&gt;
+&lt;h3 id=&#34;-conclusion&#34;&gt;💡 &lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The &lt;strong&gt;UBORKA Bot&lt;/strong&gt; project demonstrated how simple tasks can be effectively automated. This solution can be adapted for other purposes like event management, duty assignments, and more.&lt;/p&gt;
+&lt;p&gt;If you have ideas needing automation, I’m ready to build a user-friendly Telegram bot for you!&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;-связаться-со-мной&#34;&gt;📩 &lt;strong&gt;Связаться со мной&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;-contact-me&#34;&gt;📩 &lt;strong&gt;Contact Me&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Email: &lt;a href=&#34;mailto:adjabkhanian@gmail.com&#34;&gt;adjabkhanian@gmail.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Telegram: &lt;a href=&#34;https://t.me/adjabkhanyan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@adjabkhanyan&lt;/a&gt;&lt;/li&gt;
@@ -300,101 +512,101 @@
     </item>
     
     <item>
-      <title>ZarplataBot — Telegram-бот для учёта смен, бара и отчётов</title>
+      <title>ZarplataBot — Telegram Bot for Shift, Bar, and Report Management</title>
       <link>http://localhost:1313/project/zarplatabot/</link>
       <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/zarplatabot/</guid>
-      <description>&lt;h2 id=&#34;-о-проекте&#34;&gt;🔍 О проекте&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;ZarplataBot&lt;/strong&gt; — это Telegram-бот, созданный для автоматизации финансового учёта в небольших командах, таких как баристы, сотрудники смен, обслуживающий персонал и администраторы. Он заменяет ручной ввод в таблицы и помогает отслеживать:&lt;/p&gt;
+      <description>&lt;h2 id=&#34;-about-the-project&#34;&gt;🔍 About the Project&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ZarplataBot&lt;/strong&gt; is a Telegram bot designed to automate financial tracking in small teams such as baristas, shift workers, support staff, and administrators. It replaces manual spreadsheet entries and helps track:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;💼 Рабочие смены (дневные и ночные)&lt;/li&gt;
-&lt;li&gt;🍷 Доходы с бара с динамичным процентом&lt;/li&gt;
-&lt;li&gt;💸 Расходы с комментарием&lt;/li&gt;
-&lt;li&gt;🚫 Штрафы и удержания&lt;/li&gt;
-&lt;li&gt;📊 Месячные отчёты с фильтрацией&lt;/li&gt;
+&lt;li&gt;💼 Work shifts (day and night)&lt;/li&gt;
+&lt;li&gt;🍷 Bar income with dynamic percentages&lt;/li&gt;
+&lt;li&gt;💸 Expenses with comments&lt;/li&gt;
+&lt;li&gt;🚫 Fines and deductions&lt;/li&gt;
+&lt;li&gt;📊 Monthly reports with filtering&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Проект разрабатывался как личное решение для внутренней автоматизации, но может масштабироваться под любую команду.&lt;/p&gt;
+&lt;p&gt;The project was developed as a personal internal automation solution but can scale to any team.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-зачем-я-это-сделал&#34;&gt;💡 Зачем я это сделал?&lt;/h2&gt;
-&lt;p&gt;Работая в коллективе, где часто ведётся учёт &amp;ldquo;вручную&amp;rdquo;, я заметил, что:&lt;/p&gt;
+&lt;h2 id=&#34;-why-i-created-this&#34;&gt;💡 Why I created this?&lt;/h2&gt;
+&lt;p&gt;Working in a team where tracking was often done manually, I noticed:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Записи о сменах забываются&lt;/li&gt;
-&lt;li&gt;Расходы теряются&lt;/li&gt;
-&lt;li&gt;Доходы считаются &amp;ldquo;на глаз&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Отчёты приходится собирать по частям&lt;/li&gt;
+&lt;li&gt;Shift records were forgotten&lt;/li&gt;
+&lt;li&gt;Expenses got lost&lt;/li&gt;
+&lt;li&gt;Income was estimated roughly&lt;/li&gt;
+&lt;li&gt;Reports had to be collected piecemeal&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Чтобы убрать рутину и ошибки, я решил автоматизировать процесс через Telegram, которым все уже пользуются каждый день.&lt;/p&gt;
+&lt;p&gt;To remove routine and errors, I decided to automate the process via Telegram, which everyone uses daily.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-функционал&#34;&gt;🔧 Функционал&lt;/h2&gt;
+&lt;h2 id=&#34;-features&#34;&gt;🔧 Features&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;🕑 Добавление смен: дневная или ночная (по фиксированной ставке)&lt;/li&gt;
-&lt;li&gt;🍷 Учёт бара: процент дохода зависит от суммы (динамически)
+&lt;li&gt;🕑 Adding shifts: day or night (with fixed rates)&lt;/li&gt;
+&lt;li&gt;🍷 Bar accounting: income percentage depends on the amount (dynamic)
 &lt;ul&gt;
-&lt;li&gt;до 3500 — 5%&lt;/li&gt;
-&lt;li&gt;от 3500 до 4000 — 6%&lt;/li&gt;
-&lt;li&gt;от 4000 до 4500 — 7%&lt;/li&gt;
+&lt;li&gt;up to 3500 — 5%&lt;/li&gt;
+&lt;li&gt;3500 to 4000 — 6%&lt;/li&gt;
+&lt;li&gt;4000 to 4500 — 7%&lt;/li&gt;
 &lt;li&gt;…&lt;/li&gt;
-&lt;li&gt;от 10 000 — 15%&lt;/li&gt;
+&lt;li&gt;from 10,000 — 15%&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;💸 Ввод расходов и комментариев (например: &amp;ldquo;300 еда&amp;rdquo;)&lt;/li&gt;
-&lt;li&gt;🚫 Штрафы с пояснением (&amp;ldquo;500 опоздание&amp;rdquo;)&lt;/li&gt;
-&lt;li&gt;📊 Отчёты по месяцам — за текущий, предыдущий и выбранные вручную&lt;/li&gt;
-&lt;li&gt;🗃 Хранение всех данных в Airtable — удобно редактировать вручную&lt;/li&gt;
-&lt;li&gt;⏱ Мгновенная реакция — через Telegram-бот, без необходимости заходить в таблицы&lt;/li&gt;
+&lt;li&gt;💸 Entering expenses with comments (e.g., &amp;ldquo;300 food&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;🚫 Fines with explanations (&amp;ldquo;500 late&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;📊 Monthly reports — current, previous, and manually selected&lt;/li&gt;
+&lt;li&gt;🗃 All data stored in Airtable — easy manual editing&lt;/li&gt;
+&lt;li&gt;⏱ Instant response — via Telegram bot, no need to open spreadsheets&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-интеграции&#34;&gt;🔌 Интеграции&lt;/h2&gt;
+&lt;h2 id=&#34;-integrations&#34;&gt;🔌 Integrations&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Telegram Bot API&lt;/strong&gt; — для общения с пользователем&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Airtable API&lt;/strong&gt; — как база данных, которую можно редактировать и вручную&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;SQLite&lt;/strong&gt; — локальное хранилище на случай оффлайна&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Railway&lt;/strong&gt; — деплой и круглосуточная работа бота&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; — для хранения и обновлений проекта&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Telegram Bot API&lt;/strong&gt; — user communication&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Airtable API&lt;/strong&gt; — database editable manually if needed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SQLite&lt;/strong&gt; — local storage fallback&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Railway&lt;/strong&gt; — deployment and 24/7 uptime&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; — project storage and updates&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-развёртывание&#34;&gt;🚀 Развёртывание&lt;/h2&gt;
-&lt;p&gt;Бот развёрнут на платформе &lt;a href=&#34;https://railway.app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Railway&lt;/a&gt;, что позволяет ему работать 24/7 без зависимостей от локального компьютера. Обновление кода происходит через &lt;code&gt;git push&lt;/code&gt; на GitHub, а Railway автоматически пересобирает контейнер и перезапускает бота.&lt;/p&gt;
+&lt;h2 id=&#34;-deployment&#34;&gt;🚀 Deployment&lt;/h2&gt;
+&lt;p&gt;The bot is deployed on &lt;a href=&#34;https://railway.app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Railway&lt;/a&gt;, allowing 24/7 operation without relying on local machines. Code updates are done by &lt;code&gt;git push&lt;/code&gt; to GitHub, and Railway automatically rebuilds and restarts the bot.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-интерфейс&#34;&gt;🖼 Интерфейс&lt;/h2&gt;
-&lt;p&gt;Пользователь взаимодействует с ботом через кнопки:&lt;/p&gt;
+&lt;h2 id=&#34;-interface&#34;&gt;🖼 Interface&lt;/h2&gt;
+&lt;p&gt;Users interact with the bot via buttons:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;▶️ Старт&lt;/li&gt;
-&lt;li&gt;🕑 Дневная / 🌙 Ночная&lt;/li&gt;
-&lt;li&gt;🍷 Бар&lt;/li&gt;
-&lt;li&gt;💸 Расход&lt;/li&gt;
-&lt;li&gt;🚫 Штраф&lt;/li&gt;
-&lt;li&gt;📊 Отчёт&lt;/li&gt;
+&lt;li&gt;▶️ Start&lt;/li&gt;
+&lt;li&gt;🕑 Day / 🌙 Night shift&lt;/li&gt;
+&lt;li&gt;🍷 Bar&lt;/li&gt;
+&lt;li&gt;💸 Expense&lt;/li&gt;
+&lt;li&gt;🚫 Fine&lt;/li&gt;
+&lt;li&gt;📊 Report&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Каждое действие сопровождается подтверждением и интерактивными сообщениями. Интерфейс адаптирован под Telegram UX.&lt;/p&gt;
+&lt;p&gt;Each action is accompanied by confirmations and interactive messages. The interface is adapted to Telegram UX.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-использованные-технологии&#34;&gt;🛠 Использованные технологии&lt;/h2&gt;
+&lt;h2 id=&#34;-technologies-used&#34;&gt;🛠 Technologies Used&lt;/h2&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th&gt;Область&lt;/th&gt;
-          &lt;th&gt;Технологии&lt;/th&gt;
+          &lt;th&gt;Area&lt;/th&gt;
+          &lt;th&gt;Technologies&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td&gt;Язык разработки&lt;/td&gt;
+          &lt;td&gt;Language&lt;/td&gt;
           &lt;td&gt;Python 3.11&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;Фреймворк&lt;/td&gt;
+          &lt;td&gt;Framework&lt;/td&gt;
           &lt;td&gt;Aiogram 3&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;API&lt;/td&gt;
+          &lt;td&gt;APIs&lt;/td&gt;
           &lt;td&gt;Telegram Bot API, Airtable REST&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;Хостинг&lt;/td&gt;
+          &lt;td&gt;Hosting&lt;/td&gt;
           &lt;td&gt;Railway&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;Хранилище&lt;/td&gt;
+          &lt;td&gt;Storage&lt;/td&gt;
           &lt;td&gt;SQLite + Airtable&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
@@ -404,70 +616,70 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-репозиторий-проекта&#34;&gt;📦 Репозиторий проекта&lt;/h2&gt;
-&lt;p&gt;Код доступен на GitHub:&lt;/p&gt;
+&lt;h2 id=&#34;-project-repository&#34;&gt;📦 Project Repository&lt;/h2&gt;
+&lt;p&gt;Code available on GitHub:&lt;/p&gt;
 &lt;p&gt;👉 &lt;a href=&#34;https://github.com/adjabkhanian/zarplata-bot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github.com/adjabkhanian/zarplata-bot&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-планы-на-будущее&#34;&gt;📈 Планы на будущее&lt;/h2&gt;
+&lt;h2 id=&#34;-future-plans&#34;&gt;📈 Future Plans&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Авторизация по пользователям&lt;/li&gt;
-&lt;li&gt;Интеграция с Google Sheets&lt;/li&gt;
-&lt;li&gt;Отчёты в PDF&lt;/li&gt;
-&lt;li&gt;Аналитика с графиками&lt;/li&gt;
-&lt;li&gt;Панель администратора через веб-интерфейс&lt;/li&gt;
+&lt;li&gt;User authorization&lt;/li&gt;
+&lt;li&gt;Google Sheets integration&lt;/li&gt;
+&lt;li&gt;PDF reports&lt;/li&gt;
+&lt;li&gt;Analytics with charts&lt;/li&gt;
+&lt;li&gt;Admin panel via web interface&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-вывод&#34;&gt;💬 Вывод&lt;/h2&gt;
-&lt;p&gt;ZarplataBot — это не просто бот, а рабочий инструмент для учёта и прозрачности. Он убирает хаос и делает рутину приятной.&lt;/p&gt;
-&lt;p&gt;Если ты хочешь адаптировать этого бота под свою команду — напиши мне 😉&lt;/p&gt;
+&lt;h2 id=&#34;-conclusion&#34;&gt;💬 Conclusion&lt;/h2&gt;
+&lt;p&gt;ZarplataBot is not just a bot but a working tool for accounting and transparency. It removes chaos and makes routine pleasant.&lt;/p&gt;
+&lt;p&gt;If you want to adapt this bot for your team — contact me 😉&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Инфографика для мебельной студии W / Avito-паки</title>
+      <title>Infographics for W Furniture Studio / Avito Packs</title>
       <link>http://localhost:1313/project/infografika/</link>
       <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/infografika/</guid>
       <description>&lt;hr&gt;
-&lt;p&gt;Чистый, адаптивный лендинг для поставщика строительных материалов с быстрой доставкой сыпучих материалов, таких как песок, щебень и другие.&lt;/p&gt;
+&lt;p&gt;A clean, responsive landing page for a supplier of building materials with fast delivery of bulk materials such as sand, gravel, and more.&lt;/p&gt;
 &lt;hr&gt;</description>
     </item>
     
     <item>
-      <title>🚀 Telegram-бот для управления задачами с Airtable</title>
+      <title>🚀 Telegram Bot for Task Management with Airtable</title>
       <link>http://localhost:1313/project/tgbot/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/tgbot/</guid>
-      <description>&lt;h1 id=&#34;-telegram-бот-для-задач-на-выезде&#34;&gt;📱 Telegram-бот для задач на выезде&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Проект:&lt;/strong&gt; умный бот в Telegram, который помогает командам на выезде эффективно выполнять задачи и отчитываться за них в пару кликов.&lt;/p&gt;
+      <description>&lt;h1 id=&#34;-telegram-bot-for-field-tasks&#34;&gt;📱 Telegram Bot for Field Tasks&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Project:&lt;/strong&gt; a smart Telegram bot that helps field teams efficiently complete tasks and report on them in just a few clicks.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-зачем-нужен-этот-бот&#34;&gt;❓ Зачем нужен этот бот?&lt;/h2&gt;
-&lt;p&gt;Многие компании сталкиваются с проблемами:&lt;/p&gt;
+&lt;h2 id=&#34;-why-do-you-need-this-bot&#34;&gt;❓ Why do you need this bot?&lt;/h2&gt;
+&lt;p&gt;Many companies face problems like:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;🚫 Задачи теряются, сотрудники забывают отчитаться&lt;/li&gt;
-&lt;li&gt;📉 Руководителю сложно отслеживать статус выполнения&lt;/li&gt;
-&lt;li&gt;🕒 Фото-отчёты собираются вручную и долго&lt;/li&gt;
+&lt;li&gt;🚫 Tasks get lost, employees forget to report&lt;/li&gt;
+&lt;li&gt;📉 Managers find it hard to track task status&lt;/li&gt;
+&lt;li&gt;🕒 Photo reports are collected manually and slowly&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Решение:&lt;/strong&gt; бот, который берёт это на себя. Простой, быстрый и понятный.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt; a bot that handles it all. Simple, fast, and clear.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-как-это-работает&#34;&gt;⚙️ Как это работает?&lt;/h2&gt;
+&lt;h2 id=&#34;-how-does-it-work&#34;&gt;⚙️ How does it work?&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;👤 Сотрудник запускает &lt;code&gt;/start&lt;/code&gt;, выбирает свою &lt;strong&gt;роль&lt;/strong&gt; и вводит имя&lt;/li&gt;
-&lt;li&gt;🔘 Получает кнопку &lt;strong&gt;«Перейти к задачам»&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;🗺️ Выбирает &lt;strong&gt;область&lt;/strong&gt; (например, «Север» или «Центр»)&lt;/li&gt;
-&lt;li&gt;📋 Видит список задач:
+&lt;li&gt;👤 Employee starts &lt;code&gt;/start&lt;/code&gt;, selects their &lt;strong&gt;role&lt;/strong&gt; and enters their name&lt;/li&gt;
+&lt;li&gt;🔘 Gets a &lt;strong&gt;“Go to tasks”&lt;/strong&gt; button&lt;/li&gt;
+&lt;li&gt;🗺️ Selects a &lt;strong&gt;region&lt;/strong&gt; (e.g., “North” or “Center”)&lt;/li&gt;
+&lt;li&gt;📋 Sees a task list:
 &lt;ul&gt;
-&lt;li&gt;🔧 Починить сеть&lt;/li&gt;
-&lt;li&gt;📶 Установить Wi-Fi&lt;/li&gt;
+&lt;li&gt;🔧 Fix the network&lt;/li&gt;
+&lt;li&gt;📶 Install Wi-Fi&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;📸 Нажимает «Выполнить задачу», отправляет &lt;strong&gt;фото-отчёт&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;🤖 Бот:
+&lt;li&gt;📸 Clicks “Complete task” and sends a &lt;strong&gt;photo report&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;🤖 Bot:
 &lt;ul&gt;
-&lt;li&gt;сохраняет фото и имя исполнителя&lt;/li&gt;
-&lt;li&gt;💾 &lt;strong&gt;обновляет Airtable&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;отправляет «✅ Задача выполнена»&lt;/li&gt;
-&lt;li&gt;автоматически возвращает к выбору области&lt;/li&gt;
+&lt;li&gt;saves the photo and executor’s name&lt;/li&gt;
+&lt;li&gt;💾 &lt;strong&gt;updates Airtable&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;sends “✅ Task completed”&lt;/li&gt;
+&lt;li&gt;automatically returns to region selection&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -489,19 +701,19 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&amp;amp;fit=crop&amp;amp;w=800&amp;amp;q=80&#34; alt=&#34;Сервер и терминал&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&amp;amp;fit=crop&amp;amp;w=800&amp;amp;q=80&#34; alt=&#34;Server and terminal&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-почему-это-удобно&#34;&gt;🌟 Почему это удобно?&lt;/h2&gt;
-&lt;h3 id=&#34;особенности&#34;&gt;Особенности:&lt;/h3&gt;
+&lt;h2 id=&#34;-why-is-this-convenient&#34;&gt;🌟 Why is this convenient?&lt;/h2&gt;
+&lt;h3 id=&#34;features&#34;&gt;Features:&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;🧠 &lt;strong&gt;FSM:&lt;/strong&gt; бот &amp;ldquo;помнит&amp;rdquo;, на каком этапе пользователь&lt;/li&gt;
-&lt;li&gt;🖱️ &lt;strong&gt;Интуитивные кнопки:&lt;/strong&gt; «Назад», «Выбрать область», «Выполнить»&lt;/li&gt;
-&lt;li&gt;🎨 &lt;strong&gt;Эмодзи:&lt;/strong&gt; добавляют визуальную логику и делают общение приятным&lt;/li&gt;
-&lt;li&gt;📷 &lt;strong&gt;Фото обязательно:&lt;/strong&gt; без фото нельзя завершить задачу&lt;/li&gt;
-&lt;li&gt;☁️ &lt;strong&gt;Airtable-связь:&lt;/strong&gt; задачи живут в облаке и обновляются в реальном времени&lt;/li&gt;
-&lt;li&gt;🔄 &lt;strong&gt;Автопереход:&lt;/strong&gt; не надо возвращаться вручную — бот делает это сам&lt;/li&gt;
+&lt;li&gt;🧠 &lt;strong&gt;FSM:&lt;/strong&gt; bot “remembers” user’s current step&lt;/li&gt;
+&lt;li&gt;🖱️ &lt;strong&gt;Intuitive buttons:&lt;/strong&gt; “Back,” “Select region,” “Complete”&lt;/li&gt;
+&lt;li&gt;🎨 &lt;strong&gt;Emojis:&lt;/strong&gt; add visual logic and make interaction pleasant&lt;/li&gt;
+&lt;li&gt;📷 &lt;strong&gt;Photo required:&lt;/strong&gt; task cannot be completed without a photo&lt;/li&gt;
+&lt;li&gt;☁️ &lt;strong&gt;Airtable link:&lt;/strong&gt; tasks live in the cloud and update in real time&lt;/li&gt;
+&lt;li&gt;🔄 &lt;strong&gt;Auto navigation:&lt;/strong&gt; no manual return needed — bot does it automatically&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
 
@@ -521,18 +733,18 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&amp;amp;fit=crop&amp;amp;w=800&amp;amp;q=80&#34; alt=&#34;Команда работает&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&amp;amp;fit=crop&amp;amp;w=800&amp;amp;q=80&#34; alt=&#34;Team working&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-airtable-как-база-данных&#34;&gt;📊 Airtable как база данных&lt;/h2&gt;
-&lt;p&gt;Используется таблица Airtable, где:&lt;/p&gt;
+&lt;h2 id=&#34;-airtable-as-a-database&#34;&gt;📊 Airtable as a database&lt;/h2&gt;
+&lt;p&gt;Uses an Airtable base where:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;🗂️ Хранятся задачи по ролям и локациям&lt;/li&gt;
-&lt;li&gt;📸 Сохраняются фото и имя исполнителя&lt;/li&gt;
-&lt;li&gt;✔️ Обновляется статус после выполнения&lt;/li&gt;
+&lt;li&gt;🗂️ Tasks are stored by roles and locations&lt;/li&gt;
+&lt;li&gt;📸 Photos and executor names are saved&lt;/li&gt;
+&lt;li&gt;✔️ Status updates after task completion&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Интеграция через API — всё происходит автоматически.&lt;/p&gt;
+&lt;p&gt;Integration via API — everything happens automatically.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -551,47 +763,48 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&amp;amp;fit=crop&amp;amp;w=800&amp;amp;q=80&#34; alt=&#34;Airtable пример&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&amp;amp;fit=crop&amp;amp;w=800&amp;amp;q=80&#34; alt=&#34;Airtable example&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-где-это-полезно&#34;&gt;🚚 Где это полезно?&lt;/h2&gt;
+&lt;h2 id=&#34;-where-is-it-useful&#34;&gt;🚚 Where is it useful?&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;📦 Курьерские службы&lt;/li&gt;
-&lt;li&gt;🛠️ Монтажные бригады&lt;/li&gt;
-&lt;li&gt;👷 Инженеры и сервисные команды&lt;/li&gt;
-&lt;li&gt;🏢 Управление задачами внутри компаний&lt;/li&gt;
+&lt;li&gt;📦 Courier services&lt;/li&gt;
+&lt;li&gt;🛠️ Installation teams&lt;/li&gt;
+&lt;li&gt;👷 Engineers and service teams&lt;/li&gt;
+&lt;li&gt;🏢 Internal company task management&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-плюсы-решения&#34;&gt;💡 Плюсы решения&lt;/h2&gt;
+&lt;h2 id=&#34;-advantages-of-the-solution&#34;&gt;💡 Advantages of the solution&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;🖱️ Минимум кликов — максимум результата&lt;/li&gt;
-&lt;li&gt;📲 Не нужно отдельное приложение — работает в Telegram&lt;/li&gt;
-&lt;li&gt;🌍 Масштабируемо и гибко&lt;/li&gt;
-&lt;li&gt;👥 Простое подключение новых сотрудников&lt;/li&gt;
+&lt;li&gt;🖱️ Minimal clicks — maximum results&lt;/li&gt;
+&lt;li&gt;📲 No separate app needed — works in Telegram&lt;/li&gt;
+&lt;li&gt;🌍 Scalable and flexible&lt;/li&gt;
+&lt;li&gt;👥 Easy to add new employees&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-размещение-247&#34;&gt;🖥️ Размещение 24/7&lt;/h2&gt;
-&lt;p&gt;Бот развёрнут на сервере:&lt;/p&gt;
+&lt;h2 id=&#34;-247-deployment&#34;&gt;🖥️ 24/7 Deployment&lt;/h2&gt;
+&lt;p&gt;Bot hosted on a server:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;🌐 Аренда VPS (например, Timeweb Cloud)&lt;/li&gt;
-&lt;li&gt;🐍 Установка Python, Git, pip&lt;/li&gt;
-&lt;li&gt;📂 Клонирование репозитория с кодом&lt;/li&gt;
-&lt;li&gt;⚙️ Настройка &lt;code&gt;.env&lt;/code&gt; файла с ключами&lt;/li&gt;
-&lt;li&gt;▶️ Запуск: &lt;code&gt;python3 main.py&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;📟 Используется &lt;code&gt;tmux&lt;/code&gt; — бот работает даже при закрытом терминале&lt;/li&gt;
+&lt;li&gt;🌐 VPS rental (e.g., Timeweb Cloud)&lt;/li&gt;
+&lt;li&gt;🐍 Installing Python, Git, pip&lt;/li&gt;
+&lt;li&gt;📂 Cloning the code repository&lt;/li&gt;
+&lt;li&gt;⚙️ Setting up &lt;code&gt;.env&lt;/code&gt; file with keys&lt;/li&gt;
+&lt;li&gt;▶️ Running: &lt;code&gt;python3 main.py&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;📟 Using &lt;code&gt;tmux&lt;/code&gt; — bot works even when terminal is closed&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-хочешь-такого-бота-себе&#34;&gt;📩 Хочешь такого бота себе?&lt;/h2&gt;
-&lt;p&gt;Напиши — и мы вместе автоматизируем задачи в твоей команде!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Контакты для связи:&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;-want-a-bot-like-this&#34;&gt;📩 Want a bot like this?&lt;/h2&gt;
+&lt;p&gt;Write to us — and we’ll automate your team’s tasks together!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contact:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Telegram: &lt;a href=&#34;https://t.me/adjabkhanyan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@adjabkhanian&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Email: &lt;a href=&#34;mailto:adjabkhanian@gmail.com&#34;&gt;adjabkhanian@gmail.com&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
-&lt;p&gt;⚡ Автоматизируй задачи. Освободи время. Расти быстрее.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;⚡ Automate tasks. Free up time. Grow faster.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     

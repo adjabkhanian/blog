@@ -5,12 +5,145 @@
     <link>http://localhost:1313/ru/tags/airtable/</link>
       <atom:link href="http://localhost:1313/ru/tags/airtable/index.xml" rel="self" type="application/rss+xml" />
     <description>Airtable</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ru-ru</language><lastBuildDate>Mon, 09 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ru-ru</language><lastBuildDate>Tue, 15 Jul 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_21c1644a7b6669.png</url>
+      <url>http://localhost:1313/media/icon_hu12469818602708068705.png</url>
       <title>Airtable</title>
       <link>http://localhost:1313/ru/tags/airtable/</link>
     </image>
+    
+    <item>
+      <title>Телеграм-бот «Диалог Истины»</title>
+      <link>http://localhost:1313/ru/project/project-dialogistini/</link>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ru/project/project-dialogistini/</guid>
+      <description>&lt;h3 id=&#34;-идея-проекта&#34;&gt;🧠 Идея проекта&lt;/h3&gt;
+&lt;p&gt;Этот Telegram-бот был создан для духовно-образовательного проекта «Диалог Истины», чтобы:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Автоматизировать сбор контактов участников из Instagram&lt;/li&gt;
+&lt;li&gt;Узнать уровень мотивации людей (опрос)&lt;/li&gt;
+&lt;li&gt;Позволить администратору отправлять рассылки всей базе&lt;/li&gt;
+&lt;li&gt;Интегрировать всё с Airtable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-что-делает-бот&#34;&gt;🔍 Что делает бот?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Пользователь заходит в бота по ссылке из Instagram&lt;br&gt;
+👉 &lt;a href=&#34;https://t.me/diallogistini_bot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@diallogistini_bot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Оставляет:
+&lt;ul&gt;
+&lt;li&gt;📱 Номер телефона (через кнопку)&lt;/li&gt;
+&lt;li&gt;📧 Email&lt;/li&gt;
+&lt;li&gt;👤 Имя и фамилию&lt;/li&gt;
+&lt;li&gt;❓ Отвечает на вопрос: &amp;ldquo;Вы хотите религиозные знания?&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Бот сохраняет все данные в Airtable&lt;/li&gt;
+&lt;li&gt;Даёт ссылку на канал&lt;/li&gt;
+&lt;li&gt;Администратор может отправить рассылку через команду &lt;code&gt;/sendall&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-опрос-внутри-бота&#34;&gt;📊 Опрос внутри бота&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Вы хотите религиозные знания?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;• Получать для себя и внедрять их&lt;br&gt;
+• Получать, внедрять и передавать другим&lt;br&gt;
+• Хочу пока просто понаблюдать&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Эти данные тоже сохраняются в Airtable.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-технологии&#34;&gt;🛠 Технологии&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Python 3.11&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aiogram 3.x&lt;/strong&gt; — асинхронный Telegram-фреймворк&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Airtable&lt;/strong&gt; — внешняя база для хранения данных&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Railway&lt;/strong&gt; — деплой проекта без раскрытия токенов (через ENV)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; — исходный код приватный, по запросу&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-обложка-проекта&#34;&gt;🖼 Обложка проекта&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/adjabkhanian/dialogistini2/main/dialogistini-preview.jpg&#34; alt=&#34;Обложка проекта&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-структура-данных-в-airtable&#34;&gt;📂 Структура данных в Airtable&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Telegram ID&lt;/li&gt;
+&lt;li&gt;Username&lt;/li&gt;
+&lt;li&gt;Телефон&lt;/li&gt;
+&lt;li&gt;Email&lt;/li&gt;
+&lt;li&gt;Имя&lt;/li&gt;
+&lt;li&gt;Фамилия&lt;/li&gt;
+&lt;li&gt;Ответ на вопрос&lt;/li&gt;
+&lt;li&gt;Дата регистрации&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-возможности-админа&#34;&gt;📦 Возможности админа&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ Команда &lt;code&gt;/sendall Привет!&lt;/code&gt; отправляет сообщение всей базе&lt;/li&gt;
+&lt;li&gt;🔐 Только Telegram ID админов могут делать рассылки&lt;/li&gt;
+&lt;li&gt;🧑‍💻 Все данные легко выгружаются из Airtable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-для-кого-проект&#34;&gt;💡 Для кого проект?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Онлайн-школы и духовные клубы&lt;/li&gt;
+&lt;li&gt;Проекты, ведущие набор из Instagram или Telegram&lt;/li&gt;
+&lt;li&gt;Небольшие команды без ресурсов на сложную CRM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-как-развернуть&#34;&gt;📥 Как развернуть&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Создайте Airtable-базу с нужными полями&lt;/li&gt;
+&lt;li&gt;Добавьте секретные переменные в Railway:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;BOT_TOKEN&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AIRTABLE_API_KEY&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AIRTABLE_BASE_ID&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AIRTABLE_TABLE_NAME&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Запустите бота на Railway&lt;/li&gt;
+&lt;li&gt;Подключите домен и отправьте ссылку в Instagram Bio&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-результат&#34;&gt;🎯 Результат&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Простая форма, которая работает как мини-лендинг внутри Telegram&lt;/li&gt;
+&lt;li&gt;Вся база в Airtable для последующих рассылок или аналитики&lt;/li&gt;
+&lt;li&gt;Опрос помогает сегментировать пользователей&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-обсудить-сотрудничество&#34;&gt;📎 Обсудить сотрудничество&lt;/h3&gt;
+&lt;p&gt;Если вы тоже хотите создать Telegram-бота под ваш проект —&lt;br&gt;
+&lt;a href=&#34;https://t.me/adjabkhanyan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Напишите мне →&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-дополнительно&#34;&gt;🛠 Дополнительно&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.aiogram.dev/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aiogram&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://airtable.com/api&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Airtable API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://railway.app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Railway&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>ZarplataBot — Telegram-бот для учёта смен, бара и отчётов</title>
@@ -294,7 +427,8 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
-&lt;p&gt;⚡ Автоматизируй задачи. Освободи время. Расти быстрее.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;⚡ Автоматизируй задачи. Освободи время. Расти быстрее.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     
