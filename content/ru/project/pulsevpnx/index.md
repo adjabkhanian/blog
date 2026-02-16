@@ -4,27 +4,22 @@ summary: "Telegram-бот для выдачи WireGuard конфигов: про
 date: 2026-01-28
 draft: false
 
-# Project metadata
 tags: ["Telegram Bot", "WireGuard", "VPN", "Aiogram", "SQLite", "Linux", "Systemd"]
 categories: ["Projects"]
 
-# Optional fields (если поддерживаются темой)
 featured: true
+
 image:
+  filename: featured.png
   caption: "PulseVPN-X — VPN через Telegram"
   focal_point: "Center"
   preview_only: false
 
-# External links (если хочешь)
 links:
   - icon: telegram
     icon_pack: fab
     name: Demo / Bot
     url: "https://t.me/pulsevpnx_bot"
-  - icon: github
-    icon_pack: fab
-    name: Source (private)
-    url: ""
 ---
 
 
