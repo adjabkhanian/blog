@@ -27,7 +27,6 @@ links:
     url: ""
 ---
 
-![PulseVPN-X cover](featured.png)
 
 ## 🔐 PulseVPN-X — VPN через Telegram за 1 минуту
 
