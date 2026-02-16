@@ -30,6 +30,86 @@
                 href="http://localhost:1313/ru/event/example/"
                 />
   </url><url>
+    <loc>http://localhost:1313/ru/tags/aiogram/</loc>
+    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tags/aiogram/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://localhost:1313/ru/tags/aiogram/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ru/tags/linux/</loc>
+    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/ru/project/</loc>
+    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://localhost:1313/ru/project/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ru/project/pulsevpnx/</loc>
+    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/ru/tags/sqlite/</loc>
+    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/ru/tags/systemd/</loc>
+    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/ru/tags/</loc>
+    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://localhost:1313/ru/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ru/tags/telegram-bot/</loc>
+    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tags/telegram-bot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://localhost:1313/ru/tags/telegram-bot/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ru/tags/vpn/</loc>
+    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/ru/tags/wireguard/</loc>
+    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:1313/ru/tags/automation/</loc>
     <lastmod>2025-10-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -72,20 +152,6 @@
                 href="http://localhost:1313/ru/tags/google-sheets/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ru/project/</loc>
-    <lastmod>2025-10-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru/project/"
-                />
-  </url><url>
     <loc>http://localhost:1313/ru/tags/python/</loc>
     <lastmod>2025-10-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -126,34 +192,6 @@
                 rel="alternate"
                 hreflang="ru-ru"
                 href="http://localhost:1313/ru/project/realtyhelperbot/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ru/tags/</loc>
-    <lastmod>2025-10-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru/tags/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ru/tags/telegram-bot/</loc>
-    <lastmod>2025-10-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tags/telegram-bot/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru/tags/telegram-bot/"
                 />
   </url><url>
     <loc>http://localhost:1313/ru/tags/airtable/</loc>
@@ -956,19 +994,6 @@
                 rel="alternate"
                 hreflang="ru-ru"
                 href="http://localhost:1313/ru/publication/conference-paper/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ru/reviews/</loc>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/reviews/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru/reviews/"
                 />
   </url>
 </urlset>

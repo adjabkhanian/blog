@@ -191,6 +191,16 @@
     <loc>http://localhost:1313/tags/aiogram/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-ru"
+                href="http://localhost:1313/ru/tags/aiogram/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tags/aiogram/"
+                />
   </url><url>
     <loc>http://localhost:1313/tags/bot/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
@@ -960,19 +970,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="http://localhost:1313/publication_types/paper-conference/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/reviews/</loc>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="http://localhost:1313/ru/reviews/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/reviews/"
                 />
   </url>
 </urlset>
