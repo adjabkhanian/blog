@@ -20,8 +20,6 @@ links:
     url: "https://t.me/pulsevpnx_bot"
 ---
 
-![PulseVPN-X cover](featured.png)
-
 # 🔐 PulseVPN-X — VPN via Telegram in 1 Minute
 
 PulseVPN-X is a high-speed WireGuard VPN delivered entirely through Telegram.
