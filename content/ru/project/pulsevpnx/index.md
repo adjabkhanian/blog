@@ -74,16 +74,15 @@ PulseVPN-X — это Telegram-бот, который **выдаёт персо�
 ![Hero](hero.png)
 
 ### Screenshots
-<div style="display:grid; grid-template-columns: repeat(3, 1fr); gap: 24px;">
+<div style="
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+">
 
-  <img src="shot-01.png"
-       style="width:100%; border-radius:16px; box-shadow:0 10px 30px rgba(0,0,0,0.3);" />
-
-  <img src="shot-02.png"
-       style="width:100%; border-radius:16px; box-shadow:0 10px 30px rgba(0,0,0,0.3);" />
-
-  <img src="shot-03.png"
-       style="width:100%; border-radius:16px; box-shadow:0 10px 30px rgba(0,0,0,0.3);" />
+  <img src="./shot-01.png" style="width:100%; border-radius:16px;" />
+  <img src="./shot-02.png" style="width:100%; border-radius:16px;" />
+  <img src="./shot-03.png" style="width:100%; border-radius:16px;" />
 
 </div>
 
