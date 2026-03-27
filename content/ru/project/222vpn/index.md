@@ -5,7 +5,8 @@ draft: false
 tags: ["VPN", "Telegram Bot", "Backend", "Startup"]
 categories: ["Projects"]
 description: "Разработка и запуск собственного VPN-сервиса с Telegram-ботом, личным кабинетом и системой подписок"
-image: "/images/222vpn/cover.jpg"
+image:
+  filename: cover.jpg
 ---
 
 # 🚀 222VPN — стабильный VPN без ограничений
