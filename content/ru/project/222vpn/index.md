@@ -2,11 +2,17 @@
 title: "222VPN — стабильный VPN без ограничений"
 date: 2026-03-27
 draft: false
+
 tags: ["VPN", "Telegram Bot", "Backend", "Startup"]
 categories: ["Projects"]
+
 description: "Разработка и запуск собственного VPN-сервиса с Telegram-ботом, личным кабинетом и системой подписок"
+
 image:
-  filename: cover.jpg
+  filename: cover.png
+  caption: "222VPN — стабильный VPN без ограничений"
+  focal_point: "Center"
+  preview_only: false
 ---
 
 # 🚀 222VPN — стабильный VPN без ограничений
