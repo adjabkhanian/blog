@@ -9,7 +9,7 @@ categories: ["Projects"]
 description: "Собственный VPN-сервис с Telegram-ботом, личным кабинетом и автоматической системой подписок"
 
 image:
-  filename: cover.jpg
+  filename: cover.png
   caption: "222VPN — VPN нового поколения"
   focal_point: "Center"
   preview_only: false
